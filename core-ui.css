@@ -326,3 +326,6 @@ body.core-ui .modal-body .panel-head button { flex-shrink: 0; }
 @media (prefers-reduced-motion: reduce) {
   body.core-ui *, body.core-ui *::before, body.core-ui *::after { scroll-behavior: auto !important; }
 }
+body.core-ui .common-row-note { padding: 10px 14px; border-left: 3px solid #0a9396; background: #eef7f6; color: #365652; font-size: 12px; line-height: 1.65; margin: 8px 0 14px; }
+body.core-ui .comparison-controls .common-row-control { flex-basis: 310px; }
+@media (max-width: 720px) { body.core-ui .comparison-controls .common-row-control { flex-basis: 100%; } }

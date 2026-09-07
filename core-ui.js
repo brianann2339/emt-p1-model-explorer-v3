@@ -1,6 +1,7 @@
 (() => {
   'use strict';
   const el=id=>document.getElementById(id), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  if(!window.EMTCommonRowsUI){el('coreWorkspace').innerHTML='<p role="alert">共同樣本資料未完整載入，請重新整理；目前不顯示模型排名。</p>';return;}
   const number=x=>typeof x==='number'&&Number.isFinite(x)?x:null;
   const display=x=>number(x)===null?'—':x.toFixed(4);
   const groupNames={overall:'全急診',medicine:'急診內科',surgery:'急診外科'};
@@ -72,6 +73,7 @@
     el('selectedStrip').innerHTML=`<div class="title">${esc(traceName(rep))}</div><p class="note">${esc(DATA.outcome_labels[state.outcome])} · ${groupNames[state.group]} · ${state.split==='external_2025'?'2025 封存評估':'2024 驗證集'} · N=${fmtCount(rep[state.split+'_N'])}／事件 ${fmtCount(rep[state.split+'_events'])}</p>`;
     el('detailEnsembleTab').hidden=rep.display_family!=='Ensemble';
     if(detail==='Ensemble'&&el('detailEnsembleTab').hidden)detail='Operating';
+    window.EMTCommonRowsUI?.paint();
   }
   function showDetail(next){
     detail=next;const linked=['Calibration','Dca'].includes(detail);
@@ -82,7 +84,7 @@
       const ticket=++chartTicket,rep=getSelectedRep(),requested={kind:detail,entity_id:rep.display_entity_id,group:state.group,outcome:state.outcome.replace('y_',''),split:state.split};
       el('supplementPanel').hidden=false;el('supplementPanel').classList.add('core-linked-chart');el('coreSupplementSlot').appendChild(el('supplementPanel'));
       el('supplementContext').textContent='讀取選定模型的圖表…';
-      chartQueue=chartQueue.catch(()=>{}).then(async()=>{if(ticket!==chartTicket)return;try{await EMTResearchExtensions.openCoreChart(requested);if(ticket===chartTicket)el('supplementPanel').querySelector('h2').textContent=detail==='Calibration'?'校準圖':'決策曲線（DCA）';}catch(error){if(ticket===chartTicket){el('supplementContext').textContent=error.message;Plotly.purge('supplementPlot');el('supplementTable').innerHTML='';}}});
+      chartQueue=chartQueue.catch(()=>{}).then(async()=>{if(ticket!==chartTicket)return;try{if(window.EMTCommonRowsUI?.renderPlot(requested.kind,rep))return;await EMTResearchExtensions.openCoreChart(requested);if(ticket===chartTicket)el('supplementPanel').querySelector('h2').textContent=detail==='Calibration'?'校準圖':'決策曲線（DCA）';}catch(error){if(ticket===chartTicket){el('supplementContext').textContent=error.message;Plotly.purge('supplementPlot');el('supplementTable').innerHTML='';}}});
     }else{
       chartTicket++;
       if(detail==='Shap')renderShap();else if(detail==='Feature')renderFeatures();else if(detail==='Ensemble')renderEnsemble();else {renderChampion();EMTResearchExtensions.ensure('metadata').catch(error=>{el('operatingBox').insertAdjacentHTML('beforeend',`<p class="note">補充 CI 暫未載入：${esc(error.message)}</p>`);});}

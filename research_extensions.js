@@ -252,8 +252,9 @@
     let box=document.getElementById('currentIntervalDetail');
     if(!box){box=document.createElement('div');box.id='currentIntervalDetail';parent.appendChild(box);}
     const split=document.getElementById('splitSelect').value;
-    const rows=currentIntervals.filter(r=>r.entity_id===rep.display_entity_id && r.split===split && ['AUROC','AUPRC','Brier'].includes(r.metric));
-    box.innerHTML=`<h3>同一模型的 2024 信賴區間</h3>${rows.length?`<div class="research-table"><table><thead><tr><th>指標</th><th>點估計 [95% CI]</th><th>N／events</th></tr></thead><tbody>${rows.map(r=>`<tr><td>${esc(r.metric)}</td><td>${fmt(r.value)} [${fmt(r.lower_ci)}, ${fmt(r.upper_ci)}]</td><td>${fmt(r.n,0)} / ${fmt(r.events,0)}</td></tr>`).join('')}</tbody></table></div><p class="note">相同模型、2024 預測來源；2,000 次 patient-group bootstrap，保留來源方法。不是 2025 CI，也不是成對差值 CI。</p>`:'<p class="note">此切分目前沒有對應的已完成 CI；不沿用別的模型／年份。2024 補算進度見統計附錄。</p>'}<p><a href="#supplementPanel">校準、DCA 與統計附錄</a></p>`;
+    const common=window.EMTCommonRowsUI?.record(rep);
+    const rows=common?common.ci.filter(r=>['AUROC','AUPRC','Brier'].includes(r.metric)):currentIntervals.filter(r=>r.entity_id===rep.display_entity_id && r.split===split && ['AUROC','AUPRC','Brier'].includes(r.metric));
+    box.innerHTML=`<h3>同一模型的 2024 ${common?'共同樣本':''}信賴區間</h3>${rows.length?`<div class="research-table"><table><thead><tr><th>指標</th><th>點估計 [95% CI]</th><th>N／events</th></tr></thead><tbody>${rows.map(r=>`<tr><td>${esc(r.metric)}</td><td>${fmt(r.value)} [${fmt(r.lower_ci)}, ${fmt(r.upper_ci)}]</td><td>${fmt(r.n,0)} / ${fmt(r.events,0)}</td></tr>`).join('')}</tbody></table></div><p class="note">相同模型、2024 預測來源；2,000 次 patient-group bootstrap，保留來源方法。不是 2025 CI，也不是成對差值 CI。</p>`:'<p class="note">此切分目前沒有對應的已完成 CI；不沿用別的模型／年份。2024 補算進度見統計附錄。</p>'}<p><a href="#supplementPanel">原分析樣本的統計附錄</a></p>`;
   }
   async function initCurrentIntervals() {
     if(typeof getSelectedRep!=='function')return;

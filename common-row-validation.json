@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "validated_models": 324,
+  "changed_models": 198,
+  "numeric_checks": 356728,
+  "native_embedded_bundle_unchanged": true,
+  "same_rows_and_labels_within_each_group_outcome": true,
+  "all_thresholds_unchanged": true,
+  "independent_2000_replicate_ci_canaries": [
+    "medicine_P1_catboost",
+    "surgery_P1_catboost"
+  ],
+  "new_2025_data_access": 0,
+  "model_fit_calls": 0,
+  "model_predict_calls": 0,
+  "public_patient_row_identifiers": 0,
+  "common_row_payload_sha256": "73d589243f7c64101c6daca346c149510ba31bdf5dbab264450d61e54f98446b",
+  "cohorts": {
+    "overall": 7289,
+    "medicine": 4579,
+    "surgery": 2688,
+    "other_overall_only": 22
+  },
+  "scope": "2024 main model comparison; original population retained as supplemental mode; 2025 and SHAP unchanged"
+}
