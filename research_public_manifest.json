@@ -3,9 +3,19 @@
   "main_bundle_sha256": "335f6c3b2c0f2e7424e62a9787c685709c8f9bb006d4ce843945add6c32341d1",
   "files": [
     {
+      "path": "core-ui.css",
+      "bytes": 21251,
+      "sha256": "26d23de39369369bacadc0fefd706420a54b694d968ae644b6845224b8e9796e"
+    },
+    {
+      "path": "core-ui.js",
+      "bytes": 16369,
+      "sha256": "c38924484081a6485a6b5253fde108c5df8a6ab7f3ee5712dcf5181a9035e05c"
+    },
+    {
       "path": "index.html",
-      "bytes": 37605720,
-      "sha256": "10eb7ee0d16454b41b5fe8d06c255465acd8b42dfc08ef710efc4cf9af743eba"
+      "bytes": 37607835,
+      "sha256": "8c2464ba6771b4a95bb9583fcd9998b09566b8aabbf973e039ae83a57c76342e"
     },
     {
       "path": "p104_results.json",
@@ -308,11 +318,6 @@
       "sha256": "e6d00e627aeedec3693e8a2013c10512dd2d4af82cd4e043d0242b8c3a2f99ab"
     },
     {
-      "path": "p1_delivery/delivery_manifest.json",
-      "bytes": 10137,
-      "sha256": "0978addbabd7a9c9cbeb69215a6c3de0956c1871180374bea465f639758f48e0"
-    },
-    {
       "path": "p1_delivery/EFFECTIVE_METHOD_ADDENDUM.md",
       "bytes": 11115,
       "sha256": "f1e1aa413a445b2288a7d06defed843b197880e62921933ae88c9fd64a82d27b"
@@ -353,21 +358,6 @@
       "sha256": "ff437238fc24c56ae7ef45e40ce723ee59b45da0b8ac3d79db739a45741589d4"
     },
     {
-      "path": "p1_delivery/pdf_render_receipt.json",
-      "bytes": 5349,
-      "sha256": "e4231ac0c242016ae99951c02a839042dc40d66bc1c6180a725da52548dfa61c"
-    },
-    {
-      "path": "p1_delivery/portable_analysis.zip",
-      "bytes": 6671616,
-      "sha256": "1075a7d0503451a7a5b04522e1a761d9afa48a35f66950a052e9188d34e15861"
-    },
-    {
-      "path": "p1_delivery/portable_verification_receipt.json",
-      "bytes": 3516,
-      "sha256": "0b9b6e0065f9d447ba75327f297a4fc04b91cfe7fa82ed2d0aaed669b11574bc"
-    },
-    {
       "path": "p1_delivery/PROBAST_AI_APPRAISAL.md",
       "bytes": 7353,
       "sha256": "c5db416b675045c5b39e01a35f6bd400d918a78a781e63030cb00f61b3996aa3"
@@ -376,16 +366,6 @@
       "path": "p1_delivery/RECORDED_THRESHOLD_NET_BENEFIT.md",
       "bytes": 2824,
       "sha256": "32f2c3541ce8101d4faf9b69a073bfa87e736ff16d41faffa05a1b97477551ba"
-    },
-    {
-      "path": "p1_delivery/report.html",
-      "bytes": 460369,
-      "sha256": "a2e1c24c7055880c90e36b51b5cc56b4a6070253c78f9d99a6da670b29cae00e"
-    },
-    {
-      "path": "p1_delivery/report_audit_bundle.zip",
-      "bytes": 872348,
-      "sha256": "e0be2e04524e2d8c32fad3b902c3a0e7a1639e32f958143c5ad9a8bfcf78b5f2"
     },
     {
       "path": "p1_delivery/REPORT_SOURCE_NOTES.md",
@@ -406,6 +386,36 @@
       "path": "p1_delivery/V1_V3_COMPARISON.md",
       "bytes": 3838,
       "sha256": "cfff7ea1f50cf60582e8f1be891c1f80744fe6da364fe191345c3d1052b957c1"
+    },
+    {
+      "path": "p1_delivery/delivery_manifest.json",
+      "bytes": 10137,
+      "sha256": "0978addbabd7a9c9cbeb69215a6c3de0956c1871180374bea465f639758f48e0"
+    },
+    {
+      "path": "p1_delivery/pdf_render_receipt.json",
+      "bytes": 5349,
+      "sha256": "e4231ac0c242016ae99951c02a839042dc40d66bc1c6180a725da52548dfa61c"
+    },
+    {
+      "path": "p1_delivery/portable_analysis.zip",
+      "bytes": 6671616,
+      "sha256": "1075a7d0503451a7a5b04522e1a761d9afa48a35f66950a052e9188d34e15861"
+    },
+    {
+      "path": "p1_delivery/portable_verification_receipt.json",
+      "bytes": 3516,
+      "sha256": "0b9b6e0065f9d447ba75327f297a4fc04b91cfe7fa82ed2d0aaed669b11574bc"
+    },
+    {
+      "path": "p1_delivery/report.html",
+      "bytes": 460369,
+      "sha256": "a2e1c24c7055880c90e36b51b5cc56b4a6070253c78f9d99a6da670b29cae00e"
+    },
+    {
+      "path": "p1_delivery/report_audit_bundle.zip",
+      "bytes": 872348,
+      "sha256": "e0be2e04524e2d8c32fad3b902c3a0e7a1639e32f958143c5ad9a8bfcf78b5f2"
     },
     {
       "path": "p1_delivery/validation.json",
@@ -4468,6 +4478,16 @@
       "sha256": "3b4774c2f7302f2a2b3accc394ff4e45be8fe908ecedf06b557e14a19070a4a5"
     },
     {
+      "path": "p1_supplement/frozen_calibration_108/CALIBRATION_2025_ADDENDUM.md",
+      "bytes": 5206,
+      "sha256": "a5ae3f97c8ff0f3e73d3a3b7a27f61b4de86b71a4409f4c4aa6602860e7f7dee"
+    },
+    {
+      "path": "p1_supplement/frozen_calibration_108/INDEPENDENT_VALIDATION.md",
+      "bytes": 4848,
+      "sha256": "250fc501260e48103e46d470e749d99ba7094ad6f4dc99d777a310cdfe4d0c27"
+    },
+    {
       "path": "p1_supplement/frozen_calibration_108/bins.csv",
       "bytes": 407109,
       "sha256": "697594894708ba95570d28e6c30bd78af4fbd2c6e7a4bb0c0c171295bd83f24c"
@@ -4476,11 +4496,6 @@
       "path": "p1_supplement/frozen_calibration_108/bins.json",
       "bytes": 824875,
       "sha256": "5e50deda77b3fc3b2cf7e7f2e9c7b3fcc348553c5be2c110fc5b00dc04009975"
-    },
-    {
-      "path": "p1_supplement/frozen_calibration_108/CALIBRATION_2025_ADDENDUM.md",
-      "bytes": 5206,
-      "sha256": "a5ae3f97c8ff0f3e73d3a3b7a27f61b4de86b71a4409f4c4aa6602860e7f7dee"
     },
     {
       "path": "p1_supplement/frozen_calibration_108/collections/P1.json",
@@ -4531,11 +4546,6 @@
       "path": "p1_supplement/frozen_calibration_108/combined_validation.json",
       "bytes": 970,
       "sha256": "b4579cf0ce0e3b4f81fb42a3ec618534fab702f01e3b4d0d681182e3fce59ab8"
-    },
-    {
-      "path": "p1_supplement/frozen_calibration_108/INDEPENDENT_VALIDATION.md",
-      "bytes": 4848,
-      "sha256": "250fc501260e48103e46d470e749d99ba7094ad6f4dc99d777a310cdfe4d0c27"
     },
     {
       "path": "p1_supplement/frozen_calibration_108/index.json",
@@ -4789,12 +4799,17 @@
     },
     {
       "path": "research_extensions.js",
-      "bytes": 34984,
-      "sha256": "84c01f999d4e201497d6bb23dc6e735c210b7804d07bae2738ddea504175f531"
+      "bytes": 36906,
+      "sha256": "d9d2285b950d2c1bf57bda6cf1580f0242264e54f89120320163d737cb661765"
     }
   ],
   "source_supplement_sha256": "73630e4ec6f7ecb3f9c0f28d09e965312df83ecdd5987f67389771b65764e167",
   "source_figure_index_sha256": "534efa16860043f049d589a7210310a68bbf82bed0608d6cfd7eb269ef5cf406",
   "no_new_fit": true,
-  "no_new_raw_2025_access": true
+  "no_new_raw_2025_access": true,
+  "presentation_revision": {
+    "scope": "Core-first 9-outcome/3-cohort comparison and descriptive rank navigation",
+    "source_commit": "37dc29abe1fcf66cdc09f6f8391e6e158ddb7592",
+    "data_changed": false
+  }
 }

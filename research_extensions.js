@@ -151,6 +151,7 @@
       if(!isDca && traces.length) traces.push({type:'scatter',mode:'lines',name:'Perfect calibration',x:[0,1],y:[0,1],line:{dash:'dot',color:'#888'}});
       const thresholds=rows.map(r=>r.threshold).filter(finite);
       layout.xaxis={title:isDca?'Threshold probability':'Mean predicted probability',range:isDca&&thresholds.length?[Math.min(...thresholds),Math.max(...thresholds)]:[0,1],...(isDca?{tickformat:'.0%'}:{})};layout.yaxis={title:isDca?'Net benefit':'Observed event rate',...(isDca?{}:{range:[0,1]})};
+      layout.xaxis.title={text:isDca?'風險門檻機率':'平均預測機率',font:{size:12}};layout.yaxis.title={text:isDca?'淨效益（Net benefit）':'觀察事件率',font:{size:12}};
       if(id==='current_calibration'){
         layout.xaxis.title={text:'平均預測機率',font:{size:12}};layout.yaxis.title={text:'觀察事件率',font:{size:12}};
         layout.title={text:`${label(val('supplementGroup'))} / ${val('supplementOutcome')||'全部結局'} — 2025 校準圖`,font:{size:13}};
@@ -298,10 +299,26 @@
     ['baselineType','baselineCoverage','baselineChart'].forEach(id=>byId(id).addEventListener('change',renderBaselines));
     await loadBaselines();
   }
-  window.EMTResearchExtensions={p104Filters,renderP104,renderTasks,loadCollection,supplementOptions,renderSupplement,figureFilters,loadBaselines,renderBaselines};
+  const initializers={p104:initP104,supplement:initSupplement,figures:initFigures,delivery:initDelivery,metadata:initCurrentIntervals,baselines:initBaselines}, ready={};
+  function ensure(name){return ready[name]||(ready[name]=initializers[name]());}
+  async function openCoreChart({kind,entity_id,group,outcome,split}){
+    await ensure('supplement');
+    const id=kind==='Calibration'?(split==='external_2025'?'current_calibration':'current_validation_calibration'):(split==='external_2025'?'current_dca':'current_validation_dca');
+    byId('supplementDataset').value=id;await loadCollection();
+    byId('supplementGroup').value=group;
+    if(collection.parts){await loadCollection();byId('supplementOutcome').value=outcome;await loadCollection();}
+    else {supplementOptions(1);byId('supplementOutcome').value=outcome;supplementOptions(2);}
+    const matches=collectionRows.filter(r=>r.entity_id===entity_id&&r.group===group&&r.outcome===outcome);
+    if(!matches.length)throw new Error('此模型尚無完全對應的圖表來源；不以其他模型代替。');
+    const splits=unique(matches.map(splitOf));byId('supplementSplit').value=splits.includes(split)?split:'';supplementOptions(3);
+    byId('supplementModel').value=modelOf(matches[0]);page=0;renderSupplement();
+    byId('supplementContext').textContent=`${label(group)} / ${outcome} / ${modelOf(matches[0])} · ${split==='external_2025'?'2025 frozen':'2024 validation'}。${kind==='Calibration'?'觀察事件率對預測機率；此圖不重新校準模型。':'依預測風險門檻檢視淨效益；不據此重選操作門檻。'} 完整方法與來源見下方。`;
+    return {id,entity_id,matchedRows:matches.length};
+  }
+  window.EMTResearchExtensions={p104Filters,renderP104,renderTasks,loadCollection,supplementOptions,renderSupplement,figureFilters,loadBaselines,renderBaselines,ensure,openCoreChart};
   let resizeTimer;
   window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(p104)renderP104();if(collection)renderSupplement();if(baselineIndex)renderBaselines();},120);});
-  for(const [fn,id] of [[initP104,'p104Context'],[initSupplement,'supplementContext'],[initFigures,'explanationContext'],[initDelivery,'deliveryContext'],[initCurrentIntervals,'supplementContext'],[initBaselines,'baselineContext']]) {
-    fn().catch(e=>{byId(id).textContent='此區資料未能載入：'+e.message;console.error(e);});
+  if(!window.EMT_CORE_MODE)for(const [name,id] of [['p104','p104Context'],['supplement','supplementContext'],['figures','explanationContext'],['delivery','deliveryContext'],['metadata','supplementContext'],['baselines','baselineContext']]) {
+    ensure(name).catch(e=>{byId(id).textContent='此區資料未能載入：'+e.message;console.error(e);});
   }
 })();
