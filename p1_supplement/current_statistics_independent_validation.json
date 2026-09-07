@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "check_count": 2034,
+  "failure_count": 0,
+  "new_ci_terminal_tasks": 294,
+  "retained_existing_ci_tasks": 30,
+  "total_ci_covered": 324,
+  "paired_terminal_tasks": 270,
+  "method": "Separate validation pass over terminal receipts, exact input/metric/calibration hashes, native point equality, per-task replicate reporting status, and recomputed exact-common-row paired point differences. It does not rerun model fitting or all bootstrap replicates.",
+  "bootstrap_evaluator_sha256": "16f70cd096d2dcd5ac21b30045e91e65a99b09e0b2adfad6e777f25591187993",
+  "new_raw_2025_access": 0,
+  "model_calls": 0
+}

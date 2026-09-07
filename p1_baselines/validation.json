@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": 3546,
+  "failure_count": 0,
+  "failures": [],
+  "knn_complete": 27,
+  "knn_required": 27,
+  "index_sha256": "89d801e29419f686bd81f2bd2ccf70650df44c295ec250e1dde018f7f1cbc37c",
+  "public_sha256": "09cc4ec950dbdb6ef626f05da955e5641309990546f4a159e57436beb08089af",
+  "builder": {
+    "path": "scripts/build_emt_p1_baseline_gap_v1.py",
+    "sha256": "366a23b5199c71a8c2b2a25665c5e306b9aa0edaa14208af1a908f7026fa859c"
+  },
+  "formal_acceptance": false,
+  "scientific_acceptance": false,
+  "new_2025_access": 0,
+  "selection_change": 0
+}

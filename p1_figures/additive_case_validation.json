@@ -1,0 +1,550 @@
+{
+  "status": "PASS",
+  "completed_case_count": 36,
+  "results": [
+    {
+      "key": "overall|P1|catboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_P1_catboost/TP/receipt.json",
+        "sha256": "a0116b7948e013db72c227a1b28a612956796dd35bbc3dc390480532cbd090c1"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/P1/catboost/waterfall_tp.png",
+        "sha256": "4d5490436d0025fd135c838521eb06f0d1b375d5cebe833314dafc5eb44d7c79"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "overall|P1|catboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_P1_catboost/FN/receipt.json",
+        "sha256": "e11c1918e66878fc332f50f1ba97782c6dfbc5ffeeca49e95401e27bb0a5de78"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/P1/catboost/waterfall_fn.png",
+        "sha256": "e3f24acb9dcd82dc0ce65f1919c9b0bf4ac1216768e5ed7c400254bcf09238ec"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "overall|P2|catboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_P2_catboost/TP/receipt.json",
+        "sha256": "4da8f37de03cc23b16b8d05247e37f3df2632f4dadc57d7d5086f45880da08cd"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/P2/catboost/waterfall_tp.png",
+        "sha256": "9e630f1a4ec7cacffb0a297589af3599bc8f7b44f730454a61102a0da3dfacb4"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 1.1102230246251565e-16
+    },
+    {
+      "key": "overall|P2|catboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_P2_catboost/FN/receipt.json",
+        "sha256": "2408c8700022cb898feb0ef49f5eb373a102942e7ea4fbc5f5dfbaf446dddfa7"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/P2/catboost/waterfall_fn.png",
+        "sha256": "a5bbcba88a8fea03368341b476e073cafcfe1217fbb47f12e3a587aa4bb8ee6f"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "overall|P3|catboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_P3_catboost/FN/receipt.json",
+        "sha256": "a6407169b6ee407d7e87562f14df0b1a878f8ccef01e98286762bc9a65156528"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/P3/catboost/waterfall_fn.png",
+        "sha256": "e3fea9df02803b69036fb27fead3c94ecc48b84228e33cb81f094944de49fc5b"
+      },
+      "canary_error": 6.938893903907228e-18,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "overall|S1|xgboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_S1_xgboost/TP/receipt.json",
+        "sha256": "9aa37bb390ec67a90030101010d5b2f860c5ed1b6bdaf86284bf8d70ba864510"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/S1/xgboost/waterfall_tp.png",
+        "sha256": "09783ce75cd9900523e5063f51c569155ae4c7b786b4f9cc854e93e383f7f8fe"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "overall|S1|xgboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_S1_xgboost/FN/receipt.json",
+        "sha256": "1c5813ae3a6e21448e5a808f5e25bbf074b1d5bdbdef312cc15535b2b5638b74"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/S1/xgboost/waterfall_fn.png",
+        "sha256": "d2aaa5066e0e6b258e17035f5084f8b2ae9f1c72124a492fa40d43656013e460"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "overall|S2|xgboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_S2_xgboost/TP/receipt.json",
+        "sha256": "50faf6c2082eca88abcc7310a62bb5a0683e49ac495e5699849a38e904b72681"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/S2/xgboost/waterfall_tp.png",
+        "sha256": "1f08d41da834101eb7fdb542f5eee4fa728298c80c0cd4e60cfef800fcb64aea"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "overall|S2|xgboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_S2_xgboost/FN/receipt.json",
+        "sha256": "c6f6ed243d8ba88ee7414865dc4f91b3e48f8cabfc26747b8806edef3311796d"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/S2/xgboost/waterfall_fn.png",
+        "sha256": "d95ed07af1d2210ae2be43b65159fb096cbce3375ea19b18560c22d1c54770cb"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "overall|S4|xgboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_S4_xgboost/TP/receipt.json",
+        "sha256": "41d14a4b03ea812067a92d60fe5a46aab097c8d819d987efe4db177f4550ae7a"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/S4/xgboost/waterfall_tp.png",
+        "sha256": "35644cde84fbc060cfb34aeae057e5cd83225e05f38d10b80e0ac9b8843fc86e"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "overall|S5|catboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_S5_catboost/TP/receipt.json",
+        "sha256": "671e76a1e50b57135942408c8b8fe1097ddecad88dec6aafd8c752aa67f9155f"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/S5/catboost/waterfall_tp.png",
+        "sha256": "5ef536869445cc535020e6cdaf3f7c0b3fd076a482fa320a4932d7d7da247ccc"
+      },
+      "canary_error": 8.673617379884035e-19,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "overall|S5|catboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/overall_S5_catboost/FN/receipt.json",
+        "sha256": "c4b040c9bf49639938f19d6d8fc82fec11ec1f9bfeec3999498132cff906dc38"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/overall/S5/catboost/waterfall_fn.png",
+        "sha256": "3775aec38d4b4915384353dd8874906fc4f28e5cfe4dc334c8db6da2ff3c462d"
+      },
+      "canary_error": 8.673617379884035e-19,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "medicine|P1|catboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/medicine_P1_catboost/TP/receipt.json",
+        "sha256": "a40e1b9e8f97f1ab6cc1adacc9a7c33934838d433ad54485339cf2ee768ad3fb"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/medicine/P1/catboost/waterfall_tp.png",
+        "sha256": "dbe85aa2889365430541c08b2e3bceb7e3b47ecf4d8907fa38579576b2a24d85"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "medicine|P1|catboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/medicine_P1_catboost/FN/receipt.json",
+        "sha256": "265a1c4df98168a1a5f4aefbcb8f0b4e719e85dd7c9ab2198c5671584627910c"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/medicine/P1/catboost/waterfall_fn.png",
+        "sha256": "057aae2676290bf9bab5941f5a8c8b5ba182adaf21bbc2b72d9605192c8c2c58"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "medicine|P3|xgboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/medicine_P3_xgboost/TP/receipt.json",
+        "sha256": "39f9488e800d77d30a796138d0b06122455087ce5d4edfe99fb96a70e7c52fb3"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/medicine/P3/xgboost/waterfall_tp.png",
+        "sha256": "c6e0ce3f1c8facb6f4eaef9b8ace158289ab9d3f033b597d892e4871da78cb4a"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "medicine|P3|xgboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/medicine_P3_xgboost/FN/receipt.json",
+        "sha256": "a0850bca6ab7e233cf438ee4e12564fb0f7ea4b64272a4d61e9431ef9dbcbed9"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/medicine/P3/xgboost/waterfall_fn.png",
+        "sha256": "df74a80973c1b902a133b9eba69af141b611c05d6281c4d20ca48a7871e86c25"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "medicine|S1|catboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/medicine_S1_catboost/TP/receipt.json",
+        "sha256": "823f8f0494ec9da4bb0ef2dc20f6282e7a27f437d3b3db4eb14fd2b12bc2b657"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/medicine/S1/catboost/waterfall_tp.png",
+        "sha256": "a2b916ae349d8829b68dec78c285bc0a4e96153618afe131d285383709d628e1"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 1.1102230246251565e-16
+    },
+    {
+      "key": "medicine|S1|catboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/medicine_S1_catboost/FN/receipt.json",
+        "sha256": "ab5bcd43e881c4e7b66add633e2bae5310a0514a28af3560e1ba1f89e497a6be"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/medicine/S1/catboost/waterfall_fn.png",
+        "sha256": "82c4d4a26481261d67b7d1f331bdfb03ee6a26db6331fece200536cb9568021a"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 1.734723475976807e-18
+    },
+    {
+      "key": "medicine|S2|catboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/medicine_S2_catboost/FN/receipt.json",
+        "sha256": "67218d4696958cc9ce15327c5f91233c17720fecdf0128bc7f13de9ba773fc2b"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/medicine/S2/catboost/waterfall_fn.png",
+        "sha256": "1db378f326ff99c03c42dd4dd452016be723544e5aec2ac654acb128aa648170"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "medicine|S5|lightgbm",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/medicine_S5_lightgbm/TP/receipt.json",
+        "sha256": "625d88c4392a8a65bd643a1b827db6ac173df11256d3c8d72da2576f481dfd22"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/medicine/S5/lightgbm/waterfall_tp.png",
+        "sha256": "7ddee6ab678b48cc3cb55a1eacfdaa228f7e3ee362d9544ba6b54bbe29460ec6"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 1.3877787807814457e-17
+    },
+    {
+      "key": "medicine|S5|lightgbm",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/medicine_S5_lightgbm/FN/receipt.json",
+        "sha256": "6024a6eb312a4e661c275b8dd27767ae2f24636a7817768050317ac8abbf3b48"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/medicine/S5/lightgbm/waterfall_fn.png",
+        "sha256": "7c0841b1c3eac697df4aa4acbae4a33d3efa09362895af08b7d9d872c35cd243"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 1.734723475976807e-18
+    },
+    {
+      "key": "surgery|P1|catboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_P1_catboost/TP/receipt.json",
+        "sha256": "0d732f3bc0a47a27de79f2ba9b9d78c92d1223f69aa2d2b0a6da822b36ea9d4b"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/P1/catboost/waterfall_tp.png",
+        "sha256": "c33ef092d2c856e00c65a7f1eb1b1cd4ed8e067ff59409eb32de20d1c0fc1008"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "surgery|P1|catboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_P1_catboost/FN/receipt.json",
+        "sha256": "9c4903d3daf633f8ec04c5367426112598de2650b29356dc1edcdc153028bb62"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/P1/catboost/waterfall_fn.png",
+        "sha256": "0128c6ed11876772918d925e6b828d4c94119ae21342ef358035007233ba6278"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "surgery|P2|lightgbm",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_P2_lightgbm/TP/receipt.json",
+        "sha256": "e64d6b5b622a143a9c5fb6ed3fb70924bf8c822c707f13c3e9636c98aefb751c"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/P2/lightgbm/waterfall_tp.png",
+        "sha256": "251bbc2d5d2ca8510e64bc8303370f5ea58b2d78b94b077cd0b4e7603aa0bb7a"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 6.938893903907228e-18
+    },
+    {
+      "key": "surgery|P2|lightgbm",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_P2_lightgbm/FN/receipt.json",
+        "sha256": "f01bc95eebb77dad4970a40399092c42912e57ec9ea7663218c5bb8a5b8e7288"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/P2/lightgbm/waterfall_fn.png",
+        "sha256": "33f61a5530949ecafc6982781b430b6ed55489e850ece48c71304d62d075c626"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 8.673617379884035e-19
+    },
+    {
+      "key": "surgery|P3|catboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_P3_catboost/TP/receipt.json",
+        "sha256": "5b82a4a03bc7ec9b29a5e66abe1190db0037ccd8001757023dcd4a4b5b267b86"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/P3/catboost/waterfall_tp.png",
+        "sha256": "7fae3c07eab5da101347d9e206467fa4eaf1d5341c979d6e896f92b03133597c"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 1.1102230246251565e-16
+    },
+    {
+      "key": "surgery|P3|catboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_P3_catboost/FN/receipt.json",
+        "sha256": "1fcffcdd34f4bfbce967ad30e82453ec41505a0eb577e641e038ae01e2bdc442"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/P3/catboost/waterfall_fn.png",
+        "sha256": "77561f14e63d974a86c1a664a74316a3939496ffcefdb9f53964194decc99467"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "surgery|S1|xgboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_S1_xgboost/FN/receipt.json",
+        "sha256": "b81b8fa9b70441e975a164e31f63ef3f926a8178cd64ab489384d3c8167d1de7"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/S1/xgboost/waterfall_fn.png",
+        "sha256": "bfb848f6fd00374db8711f048b9407b71959f21da8a3bcbb6941b22868639f7c"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "surgery|S2|catboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_S2_catboost/TP/receipt.json",
+        "sha256": "7e22a0f31add1f8de7936b88b2d9ac8e3b525bca56f1409f75cc789939e3865b"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/S2/catboost/waterfall_tp.png",
+        "sha256": "1ad04b4cfd0d557fb319982b75817e50489229d74af1bd084c44e1287215498a"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "surgery|S2|catboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_S2_catboost/FN/receipt.json",
+        "sha256": "73a9711e5ce61fb1514250762f11a5454908c4b075b8d88ab2d88ab43cea1cee"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/S2/catboost/waterfall_fn.png",
+        "sha256": "8556708fd6082acb254a03555030cfb1d53f23dba503e6a3132d188c291c7a83"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "surgery|S3|catboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_S3_catboost/FN/receipt.json",
+        "sha256": "6741636582cf2d209cb5195e7aa012f8232fa101d401640c687299bca236cb58"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/S3/catboost/waterfall_fn.png",
+        "sha256": "d4ff321e4c5ad84af3a7da85521bd2594ce6fe12b20f401f945759d52d592620"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 2.7755575615628914e-17
+    },
+    {
+      "key": "surgery|S4|catboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_S4_catboost/TP/receipt.json",
+        "sha256": "5381c67d80538c0407bec2f134d78d775edad0ca2a51f90c612a7b8b2c08941d"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/S4/catboost/waterfall_tp.png",
+        "sha256": "85b3f691f53e4914aa637e2dd29ca50edfbbf2c00f4e65da74e7b74a849845d7"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 2.7755575615628914e-17
+    },
+    {
+      "key": "surgery|S5|xgboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_S5_xgboost/TP/receipt.json",
+        "sha256": "c19085efd62adec866016824d872a7bfad2a5541f16e73b4d57a57dbeb317482"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/S5/xgboost/waterfall_tp.png",
+        "sha256": "ba4a9b783d1876c64b13cf1179a178550285b2904d1dbbe0a62920699af06d84"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "surgery|S5|xgboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_S5_xgboost/FN/receipt.json",
+        "sha256": "16417aa86c49fc7b080b8d9afd6d7307334a565bc901fab37229a32db61319c7"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/S5/xgboost/waterfall_fn.png",
+        "sha256": "930428aecbfcd7c80ec3642937fa84f95c61f93af999e0677a523261436c6a55"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "surgery|S6|xgboost",
+      "kind": "TP",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_S6_xgboost/TP/receipt.json",
+        "sha256": "787e8f11000cfe778384d6b83822a5ce704755d4d4395a6c4f69e12224b1910a"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/S6/xgboost/waterfall_tp.png",
+        "sha256": "b27b741008b2b826b4cf4001557728a73675d9d258c43f97f226992febc79fe4"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    },
+    {
+      "key": "surgery|S6|xgboost",
+      "kind": "FN",
+      "receipt": {
+        "path": "outputs/v2/.p1gap_20260907/shap_figures/case_returns/surgery_S6_xgboost/FN/receipt.json",
+        "sha256": "82096a2c05704a144b776b55d8473b8d7f7aedacdf5f704e009566f984423ea3"
+      },
+      "asset": {
+        "path": "assets/best_tree_additive/surgery/S6/xgboost/waterfall_fn.png",
+        "sha256": "209434ff40ed67632a8f097983ede2e97cc6b527809accbb5a961aa87c59f552"
+      },
+      "canary_error": 0.0,
+      "source_probability_difference": 0.0,
+      "residual": 0.0
+    }
+  ],
+  "failures": [],
+  "2025_access_count": 0,
+  "fit_invocation_count": 0,
+  "model_selection_invocation_count": 0
+}

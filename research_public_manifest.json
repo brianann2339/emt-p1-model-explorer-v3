@@ -1,0 +1,4695 @@
+{
+  "schema": "emt-p1-gap-public-byte-manifest/1",
+  "main_bundle_sha256": "335f6c3b2c0f2e7424e62a9787c685709c8f9bb006d4ce843945add6c32341d1",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 37605717,
+      "sha256": "7a1346975879047e82986f6697505ce44c979a8bf712566a3110656db2c844b4"
+    },
+    {
+      "path": "p104_results.json",
+      "bytes": 3900314,
+      "sha256": "cf32381e74a54836bb88585cd60f4430c7d972c5bede9c849e99075a758a333c"
+    },
+    {
+      "path": "p104_tables/medicine/ablation_comparison.csv",
+      "bytes": 674256,
+      "sha256": "2cdab6054db7af47d999ea5be9704d826e09584d13e270563cb91e0ff02c7edf"
+    },
+    {
+      "path": "p104_tables/medicine/age_comparison.csv",
+      "bytes": 51285,
+      "sha256": "aac3abdd93b24da22952ed670c396df143280390fdb2d1c9494725d6f18e0e81"
+    },
+    {
+      "path": "p104_tables/medicine/city_comparison.csv",
+      "bytes": 24632,
+      "sha256": "2e8a2d8b95fa99a2f0229c187dfe4261fdc590ac7d77ca39c5c1692a2ffa2c82"
+    },
+    {
+      "path": "p104_tables/medicine/congestion_comparison.csv",
+      "bytes": 17525,
+      "sha256": "c0413307656e4c712b00012cdf44c8ad53e38bd42bf0cfd26ab0e5cc01e1e085"
+    },
+    {
+      "path": "p104_tables/medicine/dnr_comparison.csv",
+      "bytes": 153372,
+      "sha256": "1615d67418acec57cb66c7b33ac85c0176cbae6b634e3f2c9bea59a5320f8df8"
+    },
+    {
+      "path": "p104_tables/medicine/grouped_cv_comparison.csv",
+      "bytes": 50255,
+      "sha256": "6797cd7d41412fbd0e56f30cd3cfc6e90ee59428f23da01a2079055996930755"
+    },
+    {
+      "path": "p104_tables/medicine/missingness_comparison.csv",
+      "bytes": 224870,
+      "sha256": "f3bb0d48657986168cdaab22df919fe62a2d5c17bbcd785f7eda351c3a9cccdd"
+    },
+    {
+      "path": "p104_tables/medicine/mortality_comparison.csv",
+      "bytes": 12965,
+      "sha256": "c4b5531ef92cfe5dce229d6cb6f344f6d8144cd18d0868d80896aa5eb976653f"
+    },
+    {
+      "path": "p104_tables/medicine/p3_airway_comparison.csv",
+      "bytes": 12914,
+      "sha256": "3f8cc7ba05fb5c1be24e9adf88ec85368a4246fb27f147490ff74cb2bc718f6b"
+    },
+    {
+      "path": "p104_tables/surgery/ablation_comparison.csv",
+      "bytes": 643287,
+      "sha256": "4be98ea727def50f30dcc2396e5be1ee6110da5861d4e26daf54618ce568fb35"
+    },
+    {
+      "path": "p104_tables/surgery/age_comparison.csv",
+      "bytes": 50209,
+      "sha256": "91ef7109914408c807936be7e7b434b1996c71292a0a1d472b614f56e232b75a"
+    },
+    {
+      "path": "p104_tables/surgery/city_comparison.csv",
+      "bytes": 24616,
+      "sha256": "1876ec6e11c3ab1125b480ac48f0889a0bca4bb6c2307fe2d60019d16f1e4e80"
+    },
+    {
+      "path": "p104_tables/surgery/congestion_comparison.csv",
+      "bytes": 17291,
+      "sha256": "859b4a608a6515422277e6732e9e9a0abd5de2986735de00e2a0b374b78996c6"
+    },
+    {
+      "path": "p104_tables/surgery/dnr_comparison.csv",
+      "bytes": 152363,
+      "sha256": "2191caccfcc406912e3a0574cbf0cabcb6533e79df60877c165c0e9827e1e609"
+    },
+    {
+      "path": "p104_tables/surgery/grouped_cv_comparison.csv",
+      "bytes": 49974,
+      "sha256": "fd0201845ff1089b832b0e9f742f851ff19d30b2ff21b4af9b9ab4cc1f9bcdb8"
+    },
+    {
+      "path": "p104_tables/surgery/missingness_comparison.csv",
+      "bytes": 206283,
+      "sha256": "fb1b2469baa9386228d20ce180fcc56a074c41cc14e9f0377d2c9952633b754a"
+    },
+    {
+      "path": "p104_tables/surgery/mortality_comparison.csv",
+      "bytes": 12707,
+      "sha256": "4363ae4ffed3c2602eb3f2b009037fc44c691cf968079de2740df42fbed8bf64"
+    },
+    {
+      "path": "p104_tables/surgery/p3_airway_comparison.csv",
+      "bytes": 12770,
+      "sha256": "b01e06c5de62d6a1ff1ed51aa8c07c4304b1d900a5a54d630553af420a3b0fb4"
+    },
+    {
+      "path": "p1_baselines/baseline_ci_index.json",
+      "bytes": 6869,
+      "sha256": "5e6a22fa1b32826d60a5319453a0943ec4c6d486536aacb2c219fb4681ec5218"
+    },
+    {
+      "path": "p1_baselines/baseline_metrics.csv",
+      "bytes": 160683,
+      "sha256": "13a7f19ba8561e409b111ef24b396c66171184d304c4b76fbbd8a930e99a73ce"
+    },
+    {
+      "path": "p1_baselines/baseline_metrics_ci.csv",
+      "bytes": 759730,
+      "sha256": "7b1d56a9e0b0e6ee36ed66135054d333fc8e234ba4dca7aaf6811cebd637c87f"
+    },
+    {
+      "path": "p1_baselines/ci_implementation_equivalence.json",
+      "bytes": 683,
+      "sha256": "a50c7d0d2d516d8d62c96dfb70a5148f2c9cd201b3976e19d71a142c3565b156"
+    },
+    {
+      "path": "p1_baselines/ci_independent_validation.json",
+      "bytes": 916,
+      "sha256": "c0d4e417269b84f937831666ec5a01d3ec91dbf4d89050540e692df75f2429c3"
+    },
+    {
+      "path": "p1_baselines/ci_validation.json",
+      "bytes": 260,
+      "sha256": "f19bacbf13eba0ed2b120962bc4b4b24264bfe264ba8f7e39b614765f7a827a1"
+    },
+    {
+      "path": "p1_baselines/collections/medicine_P1.json",
+      "bytes": 2901645,
+      "sha256": "e84ea4c3075fdcb0ebfb2c491882bf9749d8a6e2bc2390910167cedea4bff029"
+    },
+    {
+      "path": "p1_baselines/collections/medicine_P2.json",
+      "bytes": 3561906,
+      "sha256": "45aeeaa57e5f910f68368e850c6115a8bdfd8d79fee71a77feb3b945f98bb6a0"
+    },
+    {
+      "path": "p1_baselines/collections/medicine_P3.json",
+      "bytes": 3344745,
+      "sha256": "5a48e048749a619d9f417f95a279b8fff7e1879438c325c89aef4466db2b758d"
+    },
+    {
+      "path": "p1_baselines/collections/medicine_S1.json",
+      "bytes": 2852195,
+      "sha256": "d82b38ef45a8616a121bbe7590e0b537d38d805bd8f73e29629b107b66b46a7d"
+    },
+    {
+      "path": "p1_baselines/collections/medicine_S2.json",
+      "bytes": 3351207,
+      "sha256": "6f3e506210e48d4f63f0c94278977f4a0f3d5a68e5010db83392915e155fbdfa"
+    },
+    {
+      "path": "p1_baselines/collections/medicine_S3.json",
+      "bytes": 4131740,
+      "sha256": "a106a471203e7e55b6c771e730ab82973d54b6cb75b5e626cf978fb12e83a46c"
+    },
+    {
+      "path": "p1_baselines/collections/medicine_S4.json",
+      "bytes": 3709615,
+      "sha256": "c456325c29507a8176f930ff7f6200699f6886d366b9310eed0eafd78e30e331"
+    },
+    {
+      "path": "p1_baselines/collections/medicine_S5.json",
+      "bytes": 3176795,
+      "sha256": "e7f9de5b2be03b2c479b35c50158a0754f2879588e176a088bb4c82ed5ac82b2"
+    },
+    {
+      "path": "p1_baselines/collections/medicine_S6.json",
+      "bytes": 3418349,
+      "sha256": "7b5da93c749582a230fbd60b1039bf06a37c8dea96f1f577585b0cf51e4f158c"
+    },
+    {
+      "path": "p1_baselines/collections/overall_P1.json",
+      "bytes": 3890235,
+      "sha256": "5918465092f58f2e88fed7b67c9a0296949c95fa778c69ab87c56e9bd387af76"
+    },
+    {
+      "path": "p1_baselines/collections/overall_P2.json",
+      "bytes": 4917770,
+      "sha256": "f116272fbc357dbf3c9b069f95ddcacffc99a0154b36a4e9d0e4dca144db0837"
+    },
+    {
+      "path": "p1_baselines/collections/overall_P3.json",
+      "bytes": 4698826,
+      "sha256": "b794c9deef7acdf1eb1d8d9351ae346d34e8f7a3945a0a7cb84a1be5136e900d"
+    },
+    {
+      "path": "p1_baselines/collections/overall_S1.json",
+      "bytes": 4609118,
+      "sha256": "a70c25d51b5be58ce58ba697c1999e802450f3ffde981cf0568fbbf2435b9d83"
+    },
+    {
+      "path": "p1_baselines/collections/overall_S2.json",
+      "bytes": 4684960,
+      "sha256": "91de88f63bfc580fa7dea0b80cfe863fc9f672bfb35a11d210d8d6e9b96c2738"
+    },
+    {
+      "path": "p1_baselines/collections/overall_S3.json",
+      "bytes": 5863052,
+      "sha256": "95d5f803a5eef799be5f96ae4036680e7fa46507d9b36a7166272f0436a78651"
+    },
+    {
+      "path": "p1_baselines/collections/overall_S4.json",
+      "bytes": 5181252,
+      "sha256": "93c87b3f73386a4c43d8b0cd134cfb0728c19c2d79ad6ced6e1f1ff62cea4959"
+    },
+    {
+      "path": "p1_baselines/collections/overall_S5.json",
+      "bytes": 4576114,
+      "sha256": "da6eb2d5d6b597b24dbb1e972140426725170190ea869a7c13e786f9ad314e06"
+    },
+    {
+      "path": "p1_baselines/collections/overall_S6.json",
+      "bytes": 4872694,
+      "sha256": "3548630ebe736c15071c16ac6127a6d412832b965697e0bd7abb8bec07f1bb2a"
+    },
+    {
+      "path": "p1_baselines/collections/surgery_P1.json",
+      "bytes": 1195569,
+      "sha256": "b94b7477d3356c4e1cd2b9a9a20784909386e7d255dc77a9df0c45bbfbfff6b3"
+    },
+    {
+      "path": "p1_baselines/collections/surgery_P2.json",
+      "bytes": 1762759,
+      "sha256": "f5d8032a133b82a36867596791d3d308817f2dc592dbf3a463a40dff6fc0dd87"
+    },
+    {
+      "path": "p1_baselines/collections/surgery_P3.json",
+      "bytes": 1614875,
+      "sha256": "b96f1ae49f095a810ea2eb16db15660f1738121374913180af11b9ffc0a3663d"
+    },
+    {
+      "path": "p1_baselines/collections/surgery_S1.json",
+      "bytes": 1335158,
+      "sha256": "2eb654078077056b35ef3ccbbb1fea10df85fcfc448714791135c515ad631bd3"
+    },
+    {
+      "path": "p1_baselines/collections/surgery_S2.json",
+      "bytes": 1666292,
+      "sha256": "a42113a7f492fbee150d4c962ab0e28a09f8b7a82f276e55a423cad8ad44a53f"
+    },
+    {
+      "path": "p1_baselines/collections/surgery_S3.json",
+      "bytes": 2250862,
+      "sha256": "a8aba10535b02c4b6ab9175caa16f7c29ff8183c30515eb7c0dc0f0658616c6b"
+    },
+    {
+      "path": "p1_baselines/collections/surgery_S4.json",
+      "bytes": 1888766,
+      "sha256": "fea7d67056dfcfef178e218507877abce80eb54a328b13dd8ce22cd8aa9cb54a"
+    },
+    {
+      "path": "p1_baselines/collections/surgery_S5.json",
+      "bytes": 1303716,
+      "sha256": "b4cd8799f5e624db8f0e69d685fa4747d97f33981aa7aa3da10c5427f4c90401"
+    },
+    {
+      "path": "p1_baselines/collections/surgery_S6.json",
+      "bytes": 1589309,
+      "sha256": "39db6b32185f6b8f4df33189da203673f9fd8e21f9add87c9877f70501cdb32e"
+    },
+    {
+      "path": "p1_baselines/independent_validation.json",
+      "bytes": 472,
+      "sha256": "83750882fafeccb2fc0beb24a0d46d976c71a4efc9416055851ee687f23d7340"
+    },
+    {
+      "path": "p1_baselines/public_export_validation.json",
+      "bytes": 684,
+      "sha256": "a6ff66321d56ceeb36ff5b704b510d4407ae62b4c7b7e5bd7e431ef589f38d53"
+    },
+    {
+      "path": "p1_baselines/validation.json",
+      "bytes": 583,
+      "sha256": "ef762e66a109d96eddf9ec134429bd402c71594dba797d99fa6ac2f21a83eff9"
+    },
+    {
+      "path": "p1_delivery/AGGREGATE_SUPPLEMENTS.md",
+      "bytes": 5157,
+      "sha256": "ec2fb0ce4ca1f1e24695da7b2de1e9116d3208577c1dcb5e607d98fc3d8f80b6"
+    },
+    {
+      "path": "p1_delivery/AUTHOR_DECLARATIONS.md",
+      "bytes": 2282,
+      "sha256": "d2931354fe6d3c58eaf3414af9e2531b47ea624e94b28e97c714ac76a6ed4fdf"
+    },
+    {
+      "path": "p1_delivery/COHORT_FLOW_APPENDIX.md",
+      "bytes": 2867,
+      "sha256": "13c6517c0a1c0a9c5179e14367531471f4cfa7454a0b5497e5a7545b8cde2b19"
+    },
+    {
+      "path": "p1_delivery/CORRECTED_TEXT_GAIN_APPENDIX.md",
+      "bytes": 3535,
+      "sha256": "7319fa4e076d5ca6bf0a8ac513aa3d4cc5c45f9e9f676fff54464005f30eb357"
+    },
+    {
+      "path": "p1_delivery/CURRENT_STATISTICS_APPENDIX.md",
+      "bytes": 3268,
+      "sha256": "e6d00e627aeedec3693e8a2013c10512dd2d4af82cd4e043d0242b8c3a2f99ab"
+    },
+    {
+      "path": "p1_delivery/delivery_manifest.json",
+      "bytes": 10137,
+      "sha256": "0978addbabd7a9c9cbeb69215a6c3de0956c1871180374bea465f639758f48e0"
+    },
+    {
+      "path": "p1_delivery/EFFECTIVE_METHOD_ADDENDUM.md",
+      "bytes": 11115,
+      "sha256": "f1e1aa413a445b2288a7d06defed843b197880e62921933ae88c9fd64a82d27b"
+    },
+    {
+      "path": "p1_delivery/EMT_P1_Manuscript_20260907.pdf",
+      "bytes": 59333,
+      "sha256": "b2993539edb5d94d545fc56dfc3fb0eda45a630da51d2fd83226b80ba24c3472"
+    },
+    {
+      "path": "p1_delivery/EVENTS_AND_FEATURE_DIMENSIONS.md",
+      "bytes": 3249,
+      "sha256": "0a9dbfe613da4776f719e2b8e86d84327ad8a433de79b651978c83804c10c29f"
+    },
+    {
+      "path": "p1_delivery/LITERATURE_CONTEXT.md",
+      "bytes": 2003,
+      "sha256": "0378f603afa4d59e29f2d290593a01f7542f750ac890f0aa9612ecd5ccc2fa33"
+    },
+    {
+      "path": "p1_delivery/LOCKED_RECOMMENDATIONS_AND_OPERATING_POINTS.md",
+      "bytes": 3352,
+      "sha256": "d58c4f3fc80962aa24fe6dd8be2b52305d9389542f9845370ddb7763da295858"
+    },
+    {
+      "path": "p1_delivery/MANUSCRIPT.md",
+      "bytes": 32702,
+      "sha256": "aed015dbe280a9c0dad899fe279dc1e71c7baaea02e57f1dbd624628b6e8ce37"
+    },
+    {
+      "path": "p1_delivery/OVERALL_SENSITIVITY_APPENDIX.md",
+      "bytes": 5305,
+      "sha256": "04ec11b1cd6231fd483d4706a3d67dc04d42729b3b3ca70984b0bd114d37ba4f"
+    },
+    {
+      "path": "p1_delivery/P104_QUANTITATIVE_APPENDIX.md",
+      "bytes": 20462,
+      "sha256": "ff437238fc24c56ae7ef45e40ce723ee59b45da0b8ac3d79db739a45741589d4"
+    },
+    {
+      "path": "p1_delivery/pdf_render_receipt.json",
+      "bytes": 5349,
+      "sha256": "e4231ac0c242016ae99951c02a839042dc40d66bc1c6180a725da52548dfa61c"
+    },
+    {
+      "path": "p1_delivery/portable_analysis.zip",
+      "bytes": 6671616,
+      "sha256": "1075a7d0503451a7a5b04522e1a761d9afa48a35f66950a052e9188d34e15861"
+    },
+    {
+      "path": "p1_delivery/portable_verification_receipt.json",
+      "bytes": 3516,
+      "sha256": "0b9b6e0065f9d447ba75327f297a4fc04b91cfe7fa82ed2d0aaed669b11574bc"
+    },
+    {
+      "path": "p1_delivery/PROBAST_AI_APPRAISAL.md",
+      "bytes": 7353,
+      "sha256": "c5db416b675045c5b39e01a35f6bd400d918a78a781e63030cb00f61b3996aa3"
+    },
+    {
+      "path": "p1_delivery/RECORDED_THRESHOLD_NET_BENEFIT.md",
+      "bytes": 2824,
+      "sha256": "32f2c3541ce8101d4faf9b69a073bfa87e736ff16d41faffa05a1b97477551ba"
+    },
+    {
+      "path": "p1_delivery/report.html",
+      "bytes": 460369,
+      "sha256": "a2e1c24c7055880c90e36b51b5cc56b4a6070253c78f9d99a6da670b29cae00e"
+    },
+    {
+      "path": "p1_delivery/report_audit_bundle.zip",
+      "bytes": 872348,
+      "sha256": "e0be2e04524e2d8c32fad3b902c3a0e7a1639e32f958143c5ad9a8bfcf78b5f2"
+    },
+    {
+      "path": "p1_delivery/REPORT_SOURCE_NOTES.md",
+      "bytes": 1390,
+      "sha256": "b40977dbebb4910ef27682f8ddec3bfbf810f7ec8847ea87ce3b21dc643bd5bc"
+    },
+    {
+      "path": "p1_delivery/REQUIREMENTS_CROSSWALK.md",
+      "bytes": 7171,
+      "sha256": "2ad0eaf067028876e2b57d75aab4c0ccdd396af4bafdaaa4a0c8b4fb52a5106e"
+    },
+    {
+      "path": "p1_delivery/TRIPOD_AI_REPORTING_MAP.md",
+      "bytes": 10264,
+      "sha256": "2d0c4bf2bc60c844422b4d492e84bacc36cd88bf43a47377ada11c13fc196922"
+    },
+    {
+      "path": "p1_delivery/V1_V3_COMPARISON.md",
+      "bytes": 3838,
+      "sha256": "cfff7ea1f50cf60582e8f1be891c1f80744fe6da364fe191345c3d1052b957c1"
+    },
+    {
+      "path": "p1_delivery/validation.json",
+      "bytes": 5949,
+      "sha256": "6080c9393a41069ee535e9a083afe67ebb98e0f003bed8780cd2b94ddfe86162"
+    },
+    {
+      "path": "p1_figures/additive_case_validation.json",
+      "bytes": 21703,
+      "sha256": "36e6fca19a60a4f0acc937b9dd5dc4b48bdfe2c6f243cc1ad12689718d3a064d"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/medicine/P1/catboost/waterfall_fn.png",
+      "bytes": 96363,
+      "sha256": "057aae2676290bf9bab5941f5a8c8b5ba182adaf21bbc2b72d9605192c8c2c58"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/medicine/P1/catboost/waterfall_tp.png",
+      "bytes": 95565,
+      "sha256": "dbe85aa2889365430541c08b2e3bceb7e3b47ecf4d8907fa38579576b2a24d85"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/medicine/P3/xgboost/waterfall_fn.png",
+      "bytes": 92735,
+      "sha256": "df74a80973c1b902a133b9eba69af141b611c05d6281c4d20ca48a7871e86c25"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/medicine/P3/xgboost/waterfall_tp.png",
+      "bytes": 85992,
+      "sha256": "c6e0ce3f1c8facb6f4eaef9b8ace158289ab9d3f033b597d892e4871da78cb4a"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/medicine/S1/catboost/waterfall_fn.png",
+      "bytes": 89029,
+      "sha256": "82c4d4a26481261d67b7d1f331bdfb03ee6a26db6331fece200536cb9568021a"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/medicine/S1/catboost/waterfall_tp.png",
+      "bytes": 100819,
+      "sha256": "a2b916ae349d8829b68dec78c285bc0a4e96153618afe131d285383709d628e1"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/medicine/S2/catboost/waterfall_fn.png",
+      "bytes": 80406,
+      "sha256": "1db378f326ff99c03c42dd4dd452016be723544e5aec2ac654acb128aa648170"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/medicine/S5/lightgbm/waterfall_fn.png",
+      "bytes": 98528,
+      "sha256": "7c0841b1c3eac697df4aa4acbae4a33d3efa09362895af08b7d9d872c35cd243"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/medicine/S5/lightgbm/waterfall_tp.png",
+      "bytes": 101337,
+      "sha256": "7ddee6ab678b48cc3cb55a1eacfdaa228f7e3ee362d9544ba6b54bbe29460ec6"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/P1/catboost/waterfall_fn.png",
+      "bytes": 91596,
+      "sha256": "e3f24acb9dcd82dc0ce65f1919c9b0bf4ac1216768e5ed7c400254bcf09238ec"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/P1/catboost/waterfall_tp.png",
+      "bytes": 94027,
+      "sha256": "4d5490436d0025fd135c838521eb06f0d1b375d5cebe833314dafc5eb44d7c79"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/P2/catboost/waterfall_fn.png",
+      "bytes": 92173,
+      "sha256": "a5bbcba88a8fea03368341b476e073cafcfe1217fbb47f12e3a587aa4bb8ee6f"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/P2/catboost/waterfall_tp.png",
+      "bytes": 102176,
+      "sha256": "9e630f1a4ec7cacffb0a297589af3599bc8f7b44f730454a61102a0da3dfacb4"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/P3/catboost/waterfall_fn.png",
+      "bytes": 95021,
+      "sha256": "e3fea9df02803b69036fb27fead3c94ecc48b84228e33cb81f094944de49fc5b"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/S1/xgboost/waterfall_fn.png",
+      "bytes": 88048,
+      "sha256": "d2aaa5066e0e6b258e17035f5084f8b2ae9f1c72124a492fa40d43656013e460"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/S1/xgboost/waterfall_tp.png",
+      "bytes": 88257,
+      "sha256": "09783ce75cd9900523e5063f51c569155ae4c7b786b4f9cc854e93e383f7f8fe"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/S2/xgboost/waterfall_fn.png",
+      "bytes": 86692,
+      "sha256": "d95ed07af1d2210ae2be43b65159fb096cbce3375ea19b18560c22d1c54770cb"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/S2/xgboost/waterfall_tp.png",
+      "bytes": 91431,
+      "sha256": "1f08d41da834101eb7fdb542f5eee4fa728298c80c0cd4e60cfef800fcb64aea"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/S4/xgboost/waterfall_tp.png",
+      "bytes": 84146,
+      "sha256": "35644cde84fbc060cfb34aeae057e5cd83225e05f38d10b80e0ac9b8843fc86e"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/S5/catboost/waterfall_fn.png",
+      "bytes": 88823,
+      "sha256": "3775aec38d4b4915384353dd8874906fc4f28e5cfe4dc334c8db6da2ff3c462d"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/overall/S5/catboost/waterfall_tp.png",
+      "bytes": 94742,
+      "sha256": "5ef536869445cc535020e6cdaf3f7c0b3fd076a482fa320a4932d7d7da247ccc"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/P1/catboost/waterfall_fn.png",
+      "bytes": 98804,
+      "sha256": "0128c6ed11876772918d925e6b828d4c94119ae21342ef358035007233ba6278"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/P1/catboost/waterfall_tp.png",
+      "bytes": 89391,
+      "sha256": "c33ef092d2c856e00c65a7f1eb1b1cd4ed8e067ff59409eb32de20d1c0fc1008"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/P2/lightgbm/waterfall_fn.png",
+      "bytes": 104910,
+      "sha256": "33f61a5530949ecafc6982781b430b6ed55489e850ece48c71304d62d075c626"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/P2/lightgbm/waterfall_tp.png",
+      "bytes": 102398,
+      "sha256": "251bbc2d5d2ca8510e64bc8303370f5ea58b2d78b94b077cd0b4e7603aa0bb7a"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/P3/catboost/waterfall_fn.png",
+      "bytes": 90929,
+      "sha256": "77561f14e63d974a86c1a664a74316a3939496ffcefdb9f53964194decc99467"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/P3/catboost/waterfall_tp.png",
+      "bytes": 100530,
+      "sha256": "7fae3c07eab5da101347d9e206467fa4eaf1d5341c979d6e896f92b03133597c"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/S1/xgboost/waterfall_fn.png",
+      "bytes": 97221,
+      "sha256": "bfb848f6fd00374db8711f048b9407b71959f21da8a3bcbb6941b22868639f7c"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/S2/catboost/waterfall_fn.png",
+      "bytes": 99752,
+      "sha256": "8556708fd6082acb254a03555030cfb1d53f23dba503e6a3132d188c291c7a83"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/S2/catboost/waterfall_tp.png",
+      "bytes": 93476,
+      "sha256": "1ad04b4cfd0d557fb319982b75817e50489229d74af1bd084c44e1287215498a"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/S3/catboost/waterfall_fn.png",
+      "bytes": 104950,
+      "sha256": "d4ff321e4c5ad84af3a7da85521bd2594ce6fe12b20f401f945759d52d592620"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/S4/catboost/waterfall_tp.png",
+      "bytes": 106176,
+      "sha256": "85b3f691f53e4914aa637e2dd29ca50edfbbf2c00f4e65da74e7b74a849845d7"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/S5/xgboost/waterfall_fn.png",
+      "bytes": 85925,
+      "sha256": "930428aecbfcd7c80ec3642937fa84f95c61f93af999e0677a523261436c6a55"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/S5/xgboost/waterfall_tp.png",
+      "bytes": 88306,
+      "sha256": "ba4a9b783d1876c64b13cf1179a178550285b2904d1dbbe0a62920699af06d84"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/S6/xgboost/waterfall_fn.png",
+      "bytes": 92155,
+      "sha256": "209434ff40ed67632a8f097983ede2e97cc6b527809accbb5a961aa87c59f552"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_additive/surgery/S6/xgboost/waterfall_tp.png",
+      "bytes": 94448,
+      "sha256": "b27b741008b2b826b4cf4001557728a73675d9d258c43f97f226992febc79fe4"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/medicine/P1/catboost/age_gcs.png",
+      "bytes": 61975,
+      "sha256": "a8d318c897a964f6eb6c2ff84f7460296785d28088f6ec176c28396745eed290"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/medicine/P2/catboost/age_gcs.png",
+      "bytes": 61494,
+      "sha256": "7a750308cc41e969d46783335f7ecda3120d7c2bd3e799e90ab6cbd132ba5496"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/medicine/P3/xgboost/age_gcs.png",
+      "bytes": 63343,
+      "sha256": "c6ba3ea15ff5d7e7974a3502e4d23e38ed6019b35d8ac81cf11a262d02448cc5"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/medicine/S1/catboost/age_gcs.png",
+      "bytes": 64407,
+      "sha256": "8eb6bf2729e06459c3a52551136ca2d864591d15b2b5b7129066dee19f902ba3"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/medicine/S2/catboost/age_gcs.png",
+      "bytes": 63380,
+      "sha256": "c3250e1af3136012e5d6160dfe73234204fc9f4ec9e1f792064b1628f89de2e5"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/medicine/S3/lightgbm/age_gcs.png",
+      "bytes": 63624,
+      "sha256": "de358132f7bf7f6c8cc4b4d397c55e55f9ba23daab015dc2a954cc9ba118cc48"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/medicine/S4/lightgbm/age_gcs.png",
+      "bytes": 63436,
+      "sha256": "2e2c54144ae396132158bd3d809220a7e0416c70e27ba35f4407410a9200ded1"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/medicine/S5/lightgbm/age_gcs.png",
+      "bytes": 62919,
+      "sha256": "dddfb140a14a097262a8883bb5489b788dba4b5d06ece010e5bcf6d93ab3014d"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/medicine/S6/catboost/age_gcs.png",
+      "bytes": 66384,
+      "sha256": "ad35567d600648a87cab4ae9074dc6549ac9ad49ab6392cf103ff17c7164aad6"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/overall/P1/catboost/age_gcs.png",
+      "bytes": 61982,
+      "sha256": "2f2f8112921c37e83f678a976f27f3a40e7ec6e83b991da5c2bc0fd36593cf52"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/overall/P2/catboost/age_gcs.png",
+      "bytes": 64209,
+      "sha256": "261af01c5eafbbe1fcd9944bab02a19849a4207b82d3a38e1e686a509cfac8b4"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/overall/P3/catboost/age_gcs.png",
+      "bytes": 65734,
+      "sha256": "3d5da10c3413884f9f767cd29147e6027f83ebf7c3d290ebfd83b3c5ff921b6a"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/overall/S1/xgboost/age_gcs.png",
+      "bytes": 63146,
+      "sha256": "67019e2de032022eb5041e05e6aa335a4230e4426e9936599908e69b4f86677d"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/overall/S2/xgboost/age_gcs.png",
+      "bytes": 63516,
+      "sha256": "b9d85dde9c9935ebcb572b876d0c3871c924b81687c291b12339183a8ddcceb1"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/overall/S3/xgboost/age_gcs.png",
+      "bytes": 66078,
+      "sha256": "c1fc63ca9a38fcf571af70c6c140463b9291642c69c027808deec6d2a65b2aee"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/overall/S4/xgboost/age_gcs.png",
+      "bytes": 66163,
+      "sha256": "38d1ae6486a88a9d89c2707f4ab57889f06e75fec243cad3b52b54568d2aa9d2"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/overall/S5/catboost/age_gcs.png",
+      "bytes": 64276,
+      "sha256": "5a10f7cdf146e23d3e8b23c894ba24ea2d519295606a2fdaa4107f8a7e0e88fa"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/overall/S6/lightgbm/age_gcs.png",
+      "bytes": 62446,
+      "sha256": "3ecdf1173d6b60c338f25fa0546cd6d696f3dccf2b400e74012deeb3c00fc554"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/surgery/P1/catboost/age_gcs.png",
+      "bytes": 64563,
+      "sha256": "5044d17f0f2190892f1b335bcba756cfadeccf019ed82bbb9692d77d84746578"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/surgery/P2/lightgbm/age_gcs.png",
+      "bytes": 65180,
+      "sha256": "63ec9144361db20d8ca70fff50e0776a455aafd1775e3bf8950c73a34f46a6d8"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/surgery/P3/catboost/age_gcs.png",
+      "bytes": 64899,
+      "sha256": "7d09bee6243d9a2003592d16fea490d842add3129d93afff72a863bbd33df8dd"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/surgery/S1/xgboost/age_gcs.png",
+      "bytes": 61524,
+      "sha256": "d84571e469631d8c99659293a776a4b53d025f012dc9878f8d1678d4b51e985e"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/surgery/S2/catboost/age_gcs.png",
+      "bytes": 61806,
+      "sha256": "5c69d939861e9405c137d9eeced34074368511e503121d8760e33469d5f25073"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/surgery/S3/catboost/age_gcs.png",
+      "bytes": 62058,
+      "sha256": "0cc056563544e6aacf86c9012b075607b107ccd9980c3cc08ab4349ba5d50339"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/surgery/S4/catboost/age_gcs.png",
+      "bytes": 63675,
+      "sha256": "e6f8bce264cca6cc02e31461a6170c7fb8de7d6b7f3aac28aa5cf86dadf4215f"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/surgery/S5/xgboost/age_gcs.png",
+      "bytes": 66870,
+      "sha256": "878208d78d9e10cd94127409a113410879213da98983978e5bcea9a3dd2ec7a2"
+    },
+    {
+      "path": "p1_figures/assets/best_tree_interaction/surgery/S6/xgboost/age_gcs.png",
+      "bytes": 63203,
+      "sha256": "7bc9eccb4e20218b80d26ac4a5a782e799e1077cf08ce3ddf42be04677bdb5f8"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/bert_finetuned/dependence.png",
+      "bytes": 47659,
+      "sha256": "68e7b43feca8dc26981ee7c93f6ae14cf0989e5ba6a10b66c264e20220ec7717"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 49448,
+      "sha256": "a0431c960e3778ed42ef7088aaa991007a032f3544b6126c7ad26e862e5f2831"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/catboost/dependence.png",
+      "bytes": 73421,
+      "sha256": "8b7718492b012c9f443d01365c2822ffc779cc9aa454efa21c7999d7a183926c"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/catboost/waterfall_illustrative.png",
+      "bytes": 99466,
+      "sha256": "9d72826846d60e9e35ff469b02121fdde18f940c09a8826357863fea1b232a2f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/cnn_1d/dependence.png",
+      "bytes": 67467,
+      "sha256": "010e91fde5967e1db2da80604616a398cb39e3ce518a3741cf4443dec1c2490a"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/cnn_1d/waterfall_illustrative.png",
+      "bytes": 91225,
+      "sha256": "dd176f9f244792d7b1d946f3a448ea5f110eff1e46993e3f3fe8132298609b54"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/ft_transformer/dependence.png",
+      "bytes": 72369,
+      "sha256": "455000d67eba1d0bc839bd0c4af46a3ad0af91d66aad5ce5d0f4d5dd6faa048d"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/ft_transformer/waterfall_illustrative.png",
+      "bytes": 89579,
+      "sha256": "807b5f1b1faa835730a765bf8909d2a96b8127d4faf1aeb7a042d85e97051be1"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/lightgbm/dependence.png",
+      "bytes": 70384,
+      "sha256": "945824be7caa6cfdc6f0692b918f45e17c45011db9eb12f23cff8c12713f5839"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/lightgbm/waterfall_illustrative.png",
+      "bytes": 91174,
+      "sha256": "2144eff232f25a586fd16c0b6a4370d0822f227cedf08823801f3f22f38c27d7"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/logistic_regression/dependence.png",
+      "bytes": 71060,
+      "sha256": "2a24f01659cc11e64234fbee6be3c8e8dc0cbd96565d3649c75be11ef8318fdc"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/logistic_regression/waterfall_fn.png",
+      "bytes": 101011,
+      "sha256": "b1ad6ca44a73172770542aa29ea4a82be6b34400c2ef5e90dfa56cfbc5ad17be"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/mlp_plr/dependence.png",
+      "bytes": 73936,
+      "sha256": "cd43ea86ea562d56f1f72dc7b8b50dc470cab65f054d5e9ba229f6f919221ac8"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/mlp_plr/waterfall_illustrative.png",
+      "bytes": 77663,
+      "sha256": "628a4704607e34b7135aa1049ff031c638659d0e78597106e2e18cde35409234"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/rSI_sMS/dependence.png",
+      "bytes": 45899,
+      "sha256": "42b72c2d592286f3220486360b3407116021725f1ef12f56f62a6e27647c9df2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/rSI_sMS/waterfall_tp.png",
+      "bytes": 39938,
+      "sha256": "021101debfa6e8f6a7946ac344ddbb19940f81ec909d0125cc58913724263f14"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/stacking/dependence.png",
+      "bytes": 69703,
+      "sha256": "02764b6c5e964d0cbac4d97aa514cab7ba9c26a7af620354ea3c22c36bf4b694"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/stacking/waterfall_illustrative.png",
+      "bytes": 71740,
+      "sha256": "1cf50b0d1ecf77c9fdd4cc8fe8bd371f2d082704f5db2192db00c8ea8d1f2f1e"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/tabicl/dependence.png",
+      "bytes": 67533,
+      "sha256": "3c0ca7551ff1988378d796f49b12960db8a14fca87163c190338c02aa635c025"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/tabicl/waterfall_illustrative.png",
+      "bytes": 86478,
+      "sha256": "a11f911763f18c3586e2501da18acab365e6e7e6baa82b8ff541720a6d458d9e"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/tabpfn/dependence.png",
+      "bytes": 68406,
+      "sha256": "b1dcaee5e11b972165534a4d77cd5f11a868d1ddadc21191f129b6ba11d2e139"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/tabpfn/waterfall_illustrative.png",
+      "bytes": 84502,
+      "sha256": "fa3c383cab359b7ec9a4d3b91d0cc265debf78f46fe3c8edfa658a717d96a554"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/xgboost/dependence.png",
+      "bytes": 74181,
+      "sha256": "1f9c582ca162e55e6677909358d56b35723f67997b6af889a8a8f0a49d90dc82"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P1/xgboost/waterfall_tp.png",
+      "bytes": 86659,
+      "sha256": "4dc82fa1042540cdb8d3a0d3e3fc1336d4870230c5c613118b7d47aa21cba820"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/bert_finetuned/dependence.png",
+      "bytes": 45792,
+      "sha256": "29656eed9ebb990c252eef99a31f16324d7677647cb4b4edcc6421c74f290c8d"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 51571,
+      "sha256": "e756df7b7410c74d0e198c2bef514181db8410a3b16ee5a3276368b4f336d2c5"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/catboost/dependence.png",
+      "bytes": 72445,
+      "sha256": "96d55981eff30ed0a7fb6603134ae8895b3e58902fbc1011c00484788b180509"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/catboost/waterfall_fn.png",
+      "bytes": 90159,
+      "sha256": "698350fd771108615f2cc832525f0f38ab35867bba66f013f78ee8817d79eca9"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/catboost/waterfall_tp.png",
+      "bytes": 88219,
+      "sha256": "ad8ef7bb7c3e550978af12ed9a187958b3bbf14c7fd3f23ef5b741b5979f351f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/cnn_1d/dependence.png",
+      "bytes": 68511,
+      "sha256": "9fcbc5afd47032cc5a18bebc1d24df8bc8aec4f8e9ba505373fcb5ea53786a00"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/cnn_1d/waterfall_illustrative.png",
+      "bytes": 78912,
+      "sha256": "e18c4df543a84fb7a5e00530f0cdd411d795d85e196c51e61fab50bee68c22db"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/ft_transformer/dependence.png",
+      "bytes": 76787,
+      "sha256": "81e62213f7fec1a128566f5ee8baf231aff13f1b1da760d2aeba12d9afd84b00"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/ft_transformer/waterfall_illustrative.png",
+      "bytes": 95593,
+      "sha256": "a466f3b4e419c0c87d15e82137f99177e02eb4e19ef2753b639b2878c9fbe4fc"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/lightgbm/dependence.png",
+      "bytes": 69598,
+      "sha256": "7b5b8143d888dbe4f54c7ab8336bbcfe286b6dfa5a46a7aea7e6a98c57eabd42"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/lightgbm/waterfall_tp.png",
+      "bytes": 84238,
+      "sha256": "787fd8cafda4ec4edd2ea88719b373e87f5cbb207d70ed5c21bd8343ae1b052c"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/logistic_regression/dependence.png",
+      "bytes": 72283,
+      "sha256": "a1c43dc661ef5cdbeda71c5ea7bcba18db547f49da96a6368b346fd5596a36ee"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/logistic_regression/waterfall_fn.png",
+      "bytes": 103241,
+      "sha256": "e2595b44ffb2c35e6219e2d88f6f88e199649f80b79088ad5481732a1651bc73"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/logistic_regression/waterfall_tp.png",
+      "bytes": 100130,
+      "sha256": "5b0374d3364044ffdcf0907ca6363cb319a13522d75732f4bc2cd0f0931e76d4"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/mlp_plr/dependence.png",
+      "bytes": 75244,
+      "sha256": "cc27aaf204a764dd23116c40e6bf5e62c5851ba35d0cefa54e6e879fcb4cb6ca"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/mlp_plr/waterfall_illustrative.png",
+      "bytes": 98346,
+      "sha256": "43e377da3c548aad23c2e040be8fcbe0e98fa71ea2888ac5e215eb9d5d4ffe46"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/rSI_sMS/dependence.png",
+      "bytes": 45639,
+      "sha256": "29cfdbcee784fef170a83ba2523b6f3ce6e7eeff6fa414fa1bb04014c699b841"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/rSI_sMS/waterfall_tp.png",
+      "bytes": 40682,
+      "sha256": "0e42ed11c25c6dbf618979ed8df299165abe02b5c64292d521c12b29aaa37936"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/stacking/dependence.png",
+      "bytes": 67914,
+      "sha256": "23b35e2b7622d93da86317a61df26f7d5d749ce828f1e3b1b1067b2a9b664f24"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/stacking/waterfall_illustrative.png",
+      "bytes": 74130,
+      "sha256": "0a9fe590c027ba1c1bc958c6b106edcce7bf0565e57bf7125cfa67b673b9943e"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/tabicl/dependence.png",
+      "bytes": 69501,
+      "sha256": "92cb1b8817555d8ebf0d96632464985f0d15a7b136434052ae57bb9dd67d1a5d"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/tabicl/waterfall_illustrative.png",
+      "bytes": 82635,
+      "sha256": "78e2c7985833c7a5bb81f9f519f88cf100086f4482968f33c893e74542cd5f54"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/tabpfn/dependence.png",
+      "bytes": 69576,
+      "sha256": "7a0660379425db5b4001b3caa0b352dd1c7a8ee12822be430e6f52f1dbdd5ac5"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/tabpfn/waterfall_illustrative.png",
+      "bytes": 80029,
+      "sha256": "f89047bbf1f2a05cabe417a2951903a82839522179d11504df99ccfe6bd2ad32"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/xgboost/dependence.png",
+      "bytes": 73830,
+      "sha256": "e7035bae720e7bbddfb3cce8c4d9e52507c8ec15b7ad011ceba1bc96d3f55127"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/xgboost/waterfall_fn.png",
+      "bytes": 92639,
+      "sha256": "92ad0c535752e238c929bd811b5a13b0675b9e530da9a9f30b8c8541f8eb2991"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P2/xgboost/waterfall_tp.png",
+      "bytes": 86128,
+      "sha256": "a5b0074963852dd6ccc7031a9bcbabe3d7efe16bcd07e088e240ee3e3d9c22d2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/bert_finetuned/dependence.png",
+      "bytes": 50277,
+      "sha256": "2b07d4a782fc6d6deb3d0748817e70ae7500172558ae83cb44b9e62f5d041bfe"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 52128,
+      "sha256": "cacc4cd2c36781254b7dcc77f473bd3e7d7234a241a77df6adef79a3ebfb02f2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/catboost/dependence.png",
+      "bytes": 70690,
+      "sha256": "bc45aceb2be6707f1e39b5e3c7f51c9831424d6fac5f3a93dc41eccdd2b22309"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/catboost/waterfall_tp.png",
+      "bytes": 81404,
+      "sha256": "e3511c528d7e9948d6ed6f2480b0edf36cb59e742ea01f17a532c112f283e036"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/cnn_1d/dependence.png",
+      "bytes": 60442,
+      "sha256": "9e4ac6c2760a1bc4819b9443733d14b845f1e4fc77ae41a618939456b7962250"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/cnn_1d/waterfall_illustrative.png",
+      "bytes": 103839,
+      "sha256": "d199a62970a82c384b99d7f66545f555cee44c606b52da01e382ea9f62c288c7"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/ft_transformer/dependence.png",
+      "bytes": 71817,
+      "sha256": "8876053c456bf28206b02a762a69192b3b2b56559a09ca4de07228a3eefe05d8"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/ft_transformer/waterfall_illustrative.png",
+      "bytes": 88566,
+      "sha256": "afda2bd040f21e7b92e6cc436f3e1f470b3d25f1db4b99bb90e01c264c11a7f1"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/lightgbm/dependence.png",
+      "bytes": 66369,
+      "sha256": "a6ddcb3acd322b3fa472aec8425b9f1311ed506bebe559122d955e65b2b367dd"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/lightgbm/waterfall_fn.png",
+      "bytes": 94711,
+      "sha256": "aa7494aef34ac16f602ce53eeff68663a212ed43627c639ed3a028da26271df6"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/logistic_regression/dependence.png",
+      "bytes": 69891,
+      "sha256": "0cdfe5ed53ae7cce0f1498a5790bc785d1c1ff5d91388a14deed5b8159fa9c57"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/logistic_regression/waterfall_tp.png",
+      "bytes": 100219,
+      "sha256": "9deb66a79c6230c72ab00d820b981a7283493440ee4efde6afe7b6d1a8d94f45"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/mlp_plr/dependence.png",
+      "bytes": 75140,
+      "sha256": "3e4ed29cd5a6fdc726a05c248e9ac87eebb1110d7a668e3e145d2cf2eda2c812"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/mlp_plr/waterfall_illustrative.png",
+      "bytes": 94620,
+      "sha256": "07dd5485d0e5b37bf00e8a39a1cd102b02cd21edb5ef4bdd1a75a9c265b31d7f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/rSI_sMS/dependence.png",
+      "bytes": 46228,
+      "sha256": "23fbae3ff2c00c32115c4aeaf3844c9c3327a56120f9fcdbf23abc8931c02c0b"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 42048,
+      "sha256": "fedea42d7e011f65edc394af9bb401c8283386f9a7dcca59cfe375bbf31935a4"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/stacking/dependence.png",
+      "bytes": 67970,
+      "sha256": "11afb463db3e4d3db0ff1fdfb34f4b7d87e3a6d0bf1ff68cdfadcaf00bf8bee7"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/stacking/waterfall_illustrative.png",
+      "bytes": 74769,
+      "sha256": "ea1313fd758fe73052090afcc246ee659c72d85267c3f459d49ff55b91eecfbf"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/tabicl/dependence.png",
+      "bytes": 70757,
+      "sha256": "24637ca648ed0887d13a9ebe7fc690750ddeaf8d70cee6e0b261c0c740fbe967"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/tabicl/waterfall_illustrative.png",
+      "bytes": 89772,
+      "sha256": "59ddd47038b1b01b5570eb625b8833ab6f843841335f96fd5f200b36172d81b2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/tabpfn/dependence.png",
+      "bytes": 64749,
+      "sha256": "3d2ace4f2c9dd6aa8a983f4284b0e525cf28107e68142d36af2916da834e855c"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/tabpfn/waterfall_illustrative.png",
+      "bytes": 90307,
+      "sha256": "756659f004a3984ec0d8cd2db65d0f6630cf9e1a53e3b9ac21052d71682a38b2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/xgboost/dependence.png",
+      "bytes": 69191,
+      "sha256": "c8aec6e3714352003018868764155661ce8532c6e930f4a6e9282e705baa54fd"
+    },
+    {
+      "path": "p1_figures/assets/medicine/P3/xgboost/waterfall_illustrative.png",
+      "bytes": 88201,
+      "sha256": "4159f995e4aacae41d73141e840d3d2f4a70cfb10ac66b4a48a6e3484604bdf8"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/bert_finetuned/dependence.png",
+      "bytes": 46512,
+      "sha256": "aa8dc3c69f485eceb9d8ce7434a50c22a248917f6a9b491cea6e871900cc0bc0"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 49448,
+      "sha256": "4d39df8a4f0c8291ae3958780d5203c2b714e889f5b1e3431447ec1aff70cb77"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/catboost/dependence.png",
+      "bytes": 69027,
+      "sha256": "420a87257f1a469e32bcb29cc9745033a83e45e06c4b3bbe601daa078a5fd441"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/catboost/waterfall_illustrative.png",
+      "bytes": 91326,
+      "sha256": "dc969f932875eef91bc22a9c111dfa07b63aa7679a233c7ca0dbc8792d8b5033"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/cnn_1d/dependence.png",
+      "bytes": 66658,
+      "sha256": "f8afc331bcc7e03fc04487be25f28d4e3a80246cbc179eede35d7c596c098a67"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/cnn_1d/waterfall_illustrative.png",
+      "bytes": 94207,
+      "sha256": "beb7f691a386573b7cdbbdb64bc6d7c4689316281037781929a2e4ac9a181d8a"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/ft_transformer/dependence.png",
+      "bytes": 72282,
+      "sha256": "cf659ac7402963261cc755337a4461f46f1e56d8a449d5809627b9f2ff0b0c64"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/ft_transformer/waterfall_illustrative.png",
+      "bytes": 83346,
+      "sha256": "5c1d0b07556db2b0178c2cf8187832ad1415625c3bda786aeba7af17904c7c9c"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/lightgbm/dependence.png",
+      "bytes": 63166,
+      "sha256": "e1f3a7c0429565f8fa903e702b74b649e1262bf4858247f82fa1c93a4774d39e"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/lightgbm/waterfall_tp.png",
+      "bytes": 84060,
+      "sha256": "d9e1511e97298d151e2607237a95101b6335a164923072bbe7b8672a258de387"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/logistic_regression/dependence.png",
+      "bytes": 73260,
+      "sha256": "c7177bc0e881270710744cb75883b6261d9fed8b5c4e2afb3a35c329a2f6e33d"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/logistic_regression/waterfall_illustrative.png",
+      "bytes": 101025,
+      "sha256": "145ce197b81caf8516706289ca8ad5f823c9a519cce959785904ae8dbe74bcb3"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/mlp_plr/dependence.png",
+      "bytes": 74495,
+      "sha256": "99fd86a70f579c59e2ec13bb5231e6eba60b40bd48938f1cff25072929a20589"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/mlp_plr/waterfall_illustrative.png",
+      "bytes": 82000,
+      "sha256": "6d3a4aff23ac3fe2620b314a910b453eb16c5f981ddbf8127bd50be5a69e8110"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/rSI_sMS/dependence.png",
+      "bytes": 45758,
+      "sha256": "22dbf574f101b7e70bc37f6ebd77ccce6f4e1f65c212831293806f12f1bbfc27"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/rSI_sMS/waterfall_tp.png",
+      "bytes": 40426,
+      "sha256": "40d47d8919a4d86b522b7c69f63b1e7da635b36d0bb3cb9ff84ea856ef96dcb2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/stacking/dependence.png",
+      "bytes": 71828,
+      "sha256": "1131751bd21ba394de6d62958a416279213d168438e2aff5d4b8588c4ab5c0ab"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/stacking/waterfall_illustrative.png",
+      "bytes": 72503,
+      "sha256": "dfc54868bbd4f42e0e0e4357b65a4b0ca5c45dca25e6a69df1f6e4a97f4906f5"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/tabicl/dependence.png",
+      "bytes": 76131,
+      "sha256": "da0275bd3cb8a873f12ce561363b974f92c6edb71e80147a45a4f77242a2eac4"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/tabicl/waterfall_illustrative.png",
+      "bytes": 90946,
+      "sha256": "3c056f6f31ed1b32d8da3b5ab6a8d747f75fad7f0b6a80549f11cbac0c047209"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/tabpfn/dependence.png",
+      "bytes": 71097,
+      "sha256": "53bdd0d01edcdd0e77d8bc0543a602249f525ab745990b4a19a4e1e39d7ecada"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/tabpfn/waterfall_illustrative.png",
+      "bytes": 93675,
+      "sha256": "fa55798f00d11b97c2ced6f8a5e39d320fd57af8be237483470b627bb6f97cc2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/xgboost/dependence.png",
+      "bytes": 65647,
+      "sha256": "9199d7a62b8ee2419c761e68263cbf84cf705fd846fb81aeb34f07d534244f9f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S1/xgboost/waterfall_illustrative.png",
+      "bytes": 83950,
+      "sha256": "6cf76b8b9d6c6885b0d4ae2d3036b60f316bb73a02009aac0c63e0187e3f44f5"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/bert_finetuned/dependence.png",
+      "bytes": 47744,
+      "sha256": "3450810d9109f85034d4c022f823e1633b25d78c2afe6f0b302622fb1c0eed37"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 54077,
+      "sha256": "b22d8555a7524a83e098fdf962260127a96912f4d9d3f9ad5498229a7bcd3feb"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/catboost/dependence.png",
+      "bytes": 65252,
+      "sha256": "9db87b500b7a91a0ac0146e066b35aad6b262df604f6e7e8e7d306821d23ee98"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/catboost/waterfall_tp.png",
+      "bytes": 95905,
+      "sha256": "69589a710be77c4224b78a580c1b5ed595d84b40466f52b8a0a90853ff3679e0"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/cnn_1d/dependence.png",
+      "bytes": 71558,
+      "sha256": "837f3f19366ce128e70be526b55bcdc2721d9115f88fa0355022e89cd8b893a0"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/cnn_1d/waterfall_illustrative.png",
+      "bytes": 90968,
+      "sha256": "ba1d07866d88855aca844c9131c1f4e57dfb01a730d405e2b3ddf5a56d0c5547"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/ft_transformer/dependence.png",
+      "bytes": 76395,
+      "sha256": "0c5f4e9630936818526dbc33ec7e0a28f1882a9e73016f2786ae50223fb2691f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/ft_transformer/waterfall_illustrative.png",
+      "bytes": 81129,
+      "sha256": "11bcdbe9c336f9a35ff8a2cf5fcd3119dbfd7c902e90b267b873ac4a971ac997"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/lightgbm/dependence.png",
+      "bytes": 66927,
+      "sha256": "9d196c1c74980efa8f2842bcbab67bcc0f40c73f5db2f8bd4b5be15683b4f7b3"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/lightgbm/waterfall_tp.png",
+      "bytes": 82617,
+      "sha256": "692f1552bb6220479ff5d71c1a4e6114b97a80d93e8ebd3419cabf77276aa1db"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/logistic_regression/dependence.png",
+      "bytes": 74298,
+      "sha256": "ab7aa84c2234f3a368d65da1beb8f3df7b4aaa53040aaaef5ec10b083884b29e"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/logistic_regression/waterfall_illustrative.png",
+      "bytes": 110473,
+      "sha256": "6e3f57a9a60326354e8af4708fbeaa867f1931a44379aa8569cccf0d4829d7aa"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/mlp_plr/dependence.png",
+      "bytes": 72124,
+      "sha256": "8f4381fced626661a34adf373063d91d458371a2aa274de7a5e0cbbffcad4083"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/mlp_plr/waterfall_illustrative.png",
+      "bytes": 84221,
+      "sha256": "8099b55a751ab7b939dfd2bbfafa5e2a3c46c6ebfb051744dd3c639571f4e2f8"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/rSI_sMS/dependence.png",
+      "bytes": 47329,
+      "sha256": "9d5699bbd5dd8b9cb7f87d65396738055fef9e91ebe21bd75daab99d999c1eef"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 41544,
+      "sha256": "dba3196a3e0bfe148dde19274edb775fba9ed878d451e725c0610eb9fc72cd84"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/stacking/dependence.png",
+      "bytes": 71771,
+      "sha256": "da3bb46284600d562780f049fcd3a5985b89600b145e941d82f8edbd9bbb0542"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/stacking/waterfall_illustrative.png",
+      "bytes": 74326,
+      "sha256": "b95aeda947740c7b88cac6e68b751f9459c7d4bd0eb11389870396f8bf29450f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/tabicl/dependence.png",
+      "bytes": 72408,
+      "sha256": "51738a9b74efa8e5717b625f0ede3e8be9a47f8649e4886ef04cbaac8293dbd9"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/tabicl/waterfall_illustrative.png",
+      "bytes": 88551,
+      "sha256": "3bf3b926cac435382ed61949e21833e99071b7b03815a9bf08a988ac8fb1d894"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/tabpfn/dependence.png",
+      "bytes": 68575,
+      "sha256": "37794fa2aae2f12a50ae206e4eadc4195e6d2c9b0fbfd35642cd0599596c0a4a"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/tabpfn/waterfall_illustrative.png",
+      "bytes": 90031,
+      "sha256": "e1c2baf55d0aef157f1586fc520650a33d3a68d2eed3ab95a869777c24aed642"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/xgboost/dependence.png",
+      "bytes": 72109,
+      "sha256": "c22721084742e86ac969bd66c299ee652290e3f01de9904c57985f2d9cdeec15"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S2/xgboost/waterfall_fn.png",
+      "bytes": 96439,
+      "sha256": "536cb5377a435a324bafef3354c11d35c9b83eb1281f83677c19fb598c8a5276"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/bert_finetuned/dependence.png",
+      "bytes": 48835,
+      "sha256": "52cd66c87d4db803bb671499975e7b98db78913760162240255f7f0992e437c0"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 52837,
+      "sha256": "e6a8cfbcb633449fb608df2a69d20a4ddd2125c069544dd051dd1f25019081c3"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/catboost/dependence.png",
+      "bytes": 73567,
+      "sha256": "d6ed47eca760bd291f7c35f0a3ed10d4d4ab2b48c376ed64608f69ac503bd52f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/catboost/waterfall_fn.png",
+      "bytes": 86999,
+      "sha256": "3fa9b5cc9206ca7a831383dfb2b10098993320a2520e35b27b69e4835c244094"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/catboost/waterfall_tp.png",
+      "bytes": 87416,
+      "sha256": "16bf9e516c2fb622ba9320bd5835af51a109302176a72925cbff1ad90f32eec5"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/cnn_1d/dependence.png",
+      "bytes": 72615,
+      "sha256": "940ac60b80f66e14765999f68525f6af43aa5b86825d24aa7f898927c43e5aac"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/cnn_1d/waterfall_illustrative.png",
+      "bytes": 103461,
+      "sha256": "c529446ba595b71dc5ba62f714bcd3dfd7d0d7663d6cd6a287b7b9b8d9c40be2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/ft_transformer/dependence.png",
+      "bytes": 76004,
+      "sha256": "69c5b3e33a417ad9ead427c8287a703a6c46e6b74fa7c19de305478e55ede0b2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/ft_transformer/waterfall_illustrative.png",
+      "bytes": 90414,
+      "sha256": "10b939ebcdb5f07cf34c90a524adffba5dcc9c0d14064cc81f3d370b8845bbd2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/lightgbm/dependence.png",
+      "bytes": 71968,
+      "sha256": "f6de7a3f221faa0e9c526adba1b7df9b445b73f42e3c5ae8d53ab817a2c85349"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/lightgbm/waterfall_fn.png",
+      "bytes": 96912,
+      "sha256": "ef0355834e1b7912a92b2934c7dd2426984beb1dd6621d5f30793b0b483d3657"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/lightgbm/waterfall_tp.png",
+      "bytes": 90731,
+      "sha256": "14e4acb4b474aac9c2b03b184f3a443e9d777bfd04e78d45e9562330e36db241"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/logistic_regression/dependence.png",
+      "bytes": 77765,
+      "sha256": "083ad666f4d71e4c29875d3e985616fbfdc53253d142325c5d6a80e94b87c5df"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/logistic_regression/waterfall_fn.png",
+      "bytes": 103133,
+      "sha256": "ec39d19185af7d9d58eff42d8f1c9e3c1379e7318bc494b18c6778291cc384ab"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/logistic_regression/waterfall_tp.png",
+      "bytes": 97065,
+      "sha256": "7581abd9206f4f887559d4fc35e89504e94eb2c60d0a7e54f930a2a6b6bf7eca"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/mlp_plr/dependence.png",
+      "bytes": 72351,
+      "sha256": "d256643f0a74692cfdfedc090abfe2e91f386648af23a47d0abd65f1ed320ebc"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/mlp_plr/waterfall_illustrative.png",
+      "bytes": 98185,
+      "sha256": "e6c97242469120b3c572417fbd40a057291e0ee05e63752f85fcab73183257b8"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/rSI_sMS/dependence.png",
+      "bytes": 46198,
+      "sha256": "f93ef7dab51761ed8e61dfb55e8b165568c7d549459bfb5689ec10f01d15047f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/rSI_sMS/waterfall_fn.png",
+      "bytes": 43866,
+      "sha256": "1ca1fcdfdbca04e99b2b9d7e7f4ac1716fbf3a22e75983fa4aedd64b0226d6ec"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/rSI_sMS/waterfall_tp.png",
+      "bytes": 41864,
+      "sha256": "e720a4a81a291f25e704f271e92fcfd563ef50abd0673723f31501f8be5197d3"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/stacking/dependence.png",
+      "bytes": 73948,
+      "sha256": "fd2283edffa0d54e2b70994f5eeea1b8be65001170dd1e5656dfbd95e047bcba"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/stacking/waterfall_illustrative.png",
+      "bytes": 72033,
+      "sha256": "878d0904bec3d49ad4ab669b1bd8a9a7123bcfeda4ed700153fd3f269d9b3901"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/tabicl/dependence.png",
+      "bytes": 70799,
+      "sha256": "b6aa8166a961f34a2c3ca5c75c5dcf6db90d754000d02af7c9091ee366ddccc6"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/tabicl/waterfall_illustrative.png",
+      "bytes": 73740,
+      "sha256": "cc605cc0e903d0faab41d246543c282a4924b15934e7e4af3959dcc35db6f5af"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/tabpfn/dependence.png",
+      "bytes": 68702,
+      "sha256": "402cef61100384a1c0a66ce8da4562652a3a2da495a323e03d13a9e1978b4e95"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/tabpfn/waterfall_illustrative.png",
+      "bytes": 85268,
+      "sha256": "f0fefe3c58cd78b7cb3b51c8b13e46f25a52e3ce2f28e33ea09722298bcd826e"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/xgboost/dependence.png",
+      "bytes": 71979,
+      "sha256": "0b753e0ac18fcb8ad76faae8fa42a8064c00d34646c8fdf1c7cc30904bcd6ff6"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/xgboost/waterfall_fn.png",
+      "bytes": 85687,
+      "sha256": "99b67f2183c570bfd17a3cea42b584a9ae28e2d4e53c3949f29754eda5bd32ca"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S3/xgboost/waterfall_tp.png",
+      "bytes": 84142,
+      "sha256": "82055e5a383911103d6d1d0a44593eaca35469c4167294f04274e448f4c9e383"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/bert_finetuned/dependence.png",
+      "bytes": 48879,
+      "sha256": "061e932c37d1630f31527ee43eb35ac5b54688a2c278d0d172601bd1730ca298"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 52074,
+      "sha256": "3a0017544a328fa4002653fd907281c1c91cbd6953169ea14ef283f52f2de613"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/catboost/dependence.png",
+      "bytes": 70426,
+      "sha256": "1c9106d538cacc983cc7cfbfd48130361b191d8a62808bf5c4b9cd23cf0b443e"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/catboost/waterfall_fn.png",
+      "bytes": 86181,
+      "sha256": "43c0b5a1de399d405a0e0faf01135c0b943eb9e62698256cc3536e9567cf2775"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/catboost/waterfall_tp.png",
+      "bytes": 90481,
+      "sha256": "98943c319056c53a262fa951320d6d0ff7cb8e4c477c6820577f85d28231db0c"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/cnn_1d/dependence.png",
+      "bytes": 71071,
+      "sha256": "2f9be59ab927b2714f41820ea8259ee3eb8035ddda9912f49208bd12799d7899"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/cnn_1d/waterfall_illustrative.png",
+      "bytes": 86492,
+      "sha256": "5de03eebda89fe39f6fe24798612aa43423f3bf6a6554bcd24aa9cd35761c212"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/ft_transformer/dependence.png",
+      "bytes": 70172,
+      "sha256": "348485d078896ad9aee1d8d383df702868957732266b17ff4ec2fb0011eb33ac"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/ft_transformer/waterfall_illustrative.png",
+      "bytes": 89740,
+      "sha256": "c4bcd0e8a5674ffbe220eacc28ad5e140e06a2892f46ffa0a3647eca4e99ddb6"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/lightgbm/dependence.png",
+      "bytes": 68788,
+      "sha256": "6604cca42eda9f7fae8b980ddbe68171d68c884c66cc9bf0b15b46e2da9b4a85"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/lightgbm/waterfall_fn.png",
+      "bytes": 85708,
+      "sha256": "b9494c2a0d0a1f21e5fbc9f7904727a34d1e8313eff4660809d68df4b3434769"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/lightgbm/waterfall_tp.png",
+      "bytes": 90130,
+      "sha256": "b8f4949acc5cd3d03f21a2f53a798888a169a6283d5391c1c233904bd877174f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/logistic_regression/dependence.png",
+      "bytes": 68148,
+      "sha256": "1676d427c3dffb8f895e65c8df5ecbaa43a82b20409cb0ebd1b4c5f58213b112"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/logistic_regression/waterfall_fn.png",
+      "bytes": 107999,
+      "sha256": "4a1f2b6f46666e8341f588d415dc444d0ce9a13641a065d0339fad67bee65675"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/logistic_regression/waterfall_tp.png",
+      "bytes": 104812,
+      "sha256": "0967a87187d76ad1a51dbfc559f0091627769f9b07ed35793ac3a80b71662a11"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/mlp_plr/dependence.png",
+      "bytes": 76357,
+      "sha256": "9d40918b3ae0f92ad68b1a759ed5ca538a8439c55b498bcc11e3a454045d582d"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/mlp_plr/waterfall_illustrative.png",
+      "bytes": 88510,
+      "sha256": "bc9d3151c0e9377c666529c9172312db5292f1e1c9188307538e62ab88c99e86"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/rSI_sMS/dependence.png",
+      "bytes": 48373,
+      "sha256": "1ad187b8908ce758fbac8aee8a95f7f4208652e9226ff79110e56ba91dfcc967"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 46232,
+      "sha256": "cfb1b77aee5f89e205251e68619d3b414910dc9907d7a6abcc18b5b6bc8970a8"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/stacking/dependence.png",
+      "bytes": 74640,
+      "sha256": "6708ee08bd4a45dff8d98922f6eb8be709c0e4069b4f5bbb7ee4791d80b2b380"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/stacking/waterfall_illustrative.png",
+      "bytes": 74267,
+      "sha256": "115e45f42982d954f2229c9ab51f038aadcc0a78ff6730b0aed2e7d7dc4d58ea"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/tabicl/dependence.png",
+      "bytes": 70719,
+      "sha256": "6b58005497b921564edf5183b3039824de5961a3c9032ab27f3cb12233ddbae8"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/tabicl/waterfall_illustrative.png",
+      "bytes": 92933,
+      "sha256": "5927a153afab156131c63004868c92537d71ffe619d8873c5092d9f17e948daa"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/tabpfn/dependence.png",
+      "bytes": 69198,
+      "sha256": "5eca1ee848826515b3f6d870c6479ab2b10c31edbac96c4b2b90ce3e1d5e902e"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/tabpfn/waterfall_illustrative.png",
+      "bytes": 85954,
+      "sha256": "d502545b92d511929e964fd615c0ba80c2c0540dc1828326cf19d89dea9827d0"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/xgboost/dependence.png",
+      "bytes": 70426,
+      "sha256": "23b43ce1e50384283041b04af7d07008e3ba134d7caf0e30ca82def85109bae3"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/xgboost/waterfall_fn.png",
+      "bytes": 98002,
+      "sha256": "82de3fe2afc2550a7e75c68605934238f51a4507f04648f5ca00ad1c1a6d3ee2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S4/xgboost/waterfall_tp.png",
+      "bytes": 88674,
+      "sha256": "840ac1ead460b3ab5dab58519874162fea9998620301aa5c3b998c1679b4397a"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/bert_finetuned/dependence.png",
+      "bytes": 51264,
+      "sha256": "b5fb4c8149b11bf9048873fa2d1166057343d57d5bda651b8c1cd3974684c10e"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 50574,
+      "sha256": "b11f6c6e0f58956fa3a60c6aa40a3de5a84917dadc69021646b222001bf1952c"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/catboost/dependence.png",
+      "bytes": 72015,
+      "sha256": "2bfffc3646ca14918339f401ba7e43cf02768494e52f8a9aa880f968b9d2fbe6"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/catboost/waterfall_illustrative.png",
+      "bytes": 97169,
+      "sha256": "28ee5c01df1e2ec2d68be96130e46e4a31a94ece425e2ab1a3048ab3067ea6e5"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/cnn_1d/dependence.png",
+      "bytes": 67594,
+      "sha256": "e7edea6efafb351fbdf2b597bf34ae252393669664bca08f65544b86c34d7da3"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/cnn_1d/waterfall_illustrative.png",
+      "bytes": 84266,
+      "sha256": "30532b5dccf188de664a1e4ed5ca4f075bfa6423924f39ed10c712a9dfcbb240"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/ft_transformer/dependence.png",
+      "bytes": 73618,
+      "sha256": "f637a33bbbcb6a5c3702eb27a8fae05eb8598fdf48f1e590b340f6e66fc047eb"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/ft_transformer/waterfall_illustrative.png",
+      "bytes": 93936,
+      "sha256": "1a54bf4aa0650b39b2dad5a4f48bdc8ec787e430f609a4d1167a76053568a979"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/lightgbm/dependence.png",
+      "bytes": 68835,
+      "sha256": "dcaf4ac2efaab2a0f715381813de68732518f7a7c1bd1c618164210f7b29dc52"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/lightgbm/waterfall_illustrative.png",
+      "bytes": 93471,
+      "sha256": "6ba5ca5ab384738dc446fdee342eb511fe791dd01d89f72624f0c6c3feec60e5"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/logistic_regression/dependence.png",
+      "bytes": 71202,
+      "sha256": "f53ab0954fe5c235d89aaa1f8d7028f98d8751b6f723adebebd9c40280fa449f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/logistic_regression/waterfall_illustrative.png",
+      "bytes": 102414,
+      "sha256": "2e404adb8f9a96d5bf9d3b9c193f7b70669027a1e0e0fe88c1f2fd23562787c5"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/mlp_plr/dependence.png",
+      "bytes": 78396,
+      "sha256": "9c94902539fdd31fa6d53e8bbfb1bfd5744404ff7d50078446cd417a7995bbab"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/mlp_plr/waterfall_illustrative.png",
+      "bytes": 91033,
+      "sha256": "1b71f327e1b2cdd8a9224dc402e9ee399594307b980353eb7d249777c4eb6f2f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/rSI_sMS/dependence.png",
+      "bytes": 46284,
+      "sha256": "f3aabb9c84e7f9b075d3e8ea2bde7f03637f589857cda805bf919fc3a6c77c0c"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 42231,
+      "sha256": "d48249cfbecdef8c32b0599832283a24477d01d5232340cee90b893d6acaafaf"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/stacking/dependence.png",
+      "bytes": 69617,
+      "sha256": "4caf66bb736c9bedc5215dcd2d140ade489d296d4bbbd2592dec5c259c04d45a"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/stacking/waterfall_illustrative.png",
+      "bytes": 73626,
+      "sha256": "b155a9fa18841d646aabb5f7ef0d838e3b4a6afba3befddd228022f999810491"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/tabicl/dependence.png",
+      "bytes": 70899,
+      "sha256": "af10cf24df541e335dfafd74ac020eed0ee579438ab4a8d2d3901cbb94934340"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/tabicl/waterfall_illustrative.png",
+      "bytes": 94713,
+      "sha256": "444b97b4a56de0afd65fe7420cc216706b39f253f0cbfb60a3d5317316840ab1"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/tabpfn/dependence.png",
+      "bytes": 72254,
+      "sha256": "ff957c7d1ccb8fae27ecc935295568fe57304c232e298cdc903a346afe79486a"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/tabpfn/waterfall_illustrative.png",
+      "bytes": 89384,
+      "sha256": "8d7a370867f6323f4579887944d926a2a7975a3eef370486b1ad8163dc0ec6d4"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/xgboost/dependence.png",
+      "bytes": 72765,
+      "sha256": "85c990d7cf2d1f932b3b92337994cb04ffbdc135db2be8f59127e4ec8629fee6"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/xgboost/waterfall_fn.png",
+      "bytes": 91243,
+      "sha256": "ecb11b2981f9330bf30305bf46dfe8778d021d2511e2a5dd355f810039af5af8"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S5/xgboost/waterfall_tp.png",
+      "bytes": 90129,
+      "sha256": "832c0937bbf8d18aa421ca02b24fa611cc4615f5df7dc48f42f1587a83f6979f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/bert_finetuned/dependence.png",
+      "bytes": 50381,
+      "sha256": "3edfe9d23ed73896772ddc03313545579f4098ef35ab2fd2852ebf91f9162dad"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 51611,
+      "sha256": "bb6cafd46623de06aa4671c2268f141224d3c55e1b2a14b2a58e11e4c65fd134"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/catboost/dependence.png",
+      "bytes": 77899,
+      "sha256": "163028760ae049799fded79bc6f4e1c9a54449e961604c2957abb189303ca97d"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/catboost/waterfall_fn.png",
+      "bytes": 88636,
+      "sha256": "e8d2b123d5fc7a32e62bcbbafac940303c5a080b5827220d65161a2afafb039f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/catboost/waterfall_tp.png",
+      "bytes": 87580,
+      "sha256": "b57c93cb268fda7c4f6048ce7e6281d4da9052900fd807dbd2a146e7feb63d39"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/cnn_1d/dependence.png",
+      "bytes": 67751,
+      "sha256": "25ca8ec4665468380f19be2f0a96e4bc41f6a3c47abcd6fb3e9a9c604a277a0c"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/cnn_1d/waterfall_illustrative.png",
+      "bytes": 102524,
+      "sha256": "85efc64a4520703153ce18cd8f384446b6a140f756f11ffcca34700e3121942a"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/ft_transformer/dependence.png",
+      "bytes": 77247,
+      "sha256": "3cf1c7f5a0fc16a9c9b1043d7b235aaed2e70e34f1f3aaa6b4698e77de41defa"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/ft_transformer/waterfall_illustrative.png",
+      "bytes": 85486,
+      "sha256": "7a3a8a74619cd6fee303d56cf8a719556f8c51812ccaf8312d70194893af78e1"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/lightgbm/dependence.png",
+      "bytes": 77562,
+      "sha256": "772b746e25de762791d28153b999cb5dba71355ae7527594d60360c67d458387"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/lightgbm/waterfall_tp.png",
+      "bytes": 99944,
+      "sha256": "326e5cb9cfda50be3cfe3d1ec8bbae3205171a259df8fa542b663bdc42502580"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/logistic_regression/dependence.png",
+      "bytes": 70805,
+      "sha256": "cf8d36f641b69bb8c57491992930ca8774782a7aa53e96ff184b8e41f3b8766c"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/logistic_regression/waterfall_tp.png",
+      "bytes": 96651,
+      "sha256": "e187e53f4c68c881d8e06764d912b675f403c25e838375b2f2a8c578c6f5fcb2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/mlp_plr/dependence.png",
+      "bytes": 74589,
+      "sha256": "9db485f350921ba316d7f4c68d4f6e0750cb98e1ecdc7a1269c80b09e1791046"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/mlp_plr/waterfall_illustrative.png",
+      "bytes": 91296,
+      "sha256": "3313380fc7b6c2cf60d8a04808be0a9ad4ba55096a37fa269f8237871d880edc"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/rSI_sMS/dependence.png",
+      "bytes": 46431,
+      "sha256": "c54974e3874871bd90e3d41caec040487e79d667a92c01c0dd8c4e74bfb3270f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/rSI_sMS/waterfall_tp.png",
+      "bytes": 42390,
+      "sha256": "53124389f3f084d08e4ef46c99a037d9eccc8ddae56e7101cea63cc6a603205f"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/stacking/dependence.png",
+      "bytes": 71249,
+      "sha256": "ca13afa7f87344838b9190bddd94395e865aceae5cce329d3e758328a5ff69f2"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/stacking/waterfall_illustrative.png",
+      "bytes": 74135,
+      "sha256": "fe4e52b0c2a64fcfe34b5bc99b2ca081f6881036b48b1ac2ce0d38e893d19970"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/tabicl/dependence.png",
+      "bytes": 77448,
+      "sha256": "f9899ebb6c26ce0b911a2efcd19e630fd26723e2e971b52f60a3bda5818783c6"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/tabicl/waterfall_illustrative.png",
+      "bytes": 77847,
+      "sha256": "b47338175912e169e433e3cab0af9b8acd44efbbd045ca1bb9a10370bd7aae77"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/tabpfn/dependence.png",
+      "bytes": 70171,
+      "sha256": "1592b789cfb3d31881fc8b004d0c112f74d0d7cbbf739b4a10718ef9d2942a2e"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/tabpfn/waterfall_illustrative.png",
+      "bytes": 85568,
+      "sha256": "ba204b08df33fe0e45de97e5558b5b4556ce4b0756649e538aa540d63947326e"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/xgboost/dependence.png",
+      "bytes": 74310,
+      "sha256": "c4aa06b0712cdb23684084f517c9244c41a2cd2bd49958d364698eaf2a705747"
+    },
+    {
+      "path": "p1_figures/assets/medicine/S6/xgboost/waterfall_illustrative.png",
+      "bytes": 87252,
+      "sha256": "30ce5c94774c027f3f0f245d134af6295b9a150cba254e8e7b3589e4346ddf8b"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/bert_finetuned/dependence.png",
+      "bytes": 47932,
+      "sha256": "8271c7a053c29cc62af9ac80253d05330ad2858396264ee22d56a0bd2bae2a84"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/bert_finetuned/waterfall_fn.png",
+      "bytes": 47951,
+      "sha256": "f432af279fcbdf07fbf69b2d506842e906e9495d8de3178e566a06110dd92664"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/bert_finetuned/waterfall_tp.png",
+      "bytes": 47670,
+      "sha256": "78eaf42869bbb0c6aa0f8d96fbcb2dd264fc6bf9f7bc34a6b11c379e85a6ebef"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/catboost/dependence.png",
+      "bytes": 68395,
+      "sha256": "e70a1b58e4cf553bd49e2bcd75af65a837d55dd8a3b397f95afd72f60a9c7456"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/catboost/waterfall_illustrative.png",
+      "bytes": 93519,
+      "sha256": "07f7092fde6bd3a5cbe43479d8a5c288f4277e94bef826f9f8a60273b8830c45"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/cnn_1d/dependence.png",
+      "bytes": 64143,
+      "sha256": "319d781707525eb8c763b05ffef9e5005ec9b06f7785dc359e08a8f0cebaac25"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/cnn_1d/waterfall_illustrative.png",
+      "bytes": 100046,
+      "sha256": "fcc9691cd66fb347fc88b1b0c586cb7ec48207f8c8660966c5ba2dfb5e965556"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/ft_transformer/dependence.png",
+      "bytes": 72250,
+      "sha256": "1e755a45d2d04c9de948d30a033033dbae59b8024d2887c1ee9d85a097480a74"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/ft_transformer/waterfall_illustrative.png",
+      "bytes": 98423,
+      "sha256": "43a46771a2f018c8931a144418dc9f69d92ff44921e1400789db3e06ed697701"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/lightgbm/dependence.png",
+      "bytes": 74625,
+      "sha256": "b55482c9a8c192caf934f0f82ef23147422413c358ea6c8bc66fce72faccd68e"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/lightgbm/waterfall_illustrative.png",
+      "bytes": 89111,
+      "sha256": "0d32334f8b2e8f70b8ceb44a727994b8b697f09543aa64d7e33ec370215ab273"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/logistic_regression/dependence.png",
+      "bytes": 64831,
+      "sha256": "4c0aaf779b73a3d39b81af655486d2fdddb3811ddc03fa32186ebfd45bcb9a97"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/logistic_regression/waterfall_fn.png",
+      "bytes": 106558,
+      "sha256": "aaa4df0b6594d4a892287fa37199eea528a05d19719369b00e087caa2d756989"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/mlp_plr/dependence.png",
+      "bytes": 74453,
+      "sha256": "324ea55b8b02b83ff8414d6742971fb991e64a2e9eeb1033ae8f52c6a2955160"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/mlp_plr/waterfall_illustrative.png",
+      "bytes": 90129,
+      "sha256": "1db0c60db129445f03348e3c0c8954d8b6508b5470672a53689ecd7fe547c815"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/rSI_sMS/dependence.png",
+      "bytes": 45788,
+      "sha256": "1aa6a1cfc08de158496c22bfdf8d550fafcbd6193078aeecb26c1facff3cac58"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 41634,
+      "sha256": "450bb7a2c0e04f9e147f21f7d1167b0ab697c9dafd99d322235c27c2e6247ca8"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/stacking/dependence.png",
+      "bytes": 67473,
+      "sha256": "418152f64238de10b086be7c90e4c7531a57053f9a7cdfaed9cccd1267a86abf"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/stacking/waterfall_illustrative.png",
+      "bytes": 74125,
+      "sha256": "b97dfa75806ac86e9849a308a72c4d8bc00f4bcee30dc047daf5224a78d8cdd9"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/tabicl/dependence.png",
+      "bytes": 57955,
+      "sha256": "be8e28741f7a5854796a392414fd9ce8817af2844c8d3937207fadf079f9889c"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/tabicl/waterfall_tp.png",
+      "bytes": 91552,
+      "sha256": "179829a966dd753b06a970f23da48b0e99e83e413d74aced2b0016e22bb95a4e"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/tabpfn/dependence.png",
+      "bytes": 76546,
+      "sha256": "9b9c2ee631a132a62242535e888597d06d989ff4f2baac2975b02bedc9786457"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/tabpfn/waterfall_illustrative.png",
+      "bytes": 89301,
+      "sha256": "9e676625dcb8252e258b8cc1e5857aac95cef8f5079fed246ed843bf71d06b8b"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/xgboost/dependence.png",
+      "bytes": 73653,
+      "sha256": "fd8ca714c1b609c5b681643a83be1ba97ae925edc02aa587f63db51f3cd5b4a8"
+    },
+    {
+      "path": "p1_figures/assets/overall/P1/xgboost/waterfall_illustrative.png",
+      "bytes": 91002,
+      "sha256": "cd7b3269acea030728b89520d1da67a335f0aebb47eab8d2684f74e2b45aa451"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/bert_finetuned/dependence.png",
+      "bytes": 48138,
+      "sha256": "5f8b763a3401a2e34ede15b4be722f6faaf26df1236362a9ed462e18f2eabe57"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 48249,
+      "sha256": "5eb8a1c173cf0a6aa7e11dd833d1801f04f8f37dd54c952140ea3a911d27af0b"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/catboost/dependence.png",
+      "bytes": 68460,
+      "sha256": "1931669fbe9f026a17a6d483b11cdc5a0a89778a7af9195507a2e0a6a2afd039"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/catboost/waterfall_illustrative.png",
+      "bytes": 89818,
+      "sha256": "4ff3586524a68693ac17b4c8ef53a81b0ba15d1954f5576d713b000929aab08d"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/cnn_1d/dependence.png",
+      "bytes": 71610,
+      "sha256": "e34e00453323579c65d06e2e04e4d3b3558fb705a48c82c994c5d5be1122c895"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/cnn_1d/waterfall_tp.png",
+      "bytes": 90819,
+      "sha256": "c4fb64fcb02fdcc265c598e51f1e41857d29fe607e7bf8d8b28fcefb1335a9d7"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/ft_transformer/dependence.png",
+      "bytes": 73814,
+      "sha256": "3f9327149b4500188684c86f4fd7c348984cb48a839644c0f67c3ef0af56e19a"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/ft_transformer/waterfall_tp.png",
+      "bytes": 86199,
+      "sha256": "ae8d51359e145f80195db103302c1c6fbac905069a73170384d91ff194cbb704"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/lightgbm/dependence.png",
+      "bytes": 71274,
+      "sha256": "4e1b5d547d7d05239c64a4fd9657ad70aac54b3c407651b3dd6d3657fb32476f"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/lightgbm/waterfall_tp.png",
+      "bytes": 88466,
+      "sha256": "a893c464b305e5fee396cf572cbb83149ede11412ad6051fe79653af14fde521"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/logistic_regression/dependence.png",
+      "bytes": 78053,
+      "sha256": "5739ccdd53774ed8255083f3e7462165cf0034ebf33123fd4e58dae5f319d82c"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/logistic_regression/waterfall_tp.png",
+      "bytes": 97757,
+      "sha256": "9ca4fb63521c277944861e0e194e03c1059e2a83e541c9f544232ba291c442fa"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/mlp_plr/dependence.png",
+      "bytes": 73898,
+      "sha256": "84872b7a55f29351fb4d7f55f156010c21fada0135c78d0685da49fa812e71a2"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/mlp_plr/waterfall_tp.png",
+      "bytes": 80568,
+      "sha256": "92acbbc79e442f2ceb6874a49be29dba03d4918ca0ab33d4c3ab57821ed9294d"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/rSI_sMS/dependence.png",
+      "bytes": 44540,
+      "sha256": "ed1203a0883d1e41e64e2a4da685677f72bc83dd36b11f6a45ebf2acde8cb0c5"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 42221,
+      "sha256": "32dac25c6d8270fb59377d6da749a8d3021450f0db24d67bb7594d0ddbca28df"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/stacking/dependence.png",
+      "bytes": 69048,
+      "sha256": "76b32727dc25b90b3693138bc29446abaa41ea01345a39042d901098fc8b93b0"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/stacking/waterfall_fn.png",
+      "bytes": 71301,
+      "sha256": "27d27237b94188169276298c086043e74a2fabc78cebc2683a38013568dfc67c"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/tabicl/dependence.png",
+      "bytes": 70219,
+      "sha256": "a0a813bf233d9bf79f302e6d0879f9ad62767e00f6d316397130644a371ce402"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/tabicl/waterfall_fn.png",
+      "bytes": 93980,
+      "sha256": "82e95910d668f4e86a51e01d20ea03aa6564349ef54b30f07fee3b3eedd3f211"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/tabicl/waterfall_tp.png",
+      "bytes": 90266,
+      "sha256": "4ae4ec79f69c82361a51df7a3d01d3ab97696408bb84004062f6c909123df20b"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/tabpfn/dependence.png",
+      "bytes": 69806,
+      "sha256": "7fe01ff80c838d36864c804d433a13e0975b19136b7e45eef7e0540acac88276"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/tabpfn/waterfall_illustrative.png",
+      "bytes": 94541,
+      "sha256": "d0be82ec27c19b9e3facdb332e1bfd69ec6a7a191b4b1adf44fcda03b26f0dee"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/xgboost/dependence.png",
+      "bytes": 72767,
+      "sha256": "1c702798cadba5d7b7aa5f85a7e903ac2e093ef7bc31dfea60914159a8759ef3"
+    },
+    {
+      "path": "p1_figures/assets/overall/P2/xgboost/waterfall_tp.png",
+      "bytes": 89700,
+      "sha256": "27c3497cd5e7aa24d6f04e357f0a0e2e876e28310e048646f2463c094ab87d0e"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/bert_finetuned/dependence.png",
+      "bytes": 47073,
+      "sha256": "9caa3979d7579f7d6be1a4c9494bc5e236479390a111a3cf90a8100353a98554"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/bert_finetuned/waterfall_fn.png",
+      "bytes": 46968,
+      "sha256": "56eac664cfec7a8f43a402d389435c164ade79de109cfac424afe3ee5f46cc1d"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/catboost/dependence.png",
+      "bytes": 67304,
+      "sha256": "75fa1807aeb365bc0e36b4b2c092ea0ba20a3209285bf93e8341e87d0c9bb653"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/catboost/waterfall_tp.png",
+      "bytes": 80367,
+      "sha256": "e6418c3fe5319951220291da12b7833ea057c1645986c5fc73616cb5f9000152"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/cnn_1d/dependence.png",
+      "bytes": 67384,
+      "sha256": "bc4227f796323e620a60ba60f2170ed70e7839b8ec727e81628ff1abe60c5dd7"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/cnn_1d/waterfall_tp.png",
+      "bytes": 102534,
+      "sha256": "7f4da603d46427573f593014e392f7219e05dd4779e8e3b2d0ba2caa6487f67e"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/ft_transformer/dependence.png",
+      "bytes": 68984,
+      "sha256": "8a90186f5697fff6e29bc5b4581365484c45429dc5caa56de634bd666d98ee90"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/ft_transformer/waterfall_tp.png",
+      "bytes": 87446,
+      "sha256": "c074b771c0e2113ebaadd489fd17f2bffd9a527336a24f8934c9a8c3fde3aca1"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/lightgbm/dependence.png",
+      "bytes": 67575,
+      "sha256": "70b17288fea9806358b8486d24317736e8220e307fbc08655bc7f7bb0dd16d29"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/lightgbm/waterfall_tp.png",
+      "bytes": 81203,
+      "sha256": "ffd1cbbeb179a766ef723e5b2096956ab0bc954d594d9b40bca65ac1fc60c04b"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/logistic_regression/dependence.png",
+      "bytes": 75375,
+      "sha256": "31d6a8378edcc5f6d0ba67e067ef54519b15be116f0a19a737addcf2ed948aee"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/logistic_regression/waterfall_fn.png",
+      "bytes": 102499,
+      "sha256": "32f4c548bfc8e32573469182a7abcc6574083f77ae2dd097e388a1454aba3153"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/logistic_regression/waterfall_tp.png",
+      "bytes": 100649,
+      "sha256": "424763a4919c15833b1c4e01f3abfb4baf02fc97a824a6987ea6e5bad13ca4ea"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/mlp_plr/dependence.png",
+      "bytes": 73275,
+      "sha256": "af3c0338f68329d2c3abb3eb77c23405b6c4580bbd63a36e82ed97ac7ca4c6ae"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/mlp_plr/waterfall_tp.png",
+      "bytes": 81443,
+      "sha256": "11e453abe7bbb0eafad77428eb296661f1b56e3ca424c63a371a8de34542e5c3"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/rSI_sMS/dependence.png",
+      "bytes": 44440,
+      "sha256": "125500751e9854e6ae784c9675d2621802b6acd0c353b4e667c1830a2905501d"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 44629,
+      "sha256": "0f929c4a18aa96d041d9173f048e1c8a881e34ebf8d4b626bbf8d81f6a9968d3"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/stacking/dependence.png",
+      "bytes": 71268,
+      "sha256": "9478646be423883c13fe2b509e990d6398317e99192212de5658695ea533433b"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/stacking/waterfall_tp.png",
+      "bytes": 73383,
+      "sha256": "7a76559d1237389f7503597709f62e3af080109f371f1cb204d36a0156c44e9a"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/tabicl/dependence.png",
+      "bytes": 72158,
+      "sha256": "0f8b9915ddc7734eb29bafe6c5b29820f7cf4e8ed95078b1ae9d294974700699"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/tabicl/waterfall_illustrative.png",
+      "bytes": 98910,
+      "sha256": "b8215c871ae3a685cc2f02c39e9c5eeb096f695577bf73f024362143fb7694ad"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/tabpfn/dependence.png",
+      "bytes": 67753,
+      "sha256": "ac6b81100e943482b53d99d0e508e8c0ba98611e6cb07b65ed9655771c2dc947"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/tabpfn/waterfall_tp.png",
+      "bytes": 72632,
+      "sha256": "90fb541669d76b9eb452caa5f53ee660529db31cec7c4b215122238b3938f85c"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/xgboost/dependence.png",
+      "bytes": 72632,
+      "sha256": "b141be74bf37a70c4864865a231b51661010f1731523f18a5fa2d15334147f4d"
+    },
+    {
+      "path": "p1_figures/assets/overall/P3/xgboost/waterfall_fn.png",
+      "bytes": 89377,
+      "sha256": "adc528cae20a08e60defa8a5900158ca89f0109643fa9d3fce2963faa9cd863d"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/bert_finetuned/dependence.png",
+      "bytes": 48417,
+      "sha256": "fe2cfa1c83166dff1f0dd7a75ace68eea9f7346a86573b55ce3d1457c8654bed"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 48515,
+      "sha256": "4b8a17402d1b22fc407e55e9a7e137987425daf51e9863f6718746999cc56875"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/catboost/dependence.png",
+      "bytes": 70693,
+      "sha256": "dba8cf3b848381d9bf92b9ef6e31b68aff609a9e17150f41aad5a461fdad864e"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/catboost/waterfall_illustrative.png",
+      "bytes": 91418,
+      "sha256": "9d9669ad6cb558cb79c51156703bef526893e43e78c0f5bc1827d72ee3054042"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/cnn_1d/dependence.png",
+      "bytes": 67814,
+      "sha256": "17293a6dbcc9a91778723f1ca8498c3978fcc21836295b0cc8574afbaeb8b027"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/cnn_1d/waterfall_fn.png",
+      "bytes": 96658,
+      "sha256": "64e5749c003a065f10ff48470542e5a99c72d5bbcf28d268a1975164354c5cec"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/ft_transformer/dependence.png",
+      "bytes": 76893,
+      "sha256": "fe33263aed9175184163bd4ac082b62cbab2b3edc3ee2972fe8d2c6c80caeb72"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/ft_transformer/waterfall_illustrative.png",
+      "bytes": 92657,
+      "sha256": "efab965fc94e7e4f9d41dddb3016db5016fb30212433744cc10c47dc4fa974c8"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/lightgbm/dependence.png",
+      "bytes": 72649,
+      "sha256": "e0478a3e8bbeba339ecabe9c979f9375a76947ff365ad12bf5a5241241a4bfed"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/lightgbm/waterfall_tp.png",
+      "bytes": 92276,
+      "sha256": "35e9ae51af973590d578cea803ff701bf3ebcee2482a460cb9c876338333a6f2"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/logistic_regression/dependence.png",
+      "bytes": 73103,
+      "sha256": "a77a2674f339956afce22cc88857a0aea84b546856bc6dd691ea2685453dbbe8"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/logistic_regression/waterfall_illustrative.png",
+      "bytes": 108279,
+      "sha256": "faacb9e656ef765361f89fd6d076b9462438b8232ecb79d875214e19a24bfd6e"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/mlp_plr/dependence.png",
+      "bytes": 69288,
+      "sha256": "f7986574988e8199742448d2d385386c095c66efddb3b500def72d19e5977475"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/mlp_plr/waterfall_illustrative.png",
+      "bytes": 110571,
+      "sha256": "7287ff206bb23fa719e6ef963ce6ee84c906a63a965d2d093652e12ac07c4df9"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/rSI_sMS/dependence.png",
+      "bytes": 46772,
+      "sha256": "00b42b1ee4074d5558379230b5fa83cbb68b0800b5935a659892d34bdd8bb486"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 43704,
+      "sha256": "5bc86f9d83a2cc04fe47f68adc2e2865cf6d4cf6ee6c2840a0f2f30e1126bbd7"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/stacking/dependence.png",
+      "bytes": 76633,
+      "sha256": "19061c64893b2e29ecb636480e3a5a48f8cd315e10c5c75476911961a15205eb"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/stacking/waterfall_tp.png",
+      "bytes": 68723,
+      "sha256": "541c2bf520b575f30e931a807679080a7cd60c60f773bfd63f1d5902c3430197"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/tabicl/dependence.png",
+      "bytes": 63477,
+      "sha256": "face068d347cc91bb349e698a3199bf2a844f7777369cc57729a661c2e3a3290"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/tabicl/waterfall_tp.png",
+      "bytes": 85982,
+      "sha256": "6c58937c99791023b654c5fc48f6c467814569e2a5f68d208c094834619afda0"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/tabpfn/dependence.png",
+      "bytes": 67258,
+      "sha256": "96ceffec26d410d56843c853ebd85c459e2f78fae2478dd873479346a928c938"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/tabpfn/waterfall_illustrative.png",
+      "bytes": 96293,
+      "sha256": "c0307ca990f9c409d930dfd39b23192c8032cf72af97d8b8ba1eeed1f47c37cf"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/xgboost/dependence.png",
+      "bytes": 75743,
+      "sha256": "ecee8a751caa9294e2f4edadae0eb37485b3a63a9c7e85aac537a6bef0fafd76"
+    },
+    {
+      "path": "p1_figures/assets/overall/S1/xgboost/waterfall_illustrative.png",
+      "bytes": 87176,
+      "sha256": "521ed836b39f04f7e3046436f395fc2f6154b6f9debfab37fc249a1e6e87ecaf"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/bert_finetuned/dependence.png",
+      "bytes": 48613,
+      "sha256": "9124f6793af0923488fc1c32845443def777dc6c5b3d4582b3cc1f183db48e0a"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/bert_finetuned/waterfall_tp.png",
+      "bytes": 49138,
+      "sha256": "5923257488f43834cc74c1185c496221c1c3ff2629fbdb3ba1dbfecb58c62e9e"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/catboost/dependence.png",
+      "bytes": 72984,
+      "sha256": "25b6841f906ea2d1222b3f9215dec428c02a3ed24d974aaa92dbed8311323c27"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/catboost/waterfall_illustrative.png",
+      "bytes": 98148,
+      "sha256": "f0fd9f54622a27ab5e44749893b84ddda6e213d4b98739f80c502a34fff18992"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/cnn_1d/dependence.png",
+      "bytes": 68383,
+      "sha256": "30cd9ae6d218036bfbf06a039e6ab63467475d53dde49fc31bc71bd356204fe4"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/cnn_1d/waterfall_illustrative.png",
+      "bytes": 105208,
+      "sha256": "018cec80d511cbe64fa6bb54972cfd22fd49fb67971c7e0c6e2c2a3d3fd83e50"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/ft_transformer/dependence.png",
+      "bytes": 72192,
+      "sha256": "69abe56365008c06a08e038bd8f805ca6846dc1c040e25368bf65430c93ed336"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/ft_transformer/waterfall_tp.png",
+      "bytes": 86744,
+      "sha256": "f6659fc3fa8c02f563516d7c241c21a090f8314507baa82940773ff886a73ff9"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/lightgbm/dependence.png",
+      "bytes": 75267,
+      "sha256": "52e173bb64f42951f38bf749f6d6988ddb1ede303f2742843b1870cf6eb80a22"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/lightgbm/waterfall_illustrative.png",
+      "bytes": 99269,
+      "sha256": "bfd15bbbe5e561ec78c35efac7f0c79834d2a1b432c85b234d7924f1c0f98b53"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/logistic_regression/dependence.png",
+      "bytes": 71351,
+      "sha256": "6adc2945959d7e5c4cd41f2dc8eb666f6077b3b73df85af146878b65ca65acd1"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/logistic_regression/waterfall_fn.png",
+      "bytes": 103802,
+      "sha256": "9fec9115fdd83c4a1dac4860513b3edd356a3aabcc8324cd364483641c7073f7"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/mlp_plr/dependence.png",
+      "bytes": 73692,
+      "sha256": "adc92115a901b9529dc3f7d5f78accf5e9beaeef55cdc8f6e4775bfe19e0b631"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/mlp_plr/waterfall_tp.png",
+      "bytes": 78452,
+      "sha256": "76d399ad8c397639e589428919b775b641a77afc3f5f31f6ab8aaf6da2c2e728"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/rSI_sMS/dependence.png",
+      "bytes": 47043,
+      "sha256": "80966c5bae7166f51b9385f012b774ef9add4a17b2299d59dca524920faf858f"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 40466,
+      "sha256": "64750f3f2dc7ba15daea167cc56e9ca3278c1f693a72f92734ce2da5aa78668d"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/stacking/dependence.png",
+      "bytes": 76171,
+      "sha256": "79c4b3d19709658e068126ebf9f53128db311e90e4583b840b248a1c5f012b71"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/stacking/waterfall_illustrative.png",
+      "bytes": 72055,
+      "sha256": "e318fea3a5b81b123d7a28f06e3cd5d3233b53353c24ef74a559c82af7db4593"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/tabicl/dependence.png",
+      "bytes": 66233,
+      "sha256": "7400648d7516b6b26dfa5fdfa70c6b26d7417bed66e6b400d5366cf151fc4372"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/tabicl/waterfall_tp.png",
+      "bytes": 86362,
+      "sha256": "f0accc2da965a960a4c2c1eb2df44aaf457c954579e1a6c70f5b1859cadb29f2"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/tabpfn/dependence.png",
+      "bytes": 72963,
+      "sha256": "e1d918a75ff334fbb350b82eb01cfe0d1a39d4b5a618d3dadda3b72d1a1d143a"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/tabpfn/waterfall_illustrative.png",
+      "bytes": 99373,
+      "sha256": "30ccab60ad1fa4d1affb108db21780acd16920764bcaa073388904a895f88f96"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/xgboost/dependence.png",
+      "bytes": 66876,
+      "sha256": "208a5b949f8f198a715ef41ed1a4ee9a75e7b22b442e3371402bc3f37c1f9fa2"
+    },
+    {
+      "path": "p1_figures/assets/overall/S2/xgboost/waterfall_illustrative.png",
+      "bytes": 97034,
+      "sha256": "780d665b27fa361b402e84ef2114a831d76804ac9279c88c6972c859d3c1e8c6"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/bert_finetuned/dependence.png",
+      "bytes": 46498,
+      "sha256": "3878276f1756adfd922a09266aa946540296a239e67c70dff324550342886662"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/bert_finetuned/waterfall_fn.png",
+      "bytes": 51797,
+      "sha256": "86b2b827a1fea812fe143c665c2fe3957639686939b398513014c670e9e50588"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/bert_finetuned/waterfall_tp.png",
+      "bytes": 50184,
+      "sha256": "dfda13ff4ea4594c02ab4ca5ddcc1a5fad016c5061bb7828d533f67fd2e6c780"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/catboost/dependence.png",
+      "bytes": 70183,
+      "sha256": "50c1e68131ed890598ba106c860910f6acd950471d72ad68d7c69c70c6fb877f"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/catboost/waterfall_tp.png",
+      "bytes": 87573,
+      "sha256": "e85519b126fc2cc9016b20ab6be1bfc0217c37a46f7b0639251d0e66203cdddc"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/cnn_1d/dependence.png",
+      "bytes": 74849,
+      "sha256": "111cfddc927fddaadf9bc332ee8caadaf510481919be5a47071100cc6b9b4ae9"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/cnn_1d/waterfall_fn.png",
+      "bytes": 103875,
+      "sha256": "5eb28a014e24ea6a3dbfa919c0d65924eebe98dc454079c2cb3f8a080506a728"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/cnn_1d/waterfall_tp.png",
+      "bytes": 95073,
+      "sha256": "494b79efd2cbb9b15cf8f01d2c4a7c4a0134aef5ad59c6fbd6703c44efcb5781"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/ft_transformer/dependence.png",
+      "bytes": 76100,
+      "sha256": "1247b43e0bd2f29da236d920c7538ded76dfccaa858ff77f3c6e9579bbf05eda"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/ft_transformer/waterfall_fn.png",
+      "bytes": 98220,
+      "sha256": "6a43b9e1154496cdae866dcdd5db74b3e5cad4d96e6fdee5ab33efdcd081244f"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/ft_transformer/waterfall_tp.png",
+      "bytes": 90536,
+      "sha256": "e1c1b7671d2fb186444a59d98904a96561294960e076dfe0d82affc46339156e"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/lightgbm/dependence.png",
+      "bytes": 75685,
+      "sha256": "074ea90df86b9f52edf23a60716b515aa8b4605b0a403c22bce4afb6001273c0"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/lightgbm/waterfall_fn.png",
+      "bytes": 94524,
+      "sha256": "3e44dcea4a8f73a6d5d9a091294ce4b33a15ee6a037fc3e2a46f569b071f8f80"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/lightgbm/waterfall_tp.png",
+      "bytes": 84522,
+      "sha256": "b8aff7a187c15296c7c8857655ac70b8cbdc3563b872769c27cb56bfd32dd198"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/logistic_regression/dependence.png",
+      "bytes": 71118,
+      "sha256": "439472bf2e419e957c70c852c59c8996577f8703c805a10d5593fe4646e19a2b"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/logistic_regression/waterfall_fn.png",
+      "bytes": 101958,
+      "sha256": "784cd79a2224242c4a19a536b1b094205792fb2d3bb7783addcc4caff1c46b76"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/logistic_regression/waterfall_tp.png",
+      "bytes": 94521,
+      "sha256": "28686a0a42a7cb7ed173b233994c733b4f6953e291a5b2efabc0e40c85d8108e"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/mlp_plr/dependence.png",
+      "bytes": 76533,
+      "sha256": "ef55c412775cc4f3b5b56ebdd3ee08319c82938987e85ea3cd4ba5f8bd33ddcb"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/mlp_plr/waterfall_tp.png",
+      "bytes": 99766,
+      "sha256": "3e1fff791cb43e27951aa00f3d7214490ac82bec45d79af9dcfe18d17b850ce1"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/rSI_sMS/dependence.png",
+      "bytes": 48388,
+      "sha256": "a6c72cb03248ca5ff8fbb5746194fa1eb81aa4f92862eccd3ddf2e13496b02e4"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/rSI_sMS/waterfall_fn.png",
+      "bytes": 42332,
+      "sha256": "8e64eb63939891a84083d375512d5ea9cd03d77a2431a202faea2df103085471"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/rSI_sMS/waterfall_tp.png",
+      "bytes": 40495,
+      "sha256": "4bf6f09f6b2dcc2a2489a945c91a02a0714950562cab78a919b81dab0e880023"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/stacking/dependence.png",
+      "bytes": 68474,
+      "sha256": "cbbbca8d2331e4cc96baaa544b32fa36e4edebc4e3ff04de568f2a2c5650bfa0"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/stacking/waterfall_fn.png",
+      "bytes": 71818,
+      "sha256": "82c55569db9d9d1f8bb4a8e0502de60a1f716939484261291dbe0745c3f0976c"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/stacking/waterfall_tp.png",
+      "bytes": 74628,
+      "sha256": "0d346778c1adf8b25b48543d412547931d30f418e118f4882175f00a42d33c1e"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/tabicl/dependence.png",
+      "bytes": 71132,
+      "sha256": "1b33f5384c7efe4d0cf5b640a860f549d0d9155532d8be66cad98314676b7b9a"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/tabicl/waterfall_fn.png",
+      "bytes": 92291,
+      "sha256": "d9a3388c442a9641ca905010e62e748104f305373d3f9dfd6a9115f1e9ebb929"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/tabicl/waterfall_tp.png",
+      "bytes": 89760,
+      "sha256": "d906e1464df970410deee61c7341d845a8abe6b07a72c148384fc0fc90348a48"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/tabpfn/dependence.png",
+      "bytes": 71651,
+      "sha256": "366b8d4de2760d24c1f59b2dc7f72339f8a948e406cc7a2f3e2d8f92e25dcbb7"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/tabpfn/waterfall_illustrative.png",
+      "bytes": 84299,
+      "sha256": "0f9f4ccb847af2905cbf48bd15a00dd2c31ccdc1167b6ac19c5743ba2de2f2f7"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/xgboost/dependence.png",
+      "bytes": 73065,
+      "sha256": "495e296baabf71fd526d95cf798684ff8d07c0a46479e8c5d2befed9cbcc93f6"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/xgboost/waterfall_fn.png",
+      "bytes": 89950,
+      "sha256": "1f68d636eb5832f90aeb9b2b4acbbb43d8c316dd1dde9eefbcd73fd66f518cd8"
+    },
+    {
+      "path": "p1_figures/assets/overall/S3/xgboost/waterfall_tp.png",
+      "bytes": 95281,
+      "sha256": "8434e0fdf34fc48e3f5925187bddb81ed0642d84e203a43836afa4560c69ace6"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/bert_finetuned/dependence.png",
+      "bytes": 50780,
+      "sha256": "efd53c3e5c702cf4febe7f2d4f8f20725b813de0c1e3df9822ab9b4f967a1cc0"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/bert_finetuned/waterfall_tp.png",
+      "bytes": 47113,
+      "sha256": "c28b07f3e9d060ea36ca686e353258bfb5ff6f452f7123caa89b1efeee7e692f"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/catboost/dependence.png",
+      "bytes": 74295,
+      "sha256": "106e904b312c6bd24fada183d4e2b57d903cb000b9e48ede34bfd48325c9eb58"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/catboost/waterfall_tp.png",
+      "bytes": 89722,
+      "sha256": "14da90abb29b71e1d6c6af09d4264eecabf4925829af6346e66f4d8250a8aac6"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/cnn_1d/dependence.png",
+      "bytes": 70644,
+      "sha256": "a3b558e8ecf535bb25a9404e1f75adec47f3c3f433c7c497e6870c3382bccc13"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/cnn_1d/waterfall_fn.png",
+      "bytes": 96769,
+      "sha256": "5ccf73fd63c53a3e488969308e1c5a50cea64ef3310be0268e5d67a8a0367961"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/cnn_1d/waterfall_tp.png",
+      "bytes": 92863,
+      "sha256": "244ae34e05a6357a6a94ca8aaf76a443317126141ba35a151f1e72432c9659fd"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/ft_transformer/dependence.png",
+      "bytes": 72901,
+      "sha256": "636169038423178283bc8ae6af4064da21ae2ac7ec99244d22a59ac156d305eb"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/ft_transformer/waterfall_illustrative.png",
+      "bytes": 89541,
+      "sha256": "d1067f5c2a3945dc542607f472c81872f2c82ddb9fed61f8a6bddf863a417d9d"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/lightgbm/dependence.png",
+      "bytes": 66229,
+      "sha256": "577a0128056d8872d325c6c0dd19ee1ab3c1a9fd8cbb8deaf0537bd6df5e1ad2"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/lightgbm/waterfall_fn.png",
+      "bytes": 92285,
+      "sha256": "0b19b9bbb87534b4a47bac314f4412738f93a67ddf76d2a4417b4f17f36890f5"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/lightgbm/waterfall_tp.png",
+      "bytes": 85133,
+      "sha256": "a2bca15343f0e1e4173be4f136d8f625a31fe6f422f23eba41154982ec2dba39"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/logistic_regression/dependence.png",
+      "bytes": 74692,
+      "sha256": "618b969ed53ce37d36988a6b89e9b80702c8efafdacf4b4e01c401db0265e9a7"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/logistic_regression/waterfall_tp.png",
+      "bytes": 96432,
+      "sha256": "64e6a73d7210980d53f63e7299f91800b8252beb00e251cc521e9e2557697209"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/mlp_plr/dependence.png",
+      "bytes": 71896,
+      "sha256": "a36dd8e7feb5fb2ddf41d38b14db672de00be47ea69b2db678b21e72b5bae80d"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/mlp_plr/waterfall_fn.png",
+      "bytes": 78568,
+      "sha256": "1134a1a0c0fd7542ab49697dd91a8c9073ed6b251697563fdac95e3cded57fd0"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/mlp_plr/waterfall_tp.png",
+      "bytes": 92737,
+      "sha256": "f0e7563f207eef812191e4eb441b1eb1e6fe7df52a2bcdfc512f3cad5f4ca7b3"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/rSI_sMS/dependence.png",
+      "bytes": 44703,
+      "sha256": "af19aafc8b42ae0ca5bc575b79edb1c8df33eecf3ee72e242b6d8a20239cfb33"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 43627,
+      "sha256": "3d9804008bd837c39594a89aa7b3a368f14b099ad52c77c0c269191a0a809c38"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/stacking/dependence.png",
+      "bytes": 77143,
+      "sha256": "b330b141cb36668e5571a571924fc141bc62f9f11c3cb416c029f7a0a61d96c8"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/stacking/waterfall_tp.png",
+      "bytes": 70244,
+      "sha256": "eae82e044d93fe2c0b86541e791d743cf00f1f1f8a9b7fd91428a1fd79887de0"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/tabicl/dependence.png",
+      "bytes": 73567,
+      "sha256": "d6e18c963d29cb6aed7990ef2c7c20147cfe73525a56984318f95dcc60a221bb"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/tabicl/waterfall_fn.png",
+      "bytes": 91561,
+      "sha256": "9bb11f0fd275dd6d536949ffb9f1d700f914b5ec990965131d347c7dac965739"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/tabicl/waterfall_tp.png",
+      "bytes": 88408,
+      "sha256": "08218ad4a691feccc9eaeaf58789e9bc275d56ce5c575d17f40966b047527ace"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/tabpfn/dependence.png",
+      "bytes": 67402,
+      "sha256": "2273e9f2198b5c78fa335393affd867c991ac1d6a9ef5f5890f6b3714e1e3fef"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/tabpfn/waterfall_illustrative.png",
+      "bytes": 88730,
+      "sha256": "a131c612287de977e2d3582cdf0a345c889fabf05664c32ffa0c8d4f25b92b08"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/xgboost/dependence.png",
+      "bytes": 72050,
+      "sha256": "28089acc5e089234f9a64a85a69d54b0942b1f1aec8509366054c6b4781977ac"
+    },
+    {
+      "path": "p1_figures/assets/overall/S4/xgboost/waterfall_fn.png",
+      "bytes": 90957,
+      "sha256": "723effc47845c32f66b395c38cd37da8d03dc169b24c2e6af11fcc6ac43d5115"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 48219,
+      "sha256": "0e125959bda7bbdf40c2b4267a13a6b85c7e3a633f6f0f2b050f01286c488ef3"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/catboost/dependence.png",
+      "bytes": 68568,
+      "sha256": "6793a60e9603336e970914d4e23dd93adcdc0dd24fa0e7fe708d4fb05f3d8e74"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/catboost/waterfall_illustrative.png",
+      "bytes": 96937,
+      "sha256": "0257e85209e6a8778f2500edea2f794a0c3ac38458bc48bfb0c24e37d51a13a5"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/cnn_1d/dependence.png",
+      "bytes": 73337,
+      "sha256": "581e66f6beb7a786dfbcddf9f88028259b34b3e172cab0c008acde129b170f0c"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/cnn_1d/waterfall_illustrative.png",
+      "bytes": 93119,
+      "sha256": "be92a9336f86db2ec5903414c3a4bb8a87a204942d79b96d7014c5387e696b39"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/ft_transformer/dependence.png",
+      "bytes": 72292,
+      "sha256": "c56afbff0fde7faa43bc415fd22e367191144ab43933bd95061734d6591e27d4"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/ft_transformer/waterfall_fn.png",
+      "bytes": 92344,
+      "sha256": "bd4013ab6d7a989396cd3dbb19fb4e12abdf10f6f6daa7cc13fbbfed8f1b73d6"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/ft_transformer/waterfall_tp.png",
+      "bytes": 96203,
+      "sha256": "463158c0ff6056bfa6a1ecf774b5982a6e33cb0ccae623b7402148395945ed7d"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/lightgbm/dependence.png",
+      "bytes": 74196,
+      "sha256": "3b0308611f2a5cd063b5442bce5bcef5a9d2ec4dff80f67b09637f47b0f4088a"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/lightgbm/waterfall_illustrative.png",
+      "bytes": 94334,
+      "sha256": "cc44fd546ec6183b70da7436c5d1679a8ed7bff39891feddb679a0b5edb3dc01"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/logistic_regression/dependence.png",
+      "bytes": 74901,
+      "sha256": "175cf7c60bd264eb2eed2890eec2b5d719833744510533bc20126bc595c126ad"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/logistic_regression/waterfall_tp.png",
+      "bytes": 105018,
+      "sha256": "e999cf32337da3a3bf92560b3a3bada9027b3b9973dd23e0be786b839f63d7da"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/mlp_plr/dependence.png",
+      "bytes": 78292,
+      "sha256": "880fbc4f1620341e1fd07bf259588a89d83853508998becfc1807a6a7dbdc337"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/mlp_plr/waterfall_tp.png",
+      "bytes": 86407,
+      "sha256": "91cbcc6c572fa7ee67a8042e42364b9b3de40b947bf5c7ec7b50dce497522cf5"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/rSI_sMS/dependence.png",
+      "bytes": 46587,
+      "sha256": "e4a09b7c300da30044f3f6ee54cbe72ac528b0f394ee2af15f4c6c15c0e4d2b7"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 43116,
+      "sha256": "e16aee84b1c2c92c41711d5327f1cf9c07c3672a706bf220688fba321e3951d4"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/stacking/dependence.png",
+      "bytes": 70928,
+      "sha256": "2e05f124a306a38f1e1694e093eb486050d52568f1ac1fb5b5bdfc70fe75ef41"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/stacking/waterfall_illustrative.png",
+      "bytes": 73486,
+      "sha256": "56bda1964b43f51e7c3993f046c65458946695abe65fddb9f8853f2df570f752"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/tabicl/dependence.png",
+      "bytes": 71514,
+      "sha256": "2eefb539191d74ac1e924b53c20cd4232f92412d60b7aad1c7ce358f8eec8514"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/tabicl/waterfall_illustrative.png",
+      "bytes": 88295,
+      "sha256": "7119adf6ec6f2768d48ec7b5b4e6b47cb196e491f19b4bb7bb3d8e3938d40b44"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/tabpfn/dependence.png",
+      "bytes": 71097,
+      "sha256": "5454103e6cb3d04fba899db529b227c64f6d3146720f58c4f3e4236c581e336d"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/tabpfn/waterfall_illustrative.png",
+      "bytes": 90286,
+      "sha256": "efbb52e6fe4e7933e7a985d189d77ac60747ab3bdc2062788b240aa6675bbd30"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/xgboost/dependence.png",
+      "bytes": 68491,
+      "sha256": "38ae2b482236421043c2e64865e614611ef3bc6475871f8b5970da063991edfe"
+    },
+    {
+      "path": "p1_figures/assets/overall/S5/xgboost/waterfall_illustrative.png",
+      "bytes": 91824,
+      "sha256": "8804fb1ad7ba98615594619a0c0ac90811289a72796df21471abcc28151b0b7d"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/bert_finetuned/dependence.png",
+      "bytes": 52024,
+      "sha256": "77072b55daad34cc94931fe5adb039786ffe254236af1900bbda7d81f6361ba0"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/bert_finetuned/waterfall_tp.png",
+      "bytes": 49333,
+      "sha256": "fa98ea91f0f7a09ec5a2cc13a1279c9f3a26994d3e149a97dd87f4d8a6020a05"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/catboost/dependence.png",
+      "bytes": 75499,
+      "sha256": "e98804f3d6f76ae7ecea5e9c3088f5c6e51181c19ac84c46e5749717c4a5877b"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/catboost/waterfall_tp.png",
+      "bytes": 91319,
+      "sha256": "8309ddc5b62cebe922fdf6048a019977fa869aa7b46700a5d4b28dfb329a9a49"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/cnn_1d/dependence.png",
+      "bytes": 78374,
+      "sha256": "3d2dd4f650f8992fdd2cb885da0e8060481a02f901d92c8c3c87554846ca289a"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/cnn_1d/waterfall_tp.png",
+      "bytes": 98987,
+      "sha256": "1b38c8776ea054c8de506a3dbc647cdc73818d7bf3a5d3ee07f8bb6deb07bf25"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/ft_transformer/dependence.png",
+      "bytes": 78364,
+      "sha256": "d4d74201bb6c92cd56dfbb944c4d2c4e403797f3f825bd5b3ba5710e69618b13"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/ft_transformer/waterfall_fn.png",
+      "bytes": 95391,
+      "sha256": "ac28f72804767a416b3b1290d7d5bb28e65e3ebf6e646f76af8771d76ead1e1c"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/ft_transformer/waterfall_tp.png",
+      "bytes": 87601,
+      "sha256": "cef8c1f6b8e7db60bbb7c2a731ac06037b8ff49662df158aadcb0ad93477d1e6"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/lightgbm/dependence.png",
+      "bytes": 73979,
+      "sha256": "b1f297944f6c60d8792170c90eca8aaa8ad9746ceb165bf89c8ce2d8bd166e17"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/lightgbm/waterfall_fn.png",
+      "bytes": 101702,
+      "sha256": "6e4009eb764609d664f60647d991de041b9d8e190bfae126e64586623fb7084e"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/lightgbm/waterfall_tp.png",
+      "bytes": 83404,
+      "sha256": "81b1e8dcdf7f89a32bb334574aaf479c111efabeb257aa2bcb81eaa61125c1a0"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/logistic_regression/dependence.png",
+      "bytes": 78397,
+      "sha256": "d9cc2922e4efb3741464be21472acec6eef60038fe17a56cb9ae5474dba0f417"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/logistic_regression/waterfall_illustrative.png",
+      "bytes": 107120,
+      "sha256": "1e15d741f98de4dafac353cc508c7652f079e1039701de5331cf1b8e3af28a99"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/mlp_plr/dependence.png",
+      "bytes": 72179,
+      "sha256": "e9e5cdf1f0e85b7bfbe30f47697367bc9c0ebbc91ae7655dc0a96893f75ac485"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/mlp_plr/waterfall_fn.png",
+      "bytes": 82291,
+      "sha256": "b6a3fcba72616830a68c9e194a4d035959ab1dd1af0521744ffc2b69dceb4ad4"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/rSI_sMS/dependence.png",
+      "bytes": 44617,
+      "sha256": "a3a49054b3e47c20ba932f02f9f7bbd12ffd557b2a4f840dee82e52432dad923"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/rSI_sMS/waterfall_tp.png",
+      "bytes": 40042,
+      "sha256": "04a159b9e0e1d03afe2843159b29affb90843e4a6acbe201994b6ca119543e9e"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/stacking/dependence.png",
+      "bytes": 76097,
+      "sha256": "a5b5fe2858e389ba1efd544b129612b89df3f065297f39e313306290c46bcbf8"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/stacking/waterfall_tp.png",
+      "bytes": 70558,
+      "sha256": "c9beb4dda6453e9a2e7feaa3f7de7fca60d0196e82d1ff6d07e0441f8af2cdd6"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/tabicl/dependence.png",
+      "bytes": 76948,
+      "sha256": "6da92cbd0b27d501ebeb87bf402af6d3f60abbe12db2b744f04dba37547f4bd7"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/tabicl/waterfall_fn.png",
+      "bytes": 94931,
+      "sha256": "b9111bb9d02200c328abdf25015d229d68b0eeae486ec29c2065c872b3d131e5"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/tabpfn/dependence.png",
+      "bytes": 64345,
+      "sha256": "e0454f6fc56532cd427c9a5412eb97278f3832436c820a99ca26dbf5d676d002"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/tabpfn/waterfall_illustrative.png",
+      "bytes": 90552,
+      "sha256": "16348453c5f45d698f22f7f66849bea1478639149e2c60d8bc6ed971f88d2c30"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/xgboost/dependence.png",
+      "bytes": 70873,
+      "sha256": "75da0b38b8dd99de1864e7e44000bde93cdc07de8bb1034197a52375d791b6ad"
+    },
+    {
+      "path": "p1_figures/assets/overall/S6/xgboost/waterfall_tp.png",
+      "bytes": 91735,
+      "sha256": "2365df0ba5ce3110fc1659e027398f3e7a4971fbc026beee65826e5d6907e711"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/bert_finetuned/dependence.png",
+      "bytes": 49832,
+      "sha256": "3c32620c0b25e1c71e57d5d80b6c4ea25e539ef7bafdcf9a3119833edae27123"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 53620,
+      "sha256": "7696cf4cd54c71a081f850b238476194df74c45f055a315a3526cea48d934bee"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/catboost/dependence.png",
+      "bytes": 71374,
+      "sha256": "6ee463b68f44d444a8210af2c33bff31adc42a624a9f5a38969eccf0748c579c"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/catboost/waterfall_illustrative.png",
+      "bytes": 94629,
+      "sha256": "10fb3478244a527cbc513d1306332a0126ca263a4f2fbbb2b82490573cf9bcee"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/cnn_1d/dependence.png",
+      "bytes": 63525,
+      "sha256": "167703223d5635e2c8941df7e6fd19dd110a114dd5b265e0136123433293ac73"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/cnn_1d/waterfall_illustrative.png",
+      "bytes": 86916,
+      "sha256": "af216864e6fc166c4b240100bbe2991736f2cc1f4bc8da982bc19bb7eee3c6f7"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/ft_transformer/dependence.png",
+      "bytes": 68445,
+      "sha256": "8a51af2a46d39ef07e3d309c6ac6d126cd5229f539ab08af5a8ad30fdfdf740f"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/ft_transformer/waterfall_illustrative.png",
+      "bytes": 82607,
+      "sha256": "f2c86f97f267f8a06e3d8215fca43c5b6e4dbc6e00e2d42274808dfa42301049"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/lightgbm/dependence.png",
+      "bytes": 71144,
+      "sha256": "f7e9f20a4242529f94a12ec8b53aac6c63a5273ae2d4178126eb6594b7609500"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/lightgbm/waterfall_illustrative.png",
+      "bytes": 87633,
+      "sha256": "0f0a18ba7a12d038c9cb10a10d59aeb7569cdb41d4270ab1dae9c7fb1f569bfa"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/logistic_regression/dependence.png",
+      "bytes": 75341,
+      "sha256": "5537a788de17b29846f7958e97bb7562af6ea34541c739950228e4ec6b15fae3"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/logistic_regression/waterfall_illustrative.png",
+      "bytes": 101339,
+      "sha256": "e1d9bf68309e851a76dad299effebe67d7c865f5081a5c31288faed7d09ec476"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/mlp_plr/dependence.png",
+      "bytes": 72075,
+      "sha256": "a79a8be4303d1c918a2e01c21681708a68753121bd1acdf3684e86deb6676720"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/mlp_plr/waterfall_illustrative.png",
+      "bytes": 84292,
+      "sha256": "0b1062b0d65ad654cfa3c6a30f128aac8c7df3951841416922ed6bd5de993143"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/rSI_sMS/dependence.png",
+      "bytes": 45955,
+      "sha256": "08b95ce25e0918f10adaa897c0b49f0c7f0ea77a80e6a1c8574b52a1a2dfae67"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 41053,
+      "sha256": "4e8007f7c0d05d6b9ba70811c79887cba7e07649a0b39c9becb7d866e04b6f42"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/stacking/dependence.png",
+      "bytes": 68370,
+      "sha256": "3b2f0c1e71b299819a6bf3ccb6459839d762a28530a4f197d6a9fba2c2c3fb7a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/stacking/waterfall_illustrative.png",
+      "bytes": 75325,
+      "sha256": "44785bee0e1fe6de322af7b74debfefde74c34856138cf2f55e54c59080a541d"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/tabicl/dependence.png",
+      "bytes": 74827,
+      "sha256": "f4fa2078ccffbe0b028941bc441e6798f1d0879689e2b98c09970d059ec2251f"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/tabicl/waterfall_illustrative.png",
+      "bytes": 92355,
+      "sha256": "b6fa78931b2269e802426ec8258873bb79d98313e009a727fa42954e28930e67"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/tabpfn/dependence.png",
+      "bytes": 67561,
+      "sha256": "7c5f393299165195915cd872f1249a2c065d744c95db35a0992d716e36d4a31c"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/tabpfn/waterfall_illustrative.png",
+      "bytes": 81562,
+      "sha256": "ae37c01b4c657dc618c2fe89409daf39c01022cff1fc71ba8b6cfdbbde4bb9f0"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/xgboost/dependence.png",
+      "bytes": 76030,
+      "sha256": "8a52ac7b06d625bdd2715f5e5f36ff2557ddf4e4f7b454d7f0faea8618d5abed"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P1/xgboost/waterfall_illustrative.png",
+      "bytes": 92257,
+      "sha256": "e5e30dcc933f35b584774c0411ade81b4e1892192b186e71a47f2fcb992bf7a9"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/bert_finetuned/dependence.png",
+      "bytes": 47703,
+      "sha256": "154ba670ddea65665a50ec397c5f323cfa5a4dda01c89e106a79247f18f7ede7"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 49987,
+      "sha256": "d32780f21d1f51cfc826e7dcf240c98ba11617540322f9c6df8dece4e7cc99b1"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/catboost/dependence.png",
+      "bytes": 71532,
+      "sha256": "ab4c3d5acccab9eca90fe56f425a5c9bd29f61caaf7a92b9cbe3b93e8c13d4c7"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/catboost/waterfall_illustrative.png",
+      "bytes": 86743,
+      "sha256": "bbc2e40ea4ab4a2d8303b8d28b88150ca4c09be1df37cd9a4ce14e0053657d19"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/cnn_1d/dependence.png",
+      "bytes": 61198,
+      "sha256": "772a5febb05be8124f6fffcf282d9249a564d17b8906f8c586286dc1071ff743"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/cnn_1d/waterfall_illustrative.png",
+      "bytes": 86343,
+      "sha256": "bfe815f930b1dd6966f00490aebfe97d10c4e5da51892c48923ef2a8615fbd78"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/ft_transformer/dependence.png",
+      "bytes": 79938,
+      "sha256": "27f20ac98fe446dadde4ac96314c35a3c9c4720250a7bb62fe8dae5d80fc54ad"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/ft_transformer/waterfall_illustrative.png",
+      "bytes": 96899,
+      "sha256": "d6158f5eacb90f6ecd28a39ce8bc00c10dcd5698522c6e8a72ad35676a85f5a5"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/lightgbm/dependence.png",
+      "bytes": 77538,
+      "sha256": "0b0c1fefd49f8b7808d34cfe4743fc48b0afd43c917838467c7458d0b15e2dc9"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/lightgbm/waterfall_illustrative.png",
+      "bytes": 94317,
+      "sha256": "86ab793e2db4f765058d2aa6346d16514ee5f22de4c1af6a812f4eb4b54e5317"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/logistic_regression/dependence.png",
+      "bytes": 72874,
+      "sha256": "a0528b26baa996c50dd14109162d10147b7817dc88e6df51085bb4bce0d14d09"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/logistic_regression/waterfall_illustrative.png",
+      "bytes": 98629,
+      "sha256": "85049b7631167cc45f34b2ab5d0f9a9dfbaf3d73bcc74b1d773d25c920f50eeb"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/mlp_plr/dependence.png",
+      "bytes": 76796,
+      "sha256": "998bcbe71814a1b27d84620e64f9ffa25dbfb4dbfdfa718bdb5ea78c8ff0b6f6"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/mlp_plr/waterfall_illustrative.png",
+      "bytes": 86735,
+      "sha256": "4e34cc8fe26754c55069c941b98599bd89f2f1c95b38875ee05dc954d3ba8e46"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/rSI_sMS/dependence.png",
+      "bytes": 47563,
+      "sha256": "9bc61204bc41f33f0b7ea89cc9d8be0bf096c8c4094a7e5933bad3a530b70a50"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 42365,
+      "sha256": "e1298c08929210c96725930544a560a50d537ad8753463218f7e87b2b68ce958"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/stacking/dependence.png",
+      "bytes": 73126,
+      "sha256": "22ccfcb281d9805cf8dd086ffa6c7b40880e7e78358a8732c835daebd2bbc702"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/stacking/waterfall_illustrative.png",
+      "bytes": 80547,
+      "sha256": "a229c8113603a11d6cb5c66a8c7fcc6c701b5e5e816cb2c5a59a5a88e261ed1e"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/tabicl/dependence.png",
+      "bytes": 70205,
+      "sha256": "c74d008e2a5387b22ec61fa854e99d87e375179ee8fd957a8c1a8e6d271e789d"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/tabicl/waterfall_illustrative.png",
+      "bytes": 95696,
+      "sha256": "fba701fa7179f5649bf1e3f420599acc771409660b26b1efa84a4809ce1d2ebf"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/tabpfn/dependence.png",
+      "bytes": 67652,
+      "sha256": "c3774ee0faec8ec1c0c455102c75f87a271f722e936def7a07699f55e2bb1f30"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/tabpfn/waterfall_illustrative.png",
+      "bytes": 96009,
+      "sha256": "f51b57e6024c651aef60bf1eb588107cd063b58553a1196e013e95f9ea7f155b"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/xgboost/dependence.png",
+      "bytes": 73865,
+      "sha256": "79478ad1c23d93000a7cc69cd3a862aa1a7e8214dc96937f4880c0df42fcfac4"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P2/xgboost/waterfall_illustrative.png",
+      "bytes": 88766,
+      "sha256": "555eee9f62976bef26551789aa44ef5998f0e036a2d3569a77449ed7127c3814"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/bert_finetuned/dependence.png",
+      "bytes": 47660,
+      "sha256": "c7faeee7a2fa292dffb41b0b10717d3e95d7ea51a1685c4ee0b2a155e6efa4c7"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 48640,
+      "sha256": "ce03624ef13c808fc0eab4bba2251092e0c3ccbc7727fdf05ee00d1dde31b3ba"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/catboost/dependence.png",
+      "bytes": 77390,
+      "sha256": "2c68c85e116c5c578b8767e041ce8d819ce16673ac88052a24a73d2e086d6fa8"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/catboost/waterfall_illustrative.png",
+      "bytes": 92614,
+      "sha256": "1543a23051cdd11d3afad5b3c4dd231230ae0ea6aa38fdffee9fece3b82ae87b"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/cnn_1d/dependence.png",
+      "bytes": 63240,
+      "sha256": "bff07249af14c75c4c993680fb59101d09890f3353bf8374e84fa57b7b97f0fa"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/cnn_1d/waterfall_illustrative.png",
+      "bytes": 92182,
+      "sha256": "a63a432c464fbb1e7f77276bf2c9702ac4991a2c70f7a029ce649de76f1fe32e"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/ft_transformer/dependence.png",
+      "bytes": 69071,
+      "sha256": "57ffca9639f3068669882136fef8e955a6e2f16b9e9337251d98a54388228c78"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/ft_transformer/waterfall_illustrative.png",
+      "bytes": 92172,
+      "sha256": "a4e53d6202314a58849a50479e83e37a7a9a0eb10055cd7e31e6e72884daef0c"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/lightgbm/dependence.png",
+      "bytes": 61560,
+      "sha256": "6452567fbace372c26aabcd94268a548ef784f183c9386e2c3d3ed0f2b46758a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/lightgbm/waterfall_illustrative.png",
+      "bytes": 99947,
+      "sha256": "da7ce2ec69f63f6fb0d04c677ca43eb7a9602b022b3f74c3087958f255c5f846"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/logistic_regression/dependence.png",
+      "bytes": 69623,
+      "sha256": "3f9cf89b292592b6444958ec40fb3a60b21c8cf85454681d5823927c07d0cb11"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/logistic_regression/waterfall_illustrative.png",
+      "bytes": 100759,
+      "sha256": "35004b9beb7b27e7fcce9ead8f938218e21e717c47afa96809f7efa0330e25c4"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/mlp_plr/dependence.png",
+      "bytes": 76965,
+      "sha256": "cfca3d8ad15c93909dee3f9a42925f8b191561944ec2134110052d57abbed109"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/mlp_plr/waterfall_illustrative.png",
+      "bytes": 90791,
+      "sha256": "31b3e6f36fb3e6781e9ac9637085b4bb80d39f3c5695b67507808da315b7b15a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/rSI_sMS/dependence.png",
+      "bytes": 45645,
+      "sha256": "536ce3804cc3b5fa3bce4fe179165985c18de426e16763610e975f39c5158809"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 44375,
+      "sha256": "1a9cc530fe0be76567ede0528cbc64f4dc189156e25158b9697e26a59611cf1d"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/stacking/dependence.png",
+      "bytes": 71319,
+      "sha256": "cd790214b1af7ca5fbdf25a70e3a5830dd03896eabc482e3ffe5899803895642"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/stacking/waterfall_illustrative.png",
+      "bytes": 78952,
+      "sha256": "a07d5507aa947ff0410505b4e537079831811cfd3786044c10a1a9f08201059a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/tabicl/dependence.png",
+      "bytes": 67571,
+      "sha256": "233969cb71bfbe4a04afa23a601b95575d225bd17a3be1fa4a356560dc884c04"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/tabicl/waterfall_illustrative.png",
+      "bytes": 99858,
+      "sha256": "52a5edea83b9ec2de6cfd15277f1c90d950236367d5eaa8291fc72e3b0782058"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/tabpfn/dependence.png",
+      "bytes": 75305,
+      "sha256": "5bd426e65fd766e076b71be351d0998d3ec19cff65b6f115f05864c67e74533a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/tabpfn/waterfall_illustrative.png",
+      "bytes": 94142,
+      "sha256": "9cee01633a5d8173a114c8bbf54748a2d257a4d13bc22bb1494eb64cb3fddaf1"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/xgboost/dependence.png",
+      "bytes": 67177,
+      "sha256": "11a39c81d8db201b0dcce853d8f834f67019d133efe8cb2b2aa326a581c71dd7"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/xgboost/waterfall_fn.png",
+      "bytes": 93657,
+      "sha256": "93c4ffd3e95369d9fbf76fcea8426d7e8d1daf9281ccbb72c12ac1acf6a9c783"
+    },
+    {
+      "path": "p1_figures/assets/surgery/P3/xgboost/waterfall_tp.png",
+      "bytes": 92571,
+      "sha256": "03122eb90aa595df799fb257695c88ea1c5618da48a85f2151aa8638a6ec05fe"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/bert_finetuned/dependence.png",
+      "bytes": 46513,
+      "sha256": "695d9190091a77dff27bb6d3caed25a5663a07f862d853ccb7421947a8c173d2"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 50410,
+      "sha256": "d2bbafd11646dec768961b10596422fb136cdbf9ffb72ddf0384173c828767aa"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/catboost/dependence.png",
+      "bytes": 77507,
+      "sha256": "2c4008af7eec4801a9a37a5492d8a288065a7c2bc6102f4168750005b45a948d"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/catboost/waterfall_illustrative.png",
+      "bytes": 107333,
+      "sha256": "a85c962459deb6fabbe0ca6e11f9e62bd7a3d2660d5f9f42db3306e8e4850657"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/cnn_1d/dependence.png",
+      "bytes": 63688,
+      "sha256": "b10a0989ae99a31e9a24749689e67b416982e3f52438ddc51046ac590ff55d0e"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/cnn_1d/waterfall_illustrative.png",
+      "bytes": 93036,
+      "sha256": "41a4d00871d68aea4bdc0cfaa6c509bbce60d6c2096607b9e7af41ce85d0ef22"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/ft_transformer/dependence.png",
+      "bytes": 77418,
+      "sha256": "e3f70e5033e0f63d2c395799d41dfd413031e1b17c83f17f8d585f2c83856ac1"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/ft_transformer/waterfall_illustrative.png",
+      "bytes": 87836,
+      "sha256": "74fff5e6704ec956cb11a461051b81b0df13aca109d99bf73256e05017e99d72"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/lightgbm/dependence.png",
+      "bytes": 74487,
+      "sha256": "2dcb797a5afe6e51e96594779a663e25c981e0d3f5c8a9070b327ff975b9c9d9"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/lightgbm/waterfall_illustrative.png",
+      "bytes": 93922,
+      "sha256": "11e286a45ed80fe848940089645dfebcc09bbdcbfab6f7455b4ff27872c57058"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/logistic_regression/dependence.png",
+      "bytes": 69874,
+      "sha256": "315408ded725d7e2c2a55e61c592bd7d0771d2caab5c7d5eb1be1a93c64f6cad"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/logistic_regression/waterfall_illustrative.png",
+      "bytes": 101020,
+      "sha256": "1542dff29a267ded6edd580831c07a49266bf306dca4f3630aeeb47525382df0"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/mlp_plr/dependence.png",
+      "bytes": 73687,
+      "sha256": "51752eca9aa1a6bf3e448660d1ebe4c6b79ba03a0cc013c0f8655797883336ff"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/mlp_plr/waterfall_illustrative.png",
+      "bytes": 104284,
+      "sha256": "d869d785489a56ecae88eecb168f763d8300a4e158fddc29e8bd320a48b88805"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/rSI_sMS/dependence.png",
+      "bytes": 46893,
+      "sha256": "b23beba60697c71c57d49303df2886de1842a28c1d93e8d3a09fadecfa2a5599"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 45227,
+      "sha256": "e0b9969fbf2bffa46c31e943bff46af73a346fd406307c5f8e04e0654d3fac8a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/stacking/dependence.png",
+      "bytes": 69482,
+      "sha256": "a5798a0ff3cdfe0230767d6aceb93845b3fb4a15e806bea21779d4ba46020787"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/stacking/waterfall_illustrative.png",
+      "bytes": 73098,
+      "sha256": "c6bc3bc37329d3fc051351e8bf8f63e4c2ca3a2df5db5bfca2ffdd80c68b63f7"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/tabicl/dependence.png",
+      "bytes": 69659,
+      "sha256": "b06a7be552eaa035aca88d22a06cec0a83f797ae02238f6dbb89a6d0ff9a8c05"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/tabicl/waterfall_illustrative.png",
+      "bytes": 95074,
+      "sha256": "c35aabfe97b376aea415c47235308b6c10862f8bb9cb533899ac7b82c403b91f"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/tabpfn/dependence.png",
+      "bytes": 62600,
+      "sha256": "03d92eb83853f71e5a769cc5e397e38beafc0c9d5e9214661722323c9af288dc"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/tabpfn/waterfall_illustrative.png",
+      "bytes": 90633,
+      "sha256": "de9c333ede95680566620d38cf3de9483bde4b977944434279b77b3381f80fa9"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/xgboost/dependence.png",
+      "bytes": 66530,
+      "sha256": "a7f376b7849e44ff8f8fb90eae65248c586f1d81d2a6b5968f2119932ead9909"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S1/xgboost/waterfall_tp.png",
+      "bytes": 88738,
+      "sha256": "959bd50bfea0cc6bd45a5c328c66b495a9c47f747c9cfebc54ef6c9780bda848"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/bert_finetuned/dependence.png",
+      "bytes": 47623,
+      "sha256": "c1365370d029450590884de0279e3d1b480fa188e8dbd61cb75a207ec148f07a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 51738,
+      "sha256": "d7e3d20c4a76c51ef8637dc950b0ee65eaf6b5e81f56579b27283529cd25b015"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/catboost/dependence.png",
+      "bytes": 65073,
+      "sha256": "e66fa923164018eaf9bdd7b361783887f55de67f5f73513e6cbec5ead9f0961c"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/catboost/waterfall_illustrative.png",
+      "bytes": 99629,
+      "sha256": "db8e90e9d68651414f1c6177425ffe9a099d86fbfb31f594e5b4619edbd73612"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/cnn_1d/dependence.png",
+      "bytes": 62898,
+      "sha256": "96e5e6793a60e4d889ca73de21fd571bf9a7cf04cfabcf7e61e7962c2e6f979b"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/cnn_1d/waterfall_illustrative.png",
+      "bytes": 94722,
+      "sha256": "212312ea2684f05c44b3d7b6dfccb5aafa23d354d720bf5f5df8f3d53ea3af58"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/ft_transformer/dependence.png",
+      "bytes": 76448,
+      "sha256": "df85e425e2e0a83d4574803c90900b3c48aaf161d93e18cb5383e73b7bc64981"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/ft_transformer/waterfall_illustrative.png",
+      "bytes": 93036,
+      "sha256": "3f9c7bdbd05b57c9578a5358f9d8203e42bc2e9bacecbff1f807ddf3ad0ad013"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/lightgbm/dependence.png",
+      "bytes": 70645,
+      "sha256": "bf7e807b4caf26324bfc55d9469024547378dcb4d994133eb87ca0ef05b11972"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/lightgbm/waterfall_fn.png",
+      "bytes": 98925,
+      "sha256": "a332b0aec2546923818df6ffa3bb4af1fe3b3986af41125ec0df7eac5e18cd79"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/logistic_regression/dependence.png",
+      "bytes": 63573,
+      "sha256": "068706c67a09ba65c513f372dd61a62c0a76a5633761fa7a205373b0313f9289"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/logistic_regression/waterfall_tp.png",
+      "bytes": 114735,
+      "sha256": "f5ef6c26c9e3b37f547dc61f3fd309758cf1e9e74056bb37123466d52aa6431f"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/mlp_plr/dependence.png",
+      "bytes": 70334,
+      "sha256": "fb2a75e5ad1dc45dc2c24766bfabf799137c07f7978b3a0f0842191e7785e2c2"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/mlp_plr/waterfall_illustrative.png",
+      "bytes": 100458,
+      "sha256": "c1c4260556c00a4fec6a093c835cab1d811c99b5fe58339507e01f6d4136ed8c"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/rSI_sMS/dependence.png",
+      "bytes": 46296,
+      "sha256": "717d88472b1f0cd8bfec154de1a03ff9cd7ce4d47a4095d2ae1db8ce5ed2fa1a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 44545,
+      "sha256": "05dcc518fa73aa759915c3c2bcc35db75105b98c381b98ecfff9ff1e226f0946"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/stacking/dependence.png",
+      "bytes": 70816,
+      "sha256": "ba7d259bff60410d933ce2f696e2ddba3a6ccee238a4b2e1137bef31087e2d37"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/stacking/waterfall_illustrative.png",
+      "bytes": 72626,
+      "sha256": "5699164c8a05b98b2984f9a60a164dc526f5ae113c7ab131e09127c448e5b06d"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/tabicl/dependence.png",
+      "bytes": 74093,
+      "sha256": "27dffd990837c0260cb18fc3a9ee9473346ed7435615939b2a26810a96ce93bd"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/tabicl/waterfall_illustrative.png",
+      "bytes": 93173,
+      "sha256": "02697c82297f92b0251ae8f0f921623c47bf84f97eaa1d811e6d3726523753eb"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/tabpfn/dependence.png",
+      "bytes": 75640,
+      "sha256": "6898e9c8137fbf61cdd1fab11beeea74ccd1520f3cfcac8f7a20c0c1399969cd"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/tabpfn/waterfall_illustrative.png",
+      "bytes": 92905,
+      "sha256": "1f68fee61241165156293cb93121614d769adc42c2ebf84cc663886931b73bcd"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/xgboost/dependence.png",
+      "bytes": 70668,
+      "sha256": "94192169c4f13d4f26410605092ff9690bd4ba7cd24d11874488d21393766e66"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S2/xgboost/waterfall_illustrative.png",
+      "bytes": 90742,
+      "sha256": "6b27450704996073d880e0ff305ec4a92e0842ee01799e85ef282b155bfa1d6e"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/bert_finetuned/dependence.png",
+      "bytes": 48555,
+      "sha256": "f7e1bf56c57d8646364ff2a29909b08dfdb7e78804b71455aeacdbcf5147239e"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 53181,
+      "sha256": "9b98d10a5d88ddea031bc18d5f2b625578899fe4a15d7a407b9b2b0c7c278ce9"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/catboost/dependence.png",
+      "bytes": 72717,
+      "sha256": "8f6520eef0bb825525c9b758712ab61d06b412dcdd12cf36c73e803412e2f6c9"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/catboost/waterfall_tp.png",
+      "bytes": 92974,
+      "sha256": "07b0578d2dbf77ac6bf022a530715e4a3149a710ec39da4ad8bd961a2e3424c5"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/cnn_1d/dependence.png",
+      "bytes": 71062,
+      "sha256": "a5cc1660075ba86144eade9ce10d1a755a4e24c4f8d1fd0b5bd555a911552dca"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/cnn_1d/waterfall_illustrative.png",
+      "bytes": 97981,
+      "sha256": "de81ed8c82ba03eb6921be45bf76c651ae48a2faeb3c673147d4321508ae332b"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/ft_transformer/dependence.png",
+      "bytes": 74723,
+      "sha256": "220fff1cc20f1078a9310f86bbc2ea6b694232f25dcdb7e505528479e9458b79"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/ft_transformer/waterfall_illustrative.png",
+      "bytes": 92854,
+      "sha256": "2fbdae5b65bcf863b93d6da78c60920fea6f9ca63d086aa9e2abb120dd79a317"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/lightgbm/dependence.png",
+      "bytes": 71268,
+      "sha256": "8bc9152ce6de4523fdf3deb316a0c3732b53bd99d2cc9f71bbc467cd1084adce"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/lightgbm/waterfall_fn.png",
+      "bytes": 93452,
+      "sha256": "2bb71974cc9d819f6c20edb88005da7ce718e7b8b05a522d855b1b3898162350"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/lightgbm/waterfall_tp.png",
+      "bytes": 90784,
+      "sha256": "527ba74530f26aa005aad33ccc2f4a6171e95b9a61ba5059017b44ba4063e390"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/logistic_regression/dependence.png",
+      "bytes": 79567,
+      "sha256": "d237771ff51ff3e24151639a3f8f8fa900e703e9468ddd812b27ca5c2796709a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/logistic_regression/waterfall_fn.png",
+      "bytes": 109231,
+      "sha256": "20d5da8ea2ef45b1d53fc9c16fe507b2d97e14fdcbd5a7f14df92e024ddad1dc"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/logistic_regression/waterfall_tp.png",
+      "bytes": 99384,
+      "sha256": "07f4053e25cdeb11fa28174c94fbd44cbe3fa36f79a2f6f9241ce3729aacd756"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/mlp_plr/dependence.png",
+      "bytes": 74592,
+      "sha256": "2378029f222e1d5c76cee5c80a482a07e5aae20a671d42a803229389e1fbdfab"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/mlp_plr/waterfall_illustrative.png",
+      "bytes": 109748,
+      "sha256": "b865681b7573cbd836006e998f354bf89977b1d261660f7c0236e9f62db614b3"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/rSI_sMS/dependence.png",
+      "bytes": 51244,
+      "sha256": "acf89c547bd4a2bd9fbf3769324f5a41f002599b694ac5c4981fae6d257ef182"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/rSI_sMS/waterfall_fn.png",
+      "bytes": 43074,
+      "sha256": "77c4ef9f2b41f21fc26dd14b967d8419c5e0698f5ffcf18b986304f4349483bd"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/rSI_sMS/waterfall_tp.png",
+      "bytes": 42118,
+      "sha256": "1e58ae971e9c23ac9fbd0796c82ddc98e1ae6bd98a30b27b774a5e57aaea5c9a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/stacking/dependence.png",
+      "bytes": 72699,
+      "sha256": "3c4b606e09c4e435392e75b7b5f1721ff82dde8201f532f2349090976b9bb773"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/stacking/waterfall_illustrative.png",
+      "bytes": 70751,
+      "sha256": "8cd30f7de3654fab93e9ed95da9de35d8f70c3279e5f9c72f87b8cd858598d8b"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/tabicl/dependence.png",
+      "bytes": 69333,
+      "sha256": "628e07fc1fbe6bd3d1e057ad9cf714fdbef07798dc5aa4388fc2f122c24c93e4"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/tabicl/waterfall_illustrative.png",
+      "bytes": 79231,
+      "sha256": "4401e7053b46b64b6661aac1f4f4e1277a688c6c0c9d0d4312a3d0cb24f411c5"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/tabpfn/dependence.png",
+      "bytes": 74246,
+      "sha256": "55f759c3f5125f00e7db0c7b919cfa90c4f11b0c84515a1e3ca519c98890c6c5"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/tabpfn/waterfall_illustrative.png",
+      "bytes": 90330,
+      "sha256": "a895a0b79bc988683e3b1e53e3cad4e9e015b11561163d6c2a20fb05355765de"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/xgboost/dependence.png",
+      "bytes": 72695,
+      "sha256": "367afd4b21ce47cc9e17340974a325de6b6f9a5a4a50ca590b4e1ed76738e966"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/xgboost/waterfall_fn.png",
+      "bytes": 91454,
+      "sha256": "1cc213625406a9e7095d8066124d977a3fa6a586a5ad9b714499fc42cb60bdeb"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S3/xgboost/waterfall_tp.png",
+      "bytes": 88854,
+      "sha256": "730236a016b006b9ddf2ae3861c6c9d1222748aa69d91e8c19039ee88f56a0a4"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/bert_finetuned/dependence.png",
+      "bytes": 48194,
+      "sha256": "9908450606e940238cb1fcb2d665d2a93a6c6092c1258c9bbdd2a7c63016764f"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 51830,
+      "sha256": "90618b47a2d9ef9a02ea95638d9f041eae7c25bfe47ae5351d64871e883edd45"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/catboost/dependence.png",
+      "bytes": 74909,
+      "sha256": "9034262653f6170dcd133c1493f8c1d315ebe4ba351b022c51b7018aa80d8cab"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/catboost/waterfall_fn.png",
+      "bytes": 86934,
+      "sha256": "c3916df40dc435f37138b59e6698dc75e45e5760df81e2a81436d6a010298dc2"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/cnn_1d/dependence.png",
+      "bytes": 71058,
+      "sha256": "d78c6e6e5697e2297ebcb4aa0867220d6bfcdf46ea5151a2cd63157236feb4f8"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/cnn_1d/waterfall_illustrative.png",
+      "bytes": 93380,
+      "sha256": "14f1264cf021899d13912a7200398b3eca61eb3aece8325e16db405d84d6c401"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/ft_transformer/dependence.png",
+      "bytes": 74244,
+      "sha256": "268771942f900cdd2ffce16835d65c30f18bb95ec073f1aa3e09392f10c5938b"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/ft_transformer/waterfall_illustrative.png",
+      "bytes": 96744,
+      "sha256": "b5ba124810439e7318e8a9d2a361a2a58d45d710ab94145d8c6a0a70af8f1495"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/lightgbm/dependence.png",
+      "bytes": 67898,
+      "sha256": "fbfa051af79ba05073d25762e8cc9fb70939744ed937a667eaa69a36dde52b45"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/lightgbm/waterfall_illustrative.png",
+      "bytes": 94284,
+      "sha256": "cee5356f39e0729f5a4e279dd07575b211c7627f1b17a208b280d5311b982cac"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/logistic_regression/dependence.png",
+      "bytes": 74895,
+      "sha256": "1b5876df4a9b504a5ad516f052d5e4cda0c7847ba98998fb9c93dd012fd30634"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/logistic_regression/waterfall_tp.png",
+      "bytes": 103652,
+      "sha256": "80ba2fcedce70eb868a9a8dff4c640f8bbd6fb4d20608652c742e1ca4e48f25c"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/mlp_plr/dependence.png",
+      "bytes": 76575,
+      "sha256": "8a5118db635999eadbdbe9fcc1c6dd646a86f2fda0e87c217ff578106b56067c"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/mlp_plr/waterfall_illustrative.png",
+      "bytes": 85060,
+      "sha256": "18cb6abb0ca22c4312108660d394cb1c25a2a1e23bb91f240eabe09a8e8eaf3f"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/rSI_sMS/dependence.png",
+      "bytes": 46633,
+      "sha256": "6e76b6cf1e8b57dd3835cea6e44cc540f39110d8a6d98b4b70188f8af90ddb0b"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 45370,
+      "sha256": "0913220330fe04b1e4e2d1f5dbf77d0cad4cd4dd22aa7cb9838c74d0326e6f15"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/stacking/dependence.png",
+      "bytes": 77371,
+      "sha256": "3dcc86b4744c7d3bad0c5281769d79d9a624556ab435a1a4a6398ea8d3c8f780"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/stacking/waterfall_illustrative.png",
+      "bytes": 72853,
+      "sha256": "1e6ad7060662f699b7e134231b4c8f87ee44656cb620640a52143cca31ab4233"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/tabicl/dependence.png",
+      "bytes": 71803,
+      "sha256": "6b565c37269dd3f83fd7c7386c69cd3d86d3d5c8d6bbc7a9ea1d082405c4c2a7"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/tabicl/waterfall_illustrative.png",
+      "bytes": 82512,
+      "sha256": "cca487d1fd60523fc7fe24ecfa496317573c45455ff3e71ecf8ff853b61a864c"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/tabpfn/dependence.png",
+      "bytes": 68577,
+      "sha256": "1a6c0f28fadc2d1519039191a6c45c9f08ca55625f71a71760d3bef906256a7c"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/tabpfn/waterfall_illustrative.png",
+      "bytes": 91699,
+      "sha256": "ac1076f89fbf47916c4cc49e1cc3e949cac77482798901095d400ac513b5f779"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/xgboost/dependence.png",
+      "bytes": 70246,
+      "sha256": "d207670952ccc314d32ebcecb276f9d1a68bb560c70d9ef4ab4fa66a3b5d0804"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S4/xgboost/waterfall_fn.png",
+      "bytes": 91362,
+      "sha256": "7f51f4efedbfd96e67877a447b99450d9e98aef62d535e3afdc0045a6d0fb542"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/bert_finetuned/dependence.png",
+      "bytes": 46667,
+      "sha256": "5f6b4a2ef12d9535ebe7ecfaec5775bc6a476e81357d571900e3e383cc8cb913"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 52409,
+      "sha256": "a768869651790670c52deba92d328267446fd13415ceef1d03a4224a4d840786"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/catboost/dependence.png",
+      "bytes": 72779,
+      "sha256": "d5e6fd23925bb6acbe6075ca1edaecc756d315706e0a85cf5ed46e170ea77efd"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/catboost/waterfall_illustrative.png",
+      "bytes": 96466,
+      "sha256": "61c28d4f4566a247f74a53c84f8bdad26a7f327ddf066c6435764084b3eb50ea"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/cnn_1d/dependence.png",
+      "bytes": 61192,
+      "sha256": "edd88f5986ac6f4ea2ad6f58003452641f204bf02958dbed33d3e4b1fd2cecf3"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/cnn_1d/waterfall_illustrative.png",
+      "bytes": 105422,
+      "sha256": "abab77fbd4b4174317c5c03003a9c199bde252a7878153506f35592308a0a1b2"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/ft_transformer/dependence.png",
+      "bytes": 68436,
+      "sha256": "27641ff80162eb6f7ca82203b935e330aade2c06a3dacdac4b202ba947ace551"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/ft_transformer/waterfall_illustrative.png",
+      "bytes": 101550,
+      "sha256": "07e4af1d1a3667acdd840a6a6f4ba3a314cba874660ab7ff6e2a9ae514997d4a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/lightgbm/dependence.png",
+      "bytes": 66325,
+      "sha256": "535f5153788eb41c2a3ff28179855a44a3cc9e6d825a24083959352286c8504c"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/lightgbm/waterfall_tp.png",
+      "bytes": 87978,
+      "sha256": "c42632338348f9525f406510f823acbdc170dd919252312507e80f49b9b8cf50"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/logistic_regression/dependence.png",
+      "bytes": 70897,
+      "sha256": "5a9c1746802334779bd8cd47a8a0ee9138caee90d7566e1eba764d3780993f83"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/logistic_regression/waterfall_tp.png",
+      "bytes": 97766,
+      "sha256": "8f979e84e56e4a0c0a23495bc521bc043bdced012a8d7650375a5ac6c7c70e3d"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/mlp_plr/dependence.png",
+      "bytes": 72541,
+      "sha256": "574b6b701dd6036473706e4f8b83ede6b2924a939171a4427af0a93db0861457"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/mlp_plr/waterfall_illustrative.png",
+      "bytes": 81713,
+      "sha256": "1adbc41d0bcec9976cb6c356454fe9facb2157b1c2e6373284b9d2702b42a5bf"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/rSI_sMS/dependence.png",
+      "bytes": 45781,
+      "sha256": "629500dce4a70318d942c79ca6b696f6bbecb1c583880dbbffc5fcb6424e1da5"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 44748,
+      "sha256": "b3891a3b2e66083a75d93384205b742dbc571e5af8b9b841d6101498d340053b"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/stacking/dependence.png",
+      "bytes": 72338,
+      "sha256": "ee24bfb7fe5a8af50d41b3cef23885e29efe62e20eb6fd3a966ec5a9d26e3e9b"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/stacking/waterfall_illustrative.png",
+      "bytes": 73716,
+      "sha256": "79aa89f00c355f31904f10193e36ea98352e736d839f28cc0d66fabcf99b0d49"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/tabicl/dependence.png",
+      "bytes": 70564,
+      "sha256": "04ae8974e6b1baa8e1fe39fa637eb51d2b2dde88a6dbb0d95c1202155f61cc0a"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/tabicl/waterfall_illustrative.png",
+      "bytes": 85799,
+      "sha256": "773013bbc3b4f230d1da62893ecbe458bd28f25908ae1f62b83fa565938460d8"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/tabpfn/dependence.png",
+      "bytes": 79102,
+      "sha256": "1fd295532574dae78f38d3d500098ea8183064ac5b720ff0698e473a6dcbfe64"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/tabpfn/waterfall_illustrative.png",
+      "bytes": 91506,
+      "sha256": "8ad5e666bb5ed58bf9182f15af78a91dc966b4b13d55fcf47a679fc6cb8b6242"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/xgboost/dependence.png",
+      "bytes": 71405,
+      "sha256": "a434ec310779a0ca752ee5349a222b6417342e21c214a1cfe334e38892a18134"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S5/xgboost/waterfall_illustrative.png",
+      "bytes": 86455,
+      "sha256": "693707208cb0eeccac480328eee6d6afbd0c569169c884bae297784c924a1089"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/bert_finetuned/dependence.png",
+      "bytes": 47771,
+      "sha256": "30abcd2e6078db213ae8b938b025e576fa73a1a1c294691755b1a3e83943638f"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/bert_finetuned/waterfall_illustrative.png",
+      "bytes": 49692,
+      "sha256": "fde2b3fb08b4be0066c510efdb7a94af3a3c18d7502135f274f83656da2fd0f9"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/catboost/dependence.png",
+      "bytes": 71358,
+      "sha256": "3c92fc3c0e0fbf9a3df21de362f05e1fe2571d48af413d45e6feb6d3f3401fbd"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/catboost/waterfall_fn.png",
+      "bytes": 83055,
+      "sha256": "01024c24a15ad8d76ebbcf8e432053342530e622f3592dbf47d397e4961da647"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/cnn_1d/dependence.png",
+      "bytes": 62643,
+      "sha256": "80702a9cdd124f22c8fb3e8d1da1239cb3548c152b8c341d0b2381adc3d18b14"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/cnn_1d/waterfall_illustrative.png",
+      "bytes": 106229,
+      "sha256": "0418b220a019000641ccf980b4495ca57ea71c4034c7f498a227847696fa9c6d"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/ft_transformer/dependence.png",
+      "bytes": 77511,
+      "sha256": "09c79291bce279d268d597b8396a6ecdb535a18b0ad734932fd2cce381a392cc"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/ft_transformer/waterfall_illustrative.png",
+      "bytes": 103591,
+      "sha256": "eed264293a0a29ee5b041456072d027c58565713c06dd062a90658b2a8077e7f"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/lightgbm/dependence.png",
+      "bytes": 77290,
+      "sha256": "35257f15f61f0c33fbd1634e1b0cd5af9b1413c64a8bf5dcb5950ce80a9f10d0"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/lightgbm/waterfall_illustrative.png",
+      "bytes": 92488,
+      "sha256": "eafbbe9e14917e07c0af9517a1d2041d3aed4986cc3a1dff74b926eaef68fcad"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/logistic_regression/dependence.png",
+      "bytes": 79218,
+      "sha256": "95cc8afcc3da2d465a90240fc95109f145cca7e9a5ed44caa2a9e354eed074e0"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/logistic_regression/waterfall_illustrative.png",
+      "bytes": 106084,
+      "sha256": "b7c9890ed6560a8884f758d5d3e7d7f0d6bdbab0359014646c12e80f805dc741"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/mlp_plr/dependence.png",
+      "bytes": 72778,
+      "sha256": "cc34cd594fd7fa37d957f18899bde6427dc4060d8ec09efd312e7c66022295aa"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/mlp_plr/waterfall_illustrative.png",
+      "bytes": 83416,
+      "sha256": "0ad93eb2a1b1a26bd2b3e44e888489929eeac536e200225a08feb280305f90ba"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/rSI_sMS/dependence.png",
+      "bytes": 46344,
+      "sha256": "c3f168c7591cc91df222202ecd6f33c6cefea8bcdc29cbbf9cf12eb9b13fa808"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/rSI_sMS/waterfall_illustrative.png",
+      "bytes": 46790,
+      "sha256": "8960b784c0edb6009e3a63802ba47e64a4d6c6e0f09ca49bc5f790c5794058be"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/stacking/dependence.png",
+      "bytes": 72093,
+      "sha256": "bbea8693b32b59c059ee472bfbe072c6075b67205884231f964883be86b86f0d"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/stacking/waterfall_illustrative.png",
+      "bytes": 75223,
+      "sha256": "1714e20015e07197396e1f243e18ee160e53103cf931d738c6e3302d0d546c8c"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/tabicl/dependence.png",
+      "bytes": 75224,
+      "sha256": "b2a7b0e493d492c6a242048ba0ac07611129255490df4fc89aaa8dee0ab6196b"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/tabicl/waterfall_illustrative.png",
+      "bytes": 95778,
+      "sha256": "aed64a697529779e8306a13a74af5367e09bf411d089a23a22bdf97ed00b98d4"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/tabpfn/dependence.png",
+      "bytes": 80255,
+      "sha256": "e6fdbb7f19a67fcd69e9e058d725b4fed20628680035e1b8eb4da8b599ddebb7"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/tabpfn/waterfall_illustrative.png",
+      "bytes": 91308,
+      "sha256": "4d5ae15a60cf087213193e0c13ccd23477d305b1772806f1676ba086ae715a59"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/xgboost/dependence.png",
+      "bytes": 72159,
+      "sha256": "1a3326accce6fd4b11721214d0d122666377f7205b87a9831cd9cd47d4516bea"
+    },
+    {
+      "path": "p1_figures/assets/surgery/S6/xgboost/waterfall_illustrative.png",
+      "bytes": 87852,
+      "sha256": "c73ab47fc146d2799ab7683217ae831621ba5dd27be4914b57d803a48d7b02b6"
+    },
+    {
+      "path": "p1_figures/best_tree_required_coverage.json",
+      "bytes": 84788,
+      "sha256": "190e63253dc3c2ddac80e06d7dba667b1e2dcfce8d5d22b6e448285813e4b575"
+    },
+    {
+      "path": "p1_figures/figure_index.json",
+      "bytes": 1360254,
+      "sha256": "534efa16860043f049d589a7210310a68bbf82bed0608d6cfd7eb269ef5cf406"
+    },
+    {
+      "path": "p1_figures/validation.json",
+      "bytes": 888,
+      "sha256": "fb4177b00070323ad24d852a4931ac7e8568c0efb2ae614909d640fe73f3eef7"
+    },
+    {
+      "path": "p1_supplement/complete_case_flow.csv",
+      "bytes": 3890,
+      "sha256": "9bcd24e4872e0e077163b9bd1f995b3db09d09e086ad710cc69b49712faecf5a"
+    },
+    {
+      "path": "p1_supplement/complete_case_flow.json",
+      "bytes": 7357,
+      "sha256": "2e7085d266c064b7b8338fc1697000eacff9ceb5a7f14bff959ecfb355227677"
+    },
+    {
+      "path": "p1_supplement/correlations.csv",
+      "bytes": 199029,
+      "sha256": "c3f981ea45c276ea49bfb51c68cfd0142186bcceeb40d7cf6e0f57eeee09c070"
+    },
+    {
+      "path": "p1_supplement/correlations.json",
+      "bytes": 477902,
+      "sha256": "eb7d40ec66b79764fe7501c5ffe58f4920b86f64deb7e0e5fb63ee12fa6c7c5b"
+    },
+    {
+      "path": "p1_supplement/current_calibration.csv",
+      "bytes": 323337,
+      "sha256": "1aa700ae9db452a90ea36378872a719dbcbab20bb872f7fdf14d9536916392b8"
+    },
+    {
+      "path": "p1_supplement/current_calibration.json",
+      "bytes": 632118,
+      "sha256": "38f059254b3a003944d1871d91c0314361e8ecd9288d54c4d451970318c94f5c"
+    },
+    {
+      "path": "p1_supplement/current_dca.csv",
+      "bytes": 4163778,
+      "sha256": "df6032e93bdfc40917443f9d0aa0d53d46d9f9149337dc4ba0c6c134e73e2a17"
+    },
+    {
+      "path": "p1_supplement/current_dca.json",
+      "bytes": 7969067,
+      "sha256": "bf39403b309431f1200b07fcfbf3e4755bff9be5d45d2e2a596d9e4faed5e6ad"
+    },
+    {
+      "path": "p1_supplement/current_model_metadata_summary.csv",
+      "bytes": 62240,
+      "sha256": "55d205e7af5767b686aedf6d128400bfe077212d2b21af56f2b18fb3da46d44a"
+    },
+    {
+      "path": "p1_supplement/current_model_metadata_summary.json",
+      "bytes": 137385,
+      "sha256": "69818124876dd81a9f4be687a52d5446b96a97a95732effdc1ca55a875dd2cb6"
+    },
+    {
+      "path": "p1_supplement/current_model_recorded_metadata.csv",
+      "bytes": 261848,
+      "sha256": "aa94e71a634a80e15a4b379357c288c31dcbe64b8d7f729ad85a91c617b0e73d"
+    },
+    {
+      "path": "p1_supplement/current_model_recorded_metadata.json",
+      "bytes": 401504,
+      "sha256": "71f8216ee5091ff995fa93b6c6763c754d4bb993ef47539b49a96fcafdc98e0e"
+    },
+    {
+      "path": "p1_supplement/current_model_summary.csv",
+      "bytes": 74878,
+      "sha256": "a60f52d9cadda62fe633a7af4c6dc19610631228ebf8129b937c4ccae47a988a"
+    },
+    {
+      "path": "p1_supplement/current_model_summary.json",
+      "bytes": 140069,
+      "sha256": "68c33b5fe34111c4f1325e463a056c1685863ea4c8acd68c24cea5ff781a5b88"
+    },
+    {
+      "path": "p1_supplement/current_overall_ci.csv",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "p1_supplement/current_overall_ci.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "p1_supplement/current_paired_comparisons.csv",
+      "bytes": 168163,
+      "sha256": "71b940dc19a5faef216c1a0f47c5ff5c461028cda9b6c07bef8b6ce9e9c69b83"
+    },
+    {
+      "path": "p1_supplement/current_paired_comparisons.json",
+      "bytes": 289289,
+      "sha256": "f3418786ba57c4ad993017ef0fa99b0ef8a757bd025610eef433a05f5af10ffb"
+    },
+    {
+      "path": "p1_supplement/current_specialty_ci.csv",
+      "bytes": 54746,
+      "sha256": "5667ff795321cbdd5546ede6ea4d508f21e771e80c9ee92bd2b7cd4c8d300815"
+    },
+    {
+      "path": "p1_supplement/current_specialty_ci.json",
+      "bytes": 107798,
+      "sha256": "8c7df1ce027994985063883a4a61b2d437ab687df0ffd4e22bd68cdd9f395731"
+    },
+    {
+      "path": "p1_supplement/current_statistics_independent_validation.json",
+      "bytes": 625,
+      "sha256": "f6489ae3915786754a2cc0e0a0550227994fb2d9d59408ebcae033d4e4f88176"
+    },
+    {
+      "path": "p1_supplement/current_validation_calibration.csv",
+      "bytes": 2120612,
+      "sha256": "a8efa0034b1f56c3ff4994b2f43f63cfa96ee343a5a07e23030a81c763ac2a47"
+    },
+    {
+      "path": "p1_supplement/current_validation_calibration.json",
+      "bytes": 4702038,
+      "sha256": "7cdbf09ef0202721387984f28d94dba59b3c18ca9b2b6d6ad4d6d83ca492871d"
+    },
+    {
+      "path": "p1_supplement/current_validation_ci.csv",
+      "bytes": 623454,
+      "sha256": "1bf8318d3b3eb8a0f908d98e19eb74f50207d83dfa66279e67ec6668a58369c3"
+    },
+    {
+      "path": "p1_supplement/current_validation_ci.json",
+      "bytes": 1267025,
+      "sha256": "5a02a116b16f9dd454ad2eddf278621ba3783368dfd3c2a2b8af6c99d2dfdd01"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/medicine_P1.json",
+      "bytes": 532608,
+      "sha256": "813c976fff3474c7e3a15685bfff4db965c2e767f113cef4037be924598a21fd"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/medicine_P2.json",
+      "bytes": 533022,
+      "sha256": "720b56f7d664dcc3128b6f69cf9c327ebb88ff4dc6d81ac725f4f0c9d0fee39e"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/medicine_P3.json",
+      "bytes": 534327,
+      "sha256": "d12e8bfa7f27253d05587fa2f6775f0712a6b52e72204b0e621d7874340f1280"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/medicine_S1.json",
+      "bytes": 532371,
+      "sha256": "a2b4feffe4adf0df3fa2b99630c8e42f3e13feaecb7752ef355ff551f019c537"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/medicine_S2.json",
+      "bytes": 532841,
+      "sha256": "f795f2c5ea9f3e5acba0fac4590800bc29ba777d0351f1b707f8284b4c7150e2"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/medicine_S3.json",
+      "bytes": 532005,
+      "sha256": "d60014c80ef467aca8142c10f92cc752e405efc40a5a7be7d76703103217914b"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/medicine_S4.json",
+      "bytes": 531700,
+      "sha256": "b176a08a5c878916025f81fd79663339f3d95987ad04458fd64e723028cc2b3b"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/medicine_S5.json",
+      "bytes": 534166,
+      "sha256": "f965d0c1720dd38a1a1f5353729f7499dc5946135c0514c0b1bc23e20bc81868"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/medicine_S6.json",
+      "bytes": 533135,
+      "sha256": "9ecf921aa3424c3ea291fdbae3027acd31810fc4fab1d112e407f33a2b75c5cd"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/overall_P1.json",
+      "bytes": 522501,
+      "sha256": "6983f432058873f6e31cc1f4e0dfbfabff3d76afca13b5934c765703855c9307"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/overall_P2.json",
+      "bytes": 522017,
+      "sha256": "7543c0d4211522d3c073fa1d49affd32862eadb8d980c862be3dd081c2b5f716"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/overall_P3.json",
+      "bytes": 523346,
+      "sha256": "5dbf54becce6d416319a9ce8a4a5858fc6fafeca0620989742e830d4c1130712"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/overall_S1.json",
+      "bytes": 524477,
+      "sha256": "b90e39f1c0b1f578c10eec600c904aeafda4f303dd35d31a97fb3e337e566fb9"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/overall_S2.json",
+      "bytes": 524349,
+      "sha256": "d5e834bce91678a85c7edf821739cab8f62b498e285f5ad1c1fc409fdad91726"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/overall_S3.json",
+      "bytes": 523393,
+      "sha256": "613ba5438d71bf2fc35133452c0700eca8032413859716f10d5f4c303afdb64b"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/overall_S4.json",
+      "bytes": 523016,
+      "sha256": "afc32225c42d6b19f1ce1487552a9b76b152566d3c19b27fdf7b83613d0f020c"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/overall_S5.json",
+      "bytes": 523377,
+      "sha256": "70d6a2f510c8249991a928af901e6a1e988dae9ea00ffc96e23681dc2df053dd"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/overall_S6.json",
+      "bytes": 523342,
+      "sha256": "bf76b7b50da0365994dd4b846256d49fbc5c4dc282d96ec2ea409d3586eba561"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/surgery_P1.json",
+      "bytes": 526082,
+      "sha256": "cd1de51287874e1a703939b03fec360c64959709c691b613301bb27343b93576"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/surgery_P2.json",
+      "bytes": 523796,
+      "sha256": "dada88db3ce45366f588dd478f4b0f1b785097054ebc8a4adf465ac062aee628"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/surgery_P3.json",
+      "bytes": 523756,
+      "sha256": "5754a39e5f07523a984785d17401d2cc2c131a788c62e7b004470d49d3eb6c87"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/surgery_S1.json",
+      "bytes": 530810,
+      "sha256": "faf1f7d3aacf5b42176341249434ff48f677cad1001ebf1515fe42b214f04681"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/surgery_S2.json",
+      "bytes": 529507,
+      "sha256": "8c5a2e09654e7512d06729bb9a4c430626ee05658c6f10b421a1dbbf374e2824"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/surgery_S3.json",
+      "bytes": 531764,
+      "sha256": "44fad8e5d5d5ab51891ca492a85b2e9a588ed6966d2047e3ca9648e7b2537f7a"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/surgery_S4.json",
+      "bytes": 532888,
+      "sha256": "06098f45633d52516298fb9530c399b9b19386e2a2bdec88457fbf7e4f20f612"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/surgery_S5.json",
+      "bytes": 529422,
+      "sha256": "4f2b14944526d948c00fb90e8d8e20e68ef5c36088fa1a0dfa6b326144cd1d58"
+    },
+    {
+      "path": "p1_supplement/dca_2024/collections/surgery_S6.json",
+      "bytes": 530878,
+      "sha256": "c8dbf9dc4721821a5193f0aad676f267c28ec0f9368b8d6700cd7557af2b14d6"
+    },
+    {
+      "path": "p1_supplement/dca_2024/dca_2024.csv",
+      "bytes": 7640867,
+      "sha256": "413f361867baea643b80a1182a98b5cea8047f6ce9f39502a6b04471f0dc8614"
+    },
+    {
+      "path": "p1_supplement/dca_2024/dca_index.json",
+      "bytes": 6142,
+      "sha256": "39f7d1e160e4f01df3c6a6e1d3b00b08ba22c7272dcc1a1777cdaf0cf9b18815"
+    },
+    {
+      "path": "p1_supplement/dca_2024/frozen_overall_calibration_search.json",
+      "bytes": 2825,
+      "sha256": "21f719c4c86bbb9a42f833385b31d9b82fa791f22079dcb51de60ffa57bc8af4"
+    },
+    {
+      "path": "p1_supplement/dca_2024/independent_validation.json",
+      "bytes": 698,
+      "sha256": "944f3231c5daaf120b86b22b03187b938440a5175d570c72703f6c790ae9e389"
+    },
+    {
+      "path": "p1_supplement/dca_2024/source_manifest.json",
+      "bytes": 290190,
+      "sha256": "b96eaa7913c02ca7d1a46b0cd391d7010d22f1a415f7339f5d677d46f7fe594b"
+    },
+    {
+      "path": "p1_supplement/independent_numeric_validation.json",
+      "bytes": 702,
+      "sha256": "13d59a93c6aef2f4a439d2a436408b7e0ec9580df6f2f56190241c0fa3e83421"
+    },
+    {
+      "path": "p1_supplement/missingness_by_city.csv",
+      "bytes": 82601,
+      "sha256": "212245144680d1ed873e7c716f18f59d9771c65775e54dbd615153f11b89f435"
+    },
+    {
+      "path": "p1_supplement/missingness_by_city.json",
+      "bytes": 165277,
+      "sha256": "89877081c1b689f85b7e7f92f39a057097e3a8781b2e56f6161ccb1d325c9b79"
+    },
+    {
+      "path": "p1_supplement/missingness_by_outcome.csv",
+      "bytes": 3991338,
+      "sha256": "a76c651ddb51d014db784e341b1a1948af26972dfcea9201008b8bc4358b835e"
+    },
+    {
+      "path": "p1_supplement/missingness_by_outcome.json",
+      "bytes": 9919394,
+      "sha256": "f657031158f391b2a8b31129f0d7dd79f8bbead88d9838be36644072b3841365"
+    },
+    {
+      "path": "p1_supplement/missingness_by_year.csv",
+      "bytes": 197691,
+      "sha256": "82286f74ef167d6e018d7388532d19aec1f560a66297a327179dc4502eb3850c"
+    },
+    {
+      "path": "p1_supplement/missingness_by_year.json",
+      "bytes": 419749,
+      "sha256": "0a25b973eef7e55139112890c78ae4a6dba40a50073855f284bf8d4ae7ac40f8"
+    },
+    {
+      "path": "p1_supplement/no_text_export_validation.json",
+      "bytes": 1420,
+      "sha256": "fb4d0fa019e5263e19064c7b005d717028e46824115da947385b0f31ecedb944"
+    },
+    {
+      "path": "p1_supplement/no_text_source_catalog.json",
+      "bytes": 141314,
+      "sha256": "add360acb01e4961b2edafe0b7bdccb32ced2fc279015546f87e83df20276b79"
+    },
+    {
+      "path": "p1_supplement/score_component_coverage.csv",
+      "bytes": 1569,
+      "sha256": "da41d508cb33c727fe3f38ce55dc9c90b3118d91f8123881736d47f3918fdcbe"
+    },
+    {
+      "path": "p1_supplement/score_component_coverage.json",
+      "bytes": 4277,
+      "sha256": "029998c800fb4a564c9deef92abd1833f7671cc8f3e7fcacd335cc0ffcd2adc1"
+    },
+    {
+      "path": "p1_supplement/specialty_cohort_summary.csv",
+      "bytes": 9372,
+      "sha256": "beba5c24ca1ed0051370cf100e6321c71d6991ea2a6dba5eafe8c00afdccca41"
+    },
+    {
+      "path": "p1_supplement/specialty_cohort_summary.json",
+      "bytes": 15391,
+      "sha256": "1ca251a4770c8625b03495cc52f416edc42c6d80f700cee1d3472bf49c42b739"
+    },
+    {
+      "path": "p1_supplement/specialty_correlations.csv",
+      "bytes": 436082,
+      "sha256": "ec3f5417751adc4701570c3f2034f79b897ed71ffd1d764eb1292f8829624f41"
+    },
+    {
+      "path": "p1_supplement/specialty_correlations.json",
+      "bytes": 1039273,
+      "sha256": "68b7cda84de4463a1a801f519c06eb641aa7dcd1eb1cac90eab1e21caf2aacfb"
+    },
+    {
+      "path": "p1_supplement/specialty_missingness.csv",
+      "bytes": 328606,
+      "sha256": "d7c033ce5d2e8fc15ee3d8af870f082dfa847cbe820294b6dfa327cd94d34b4e"
+    },
+    {
+      "path": "p1_supplement/specialty_missingness.json",
+      "bytes": 668610,
+      "sha256": "5aa8071170fa0473ab000558f446fae0cd391ce6a20e9dad66567fdee48a0e62"
+    },
+    {
+      "path": "p1_supplement/specialty_missingness_by_city.csv",
+      "bytes": 189557,
+      "sha256": "74d41dc9e996ddae1974d024dec90760008e6d69e13f489aaae8020cd44695cf"
+    },
+    {
+      "path": "p1_supplement/specialty_missingness_by_city.json",
+      "bytes": 385579,
+      "sha256": "afb4b68a461d52862df4034b81c2bad3d6a4c72023d9bcdcdf226f44e0f89571"
+    },
+    {
+      "path": "p1_supplement/specialty_missingness_by_year.csv",
+      "bytes": 460871,
+      "sha256": "315da489f484cf76c6a4a3ccfc4fc3ebcba29fd0b7a0530674aecd6c265a3164"
+    },
+    {
+      "path": "p1_supplement/specialty_missingness_by_year.json",
+      "bytes": 981623,
+      "sha256": "55f7312d6c23daf86feacfb2a49ccb62263aa865e2d089834627e6b2d09d9d28"
+    },
+    {
+      "path": "p1_supplement/specialty_table1.csv",
+      "bytes": 11768155,
+      "sha256": "ead035082b712ee40989f5d956201b3042c563fffd0e47270dd3bd23016a74a6"
+    },
+    {
+      "path": "p1_supplement/specialty_table1.json",
+      "bytes": 29927143,
+      "sha256": "f6a8eabbf2e3117d2e8ae9a263450974ec8cbc2d386657eb5460ce58b9b198fe"
+    },
+    {
+      "path": "p1_supplement/specialty_text_gain.csv",
+      "bytes": 112189,
+      "sha256": "aebb5664c0a96ef0e7bafb8d7508710de283d99cee13083e1b0f13bc67354d6d"
+    },
+    {
+      "path": "p1_supplement/specialty_text_gain.json",
+      "bytes": 215910,
+      "sha256": "66dd7d4d1ae5b1efdfba319825cad996f2aaea50f5515899cdb369abed9aa25c"
+    },
+    {
+      "path": "p1_supplement/strict_v2_baseline_metrics.csv",
+      "bytes": 1848329,
+      "sha256": "1b977b799699c26bf496eb7bd46a6a6f837901ae16d2eccc240e112df7f30700"
+    },
+    {
+      "path": "p1_supplement/strict_v2_baseline_metrics.json",
+      "bytes": 4013555,
+      "sha256": "c7fa772ff7037c96ac09feec992cc1d87c64bf259284e5fc1e93009c19c586ba"
+    },
+    {
+      "path": "p1_supplement/strict_v2_calibration.csv",
+      "bytes": 4958552,
+      "sha256": "6a93f3ccfbeb2cdc27bf13b367e449ffb568d4ebf3fc02c69391d443757db4f5"
+    },
+    {
+      "path": "p1_supplement/strict_v2_calibration.json",
+      "bytes": 11826638,
+      "sha256": "6fa29ec1b0f0e55a95069e18d8a3941c2bf57269bd8d17974aa20bd5c09fa4df"
+    },
+    {
+      "path": "p1_supplement/strict_v2_dca.csv",
+      "bytes": 14778197,
+      "sha256": "73221f521c0936eb63c453a4117504732fdcf8dfecbd9bfca67e1eabea38737e"
+    },
+    {
+      "path": "p1_supplement/strict_v2_dca.json",
+      "bytes": 33006299,
+      "sha256": "7a185ec18130d591df0210ea49539ae9da15ec75d05632512ec2802bf98f0f6b"
+    },
+    {
+      "path": "p1_supplement/strict_v2_paired_comparisons.csv",
+      "bytes": 31379,
+      "sha256": "e2bf985dde1f5153278aef05efc6e259518ce5f23ece9a61546081f9270e2501"
+    },
+    {
+      "path": "p1_supplement/strict_v2_paired_comparisons.json",
+      "bytes": 65354,
+      "sha256": "791264e22216936b8c1b0714c69dca6a4be4c84c831985dc80d048df1052eb47"
+    },
+    {
+      "path": "p1_supplement/supplement.json",
+      "bytes": 932311,
+      "sha256": "e64db0378ab2190b40983f0de0e739ffa7064a2246392032bd6bfa036551aa20"
+    },
+    {
+      "path": "p1_supplement/table1.csv",
+      "bytes": 5627247,
+      "sha256": "6d5bdf66b16fdfb530b264b1e8facf6f28058bceae9e4d6417764add63be1eb5"
+    },
+    {
+      "path": "p1_supplement/table1.json",
+      "bytes": 14293017,
+      "sha256": "668185d33547da39659010a59b837e2e2cbedca4592c38b30b0ae423fa9fe3f1"
+    },
+    {
+      "path": "p1_supplement/text_gain.csv",
+      "bytes": 58923,
+      "sha256": "286408a8bedcbc9980f523729bbd56b51a1583f46065c06c6c541f84ffc55855"
+    },
+    {
+      "path": "p1_supplement/text_gain.json",
+      "bytes": 110588,
+      "sha256": "6d3f065571f40450d92ea2132ce305ba43d7712ed02a152d1b504eeef633c0a8"
+    },
+    {
+      "path": "p1_supplement/text_sampling_independent_direct_sklearn_review.json",
+      "bytes": 5717,
+      "sha256": "a3160300f9173900aed27975f3374c7f757d9c2de71dd801ad4df77bb887ba1b"
+    },
+    {
+      "path": "p1_supplement/text_sampling_independent_final_review.json",
+      "bytes": 336172,
+      "sha256": "285b517495f4f9882ab9187672234cedf2332155f3c14288cc15eb271ffbee7f"
+    },
+    {
+      "path": "p1_supplement/text_sampling_independent_source_review.json",
+      "bytes": 270051,
+      "sha256": "a13782d7f27edf9d604d99e7a8e7c98e791d1c5b68ac63b811e95661d4a9dec8"
+    },
+    {
+      "path": "p1_supplement/text_sampling_method_regression.json",
+      "bytes": 340,
+      "sha256": "94cec4ab54b7ed8bc4e0b59a3bb69289d11c87684ec286d4c5faa8c1f7f051fe"
+    },
+    {
+      "path": "p1_supplement/validation.json",
+      "bytes": 8308,
+      "sha256": "b75a668269dec6586e98b99220bfb5467204267d91b19a29e51b8dc6a54431d0"
+    },
+    {
+      "path": "research_closeout.json",
+      "bytes": 6756,
+      "sha256": "47cb3a66e97ce69a66a287490ea7ecaa2ac07449dc3d01b8d825964e280bc962"
+    },
+    {
+      "path": "research_extensions.css",
+      "bytes": 2452,
+      "sha256": "3e5f08b4dd79b22274e42387a01ecc9dfd96831f60803df2b9d6860c5f934e04"
+    },
+    {
+      "path": "research_extensions.js",
+      "bytes": 32996,
+      "sha256": "686fb5582204ba1bd27b5df20e969792f9046594268ca921d914fffaec814539"
+    }
+  ],
+  "source_supplement_sha256": "73630e4ec6f7ecb3f9c0f28d09e965312df83ecdd5987f67389771b65764e167",
+  "source_figure_index_sha256": "534efa16860043f049d589a7210310a68bbf82bed0608d6cfd7eb269ef5cf406",
+  "no_new_fit": true,
+  "no_new_raw_2025_access": true
+}

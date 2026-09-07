@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "public_collections": 27,
+  "record_count": 675,
+  "alias_record_count": 27,
+  "unique_non_alias_comparators": 648,
+  "full_empirical_curve_points": 2230655,
+  "forbidden_individual_fields_found": [],
+  "collection_bytes": 88349524,
+  "max_collection_bytes": 5863052,
+  "publish_allowlist": [
+    "baseline_ci_index.json",
+    "collections/*.json"
+  ],
+  "do_not_publish": [
+    "private_tasks/",
+    "private_reused/",
+    "ci_inputs/"
+  ],
+  "builder_sha256": "8f99dc99d6b99cb9cbbb66f924146c2ecccf411392800d40285293dfbe5f3957",
+  "curve_export": "Native empirical ROC with lossless collinear-point removal and full PR threshold curves"
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS_REAL_AGGREGATE_REPLAY",
+  "archive_sha256": "1075a7d0503451a7a5b04522e1a761d9afa48a35f66950a052e9188d34e15861",
+  "fresh_extraction_file_count": 107,
+  "extraction_mismatch_count": 0,
+  "fresh_isolated_venv_created": true,
+  "dependency_install": "PASS_EMPTY_THIRD_PARTY_DEPENDENCY_SET_NO_NETWORK",
+  "requirements_sha256": "dcd763f7bfdf0726e9b9c329272520a5c17ba8f81c5c10a5ebb8b497ecc96781",
+  "tests": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_modified_aggregate_is_rejected (test_pipeline.AggregateReplay.test_modified_aggregate_is_rejected) ... ok\ntest_real_fixture_and_deterministic_replay (test_pipeline.AggregateReplay.test_real_fixture_and_deterministic_replay) ... ok\ntest_bound_plan_is_read_only (test_protected_pipeline.ProtectedRoute.test_bound_plan_is_read_only) ... ok\ntest_exact_source_staging_and_no_clobber (test_protected_pipeline.ProtectedRoute.test_exact_source_staging_and_no_clobber) ... ok\ntest_existing_output_rejected (test_protected_pipeline.ProtectedRoute.test_existing_output_rejected) ... ok\ntest_modified_input_rejected (test_protected_pipeline.ProtectedRoute.test_modified_input_rejected) ... ok\ntest_no_unsealing_dispatch (test_protected_pipeline.ProtectedRoute.test_no_unsealing_dispatch) ... ok\ntest_real_original_code_hashes (test_protected_pipeline.ProtectedRoute.test_real_original_code_hashes) ... ok\ntest_unknown_native_flag_rejected (test_protected_pipeline.ProtectedRoute.test_unknown_native_flag_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 5.624s\n\nOK\n"
+  },
+  "execution": {
+    "returncode": 0,
+    "stdout": "{\"schema\": \"emt-real-aggregate-replay/1\", \"scope\": \"Pre-2025 P104 analysis plus previously computed aggregate supplements; no new frozen evaluation\", \"completed_task_dispositions\": 494, \"status_counts\": {\"VALIDATED_COMPUTED\": 473, \"VALIDATED_NOT_ESTIMABLE\": 9, \"VALIDATED_WITH_NOT_ESTIMABLE_COMPONENTS\": 12}, \"group_counts\": {\"medicine\": 247, \"surgery\": 247}, \"aggregate_arm_rows\": 1659, \"validation_2024_arm_rows\": 831, \"same_cohort_descriptive_pairs\": 575, \"different_cohort_pairs_not_subtracted\": 121, \"events_dimension_rows\": 27, \"arithmetic_checks\": 5018, \"model_fit_count\": 0, \"prediction_calls\": 0, \"new_raw_2025_access_count\": 0, \"bootstrap_recomputed\": false, \"full_training_reproduced\": false, \"scientific_acceptance\": false, \"formal_acceptance\": false, \"supplement_collections\": 41, \"supplement_rows\": 428146}\n",
+    "stderr": ""
+  },
+  "install": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "exact_reproduced_file_count": 6,
+  "output_hashes": {
+    "events_feature_dimensions.csv": "a0173b2eb8dda095e202e4d2bad5d64c30cc09bc328e7aa7ee60558c1e2b224c",
+    "limited_or_not_estimable.csv": "c92307b6af9cd0e7b8cb69fea0463e548e7ebdf0601a8c2978b4de2944820c7f",
+    "p104_validation_2024.csv": "590b6c57e7a64849e49857430b52937c5ba948951045f03c189db11982989e77",
+    "results_manifest.json": "ae75f363c47c50cece20a8c2fdb63ec54f5720ddc8c804416ff1da1a29bef174",
+    "same_cohort_deltas.csv": "8d3eba5564295d142d9a6efa0b621e78f91b2e10d73d1a87e4c66de0a26858b7",
+    "source_collections.csv": "c521dc44f871b72ba4b9ae6cfb57b3f061aa884d60ba9181cc9e2bbc4f86c80d"
+  },
+  "source_patient_rows_loaded": 0,
+  "new_raw_2025_access_count": 0,
+  "model_fit_count": 0,
+  "full_training_reproduced": false,
+  "private_model_replay_executed": false
+}

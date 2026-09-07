@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "task": "surgery_P1_knn_classifier",
+  "metrics": {
+    "AUROC": {
+      "bitwise_equal": true,
+      "max_abs_diff": 0.0,
+      "replicates": 2000
+    },
+    "AUPRC": {
+      "bitwise_equal": true,
+      "max_abs_diff": 0.0,
+      "replicates": 2000
+    },
+    "Brier": {
+      "bitwise_equal": true,
+      "max_abs_diff": 0.0,
+      "replicates": 2000
+    }
+  },
+  "original_evaluator_sha256": "16f70cd096d2dcd5ac21b30045e91e65a99b09e0b2adfad6e777f25591187993",
+  "method": "same source resampling RNG, group weights and weighted-rank primitives; omitted only unused calibration outputs",
+  "model_calls": 0,
+  "new_2025_access": 0
+}

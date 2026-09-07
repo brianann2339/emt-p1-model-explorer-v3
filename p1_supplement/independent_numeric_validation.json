@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "method": "Separate read-only Python command reloaded exported current_model_summary.json and both native frozen aggregate metric tables, joined exact current task/component/outcome/variant, and checked native float equality for AUROC/AUPRC/Brier. Separately rehashed every collection JSON and CSV against the export manifest.",
+  "independent_current_metric_exact_comparisons": 972,
+  "all_public_file_hashes_verified": 36,
+  "failure_count": 0,
+  "supplement_sha256": "6107387fb55675230eaff97fccfd066337c1ec365366f178b685495bb6939de1",
+  "validation_sha256": "4f382cf06569819b6188d92e0582c3ce65a17c68d266e92647230d74b7633082",
+  "new_raw_2025_access": 0,
+  "model_calls": 0
+}

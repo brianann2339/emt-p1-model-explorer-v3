@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "check_count": 22259,
+  "failure_count": 0,
+  "records": 675,
+  "estimated_metric_intervals": 2025,
+  "not_estimable_metric_intervals": 0,
+  "new_unique_bootstrap_jobs": 630,
+  "retained_exact_existing_ci_records": 18,
+  "exact_alias_reuse_records": 27,
+  "implementation_equivalence": {
+    "path": "outputs/v2/.p1gap_20260907/baseline_gap/ci_implementation_equivalence.json",
+    "sha256": "a50c7d0d2d516d8d62c96dfb70a5148f2c9cd201b3976e19d71a142c3565b156"
+  },
+  "lazy_index": {
+    "path": "outputs/v2/.p1gap_20260907/baseline_gap/baseline_ci_index.json",
+    "sha256": "5e6a22fa1b32826d60a5319453a0943ec4c6d486536aacb2c219fb4681ec5218"
+  },
+  "method": "Separate read-only output/source/hash/row/label/group/curve/interval audit; original evaluator 2000-replicate bitwise equivalence retained; no predictive model calls",
+  "model_calls": 0,
+  "new_2025_access": 0
+}

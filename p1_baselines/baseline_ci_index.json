@@ -1,0 +1,227 @@
+{
+  "schema": "emt_baseline_lazy_comparison_index_v1",
+  "status": "COMPLETE",
+  "records": 675,
+  "ci95_records": 675,
+  "collections": [
+    {
+      "group": "overall",
+      "outcome": "P1",
+      "file": "collections/overall_P1.json",
+      "sha256": "5918465092f58f2e88fed7b67c9a0296949c95fa778c69ab87c56e9bd387af76",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "overall",
+      "outcome": "P2",
+      "file": "collections/overall_P2.json",
+      "sha256": "f116272fbc357dbf3c9b069f95ddcacffc99a0154b36a4e9d0e4dca144db0837",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "overall",
+      "outcome": "P3",
+      "file": "collections/overall_P3.json",
+      "sha256": "b794c9deef7acdf1eb1d8d9351ae346d34e8f7a3945a0a7cb84a1be5136e900d",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "overall",
+      "outcome": "S1",
+      "file": "collections/overall_S1.json",
+      "sha256": "a70c25d51b5be58ce58ba697c1999e802450f3ffde981cf0568fbbf2435b9d83",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "overall",
+      "outcome": "S2",
+      "file": "collections/overall_S2.json",
+      "sha256": "91de88f63bfc580fa7dea0b80cfe863fc9f672bfb35a11d210d8d6e9b96c2738",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "overall",
+      "outcome": "S3",
+      "file": "collections/overall_S3.json",
+      "sha256": "95d5f803a5eef799be5f96ae4036680e7fa46507d9b36a7166272f0436a78651",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "overall",
+      "outcome": "S4",
+      "file": "collections/overall_S4.json",
+      "sha256": "93c87b3f73386a4c43d8b0cd134cfb0728c19c2d79ad6ced6e1f1ff62cea4959",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "overall",
+      "outcome": "S5",
+      "file": "collections/overall_S5.json",
+      "sha256": "da6eb2d5d6b597b24dbb1e972140426725170190ea869a7c13e786f9ad314e06",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "overall",
+      "outcome": "S6",
+      "file": "collections/overall_S6.json",
+      "sha256": "3548630ebe736c15071c16ac6127a6d412832b965697e0bd7abb8bec07f1bb2a",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "medicine",
+      "outcome": "P1",
+      "file": "collections/medicine_P1.json",
+      "sha256": "e84ea4c3075fdcb0ebfb2c491882bf9749d8a6e2bc2390910167cedea4bff029",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "medicine",
+      "outcome": "P2",
+      "file": "collections/medicine_P2.json",
+      "sha256": "45aeeaa57e5f910f68368e850c6115a8bdfd8d79fee71a77feb3b945f98bb6a0",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "medicine",
+      "outcome": "P3",
+      "file": "collections/medicine_P3.json",
+      "sha256": "5a48e048749a619d9f417f95a279b8fff7e1879438c325c89aef4466db2b758d",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "medicine",
+      "outcome": "S1",
+      "file": "collections/medicine_S1.json",
+      "sha256": "d82b38ef45a8616a121bbe7590e0b537d38d805bd8f73e29629b107b66b46a7d",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "medicine",
+      "outcome": "S2",
+      "file": "collections/medicine_S2.json",
+      "sha256": "6f3e506210e48d4f63f0c94278977f4a0f3d5a68e5010db83392915e155fbdfa",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "medicine",
+      "outcome": "S3",
+      "file": "collections/medicine_S3.json",
+      "sha256": "a106a471203e7e55b6c771e730ab82973d54b6cb75b5e626cf978fb12e83a46c",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "medicine",
+      "outcome": "S4",
+      "file": "collections/medicine_S4.json",
+      "sha256": "c456325c29507a8176f930ff7f6200699f6886d366b9310eed0eafd78e30e331",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "medicine",
+      "outcome": "S5",
+      "file": "collections/medicine_S5.json",
+      "sha256": "e7f9de5b2be03b2c479b35c50158a0754f2879588e176a088bb4c82ed5ac82b2",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "medicine",
+      "outcome": "S6",
+      "file": "collections/medicine_S6.json",
+      "sha256": "7b5da93c749582a230fbd60b1039bf06a37c8dea96f1f577585b0cf51e4f158c",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "surgery",
+      "outcome": "P1",
+      "file": "collections/surgery_P1.json",
+      "sha256": "b94b7477d3356c4e1cd2b9a9a20784909386e7d255dc77a9df0c45bbfbfff6b3",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "surgery",
+      "outcome": "P2",
+      "file": "collections/surgery_P2.json",
+      "sha256": "f5d8032a133b82a36867596791d3d308817f2dc592dbf3a463a40dff6fc0dd87",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "surgery",
+      "outcome": "P3",
+      "file": "collections/surgery_P3.json",
+      "sha256": "b96f1ae49f095a810ea2eb16db15660f1738121374913180af11b9ffc0a3663d",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "surgery",
+      "outcome": "S1",
+      "file": "collections/surgery_S1.json",
+      "sha256": "2eb654078077056b35ef3ccbbb1fea10df85fcfc448714791135c515ad631bd3",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "surgery",
+      "outcome": "S2",
+      "file": "collections/surgery_S2.json",
+      "sha256": "a42113a7f492fbee150d4c962ab0e28a09f8b7a82f276e55a423cad8ad44a53f",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "surgery",
+      "outcome": "S3",
+      "file": "collections/surgery_S3.json",
+      "sha256": "a8aba10535b02c4b6ab9175caa16f7c29ff8183c30515eb7c0dc0f0658616c6b",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "surgery",
+      "outcome": "S4",
+      "file": "collections/surgery_S4.json",
+      "sha256": "fea7d67056dfcfef178e218507877abce80eb54a328b13dd8ce22cd8aa9cb54a",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "surgery",
+      "outcome": "S5",
+      "file": "collections/surgery_S5.json",
+      "sha256": "b4cd8799f5e624db8f0e69d685fa4747d97f33981aa7aa3da10c5427f4c90401",
+      "records": 25,
+      "ci95_records": 25
+    },
+    {
+      "group": "surgery",
+      "outcome": "S6",
+      "file": "collections/surgery_S6.json",
+      "sha256": "39db6b32185f6b8f4df33189da203673f9fd8e21f9add87c9877f70501cdb32e",
+      "records": 25,
+      "ci95_records": 25
+    }
+  ],
+  "new_2025_access": 0,
+  "model_calls_for_ci": 0,
+  "primary_324_changed": false
+}

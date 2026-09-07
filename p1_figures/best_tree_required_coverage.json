@@ -1,0 +1,1969 @@
+{
+  "schema": "emt-p1-gap-best-tree-figures/1",
+  "task_count": 27,
+  "scope": "Original P1_03 best-tree illustration requirement; all-model waterfalls are optional",
+  "tasks": [
+    {
+      "key": "overall|P1|catboost",
+      "group": "overall",
+      "outcome": "P1",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "AUPRC": 0.1863866244262498,
+        "N": 24784,
+        "source": {
+          "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A02-R27b21f30p1/tasks/P1_02-coreopt-P1-catboost/metrics.parquet",
+          "sha256": "e65d4b24733436b6e20bce3475b9cea311f6473be0855956a9b069beca811509"
+        },
+        "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "AUPRC": 0.1863866244262498,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A02-R27b21f30p1/tasks/P1_02-coreopt-P1-catboost/metrics.parquet",
+            "sha256": "e65d4b24733436b6e20bce3475b9cea311f6473be0855956a9b069beca811509"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "xgboost",
+          "AUPRC": 0.1809165335944908,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A05-R20C7/tasks/P1_02-coreopt-P1-xgboost/metrics.parquet",
+            "sha256": "52cba6f92ac7409fbc3006deed664aedf82e25932657364603a88e1a9bc4d9e2"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "lightgbm",
+          "AUPRC": 0.16327850705059066,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A06-R07/tasks/P1_02-coreopt-P1-lightgbm/metrics.parquet",
+            "sha256": "702429a0a814d26337f169aa4ef54d0d7ced8ec1e957f2cf19aeb57229df19b0"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/overall/P1/catboost/waterfall_tp.png",
+        "sha256": "4d5490436d0025fd135c838521eb06f0d1b375d5cebe833314dafc5eb44d7c79"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/overall/P1/catboost/waterfall_fn.png",
+        "sha256": "e3f24acb9dcd82dc0ce65f1919c9b0bf4ac1216768e5ed7c400254bcf09238ec"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 19,
+        "distinct_color_values": 5,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/overall/P1/catboost/age_gcs.png",
+          "sha256": "2f2f8112921c37e83f678a976f27f3a40e7ec6e83b991da5c2bc0fd36593cf52"
+        }
+      }
+    },
+    {
+      "key": "overall|P2|catboost",
+      "group": "overall",
+      "outcome": "P2",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "AUPRC": 0.4605300977814104,
+        "N": 24784,
+        "source": {
+          "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/LOCAL-P2-20260814T175351/tasks/P1_02-coreopt-P2-catboost/metrics.parquet",
+          "sha256": "f5df0d07bdc0f2964131dc2609b4df9e4b8a469f3f18e3ceed10f9a810df47bd"
+        },
+        "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "AUPRC": 0.4605300977814104,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/LOCAL-P2-20260814T175351/tasks/P1_02-coreopt-P2-catboost/metrics.parquet",
+            "sha256": "f5df0d07bdc0f2964131dc2609b4df9e4b8a469f3f18e3ceed10f9a810df47bd"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "xgboost",
+          "AUPRC": 0.4548909817359421,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A04-R20C1/tasks/P1_02-coreopt-P2-xgboost/metrics.parquet",
+            "sha256": "806e451d651ec10c2d0c88b7ff6911edc588e8e5188fe85544ecee7baaa7f118"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "lightgbm",
+          "AUPRC": 0.45162468311252124,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A09-R13/tasks/P1_02-coreopt-P2-lightgbm/metrics.parquet",
+            "sha256": "b29ff5e9c6d638c370f09c92198be9e9cdfa45f291ebcdaf9d73f60abbe54f4e"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/overall/P2/catboost/waterfall_tp.png",
+        "sha256": "9e630f1a4ec7cacffb0a297589af3599bc8f7b44f730454a61102a0da3dfacb4"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/overall/P2/catboost/waterfall_fn.png",
+        "sha256": "a5bbcba88a8fea03368341b476e073cafcfe1217fbb47f12e3a587aa4bb8ee6f"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 4,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/overall/P2/catboost/age_gcs.png",
+          "sha256": "261af01c5eafbbe1fcd9944bab02a19849a4207b82d3a38e1e686a509cfac8b4"
+        }
+      }
+    },
+    {
+      "key": "overall|P3|catboost",
+      "group": "overall",
+      "outcome": "P3",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "AUPRC": 0.3802476544092126,
+        "N": 24784,
+        "source": {
+          "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A04-R27f2a6c9p3/tasks/P1_02-coreopt-P3-catboost/metrics.parquet",
+          "sha256": "05ee37ec38ffb2bcf0f0dfd89954f5e79b69b96ccf87ec15d70d5f33e3a4fbda"
+        },
+        "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "AUPRC": 0.3802476544092126,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A04-R27f2a6c9p3/tasks/P1_02-coreopt-P3-catboost/metrics.parquet",
+            "sha256": "05ee37ec38ffb2bcf0f0dfd89954f5e79b69b96ccf87ec15d70d5f33e3a4fbda"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "lightgbm",
+          "AUPRC": 0.37970069223875613,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A09-R14/tasks/P1_02-coreopt-P3-lightgbm/metrics.parquet",
+            "sha256": "0f1f4fe7156fbe7583d0e99614f4bd5cae621e72eb850777153a8b5c0f9d4fce"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "xgboost",
+          "AUPRC": 0.3771718777888857,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A03-R15/tasks/P1_02-coreopt-P3-xgboost/metrics.parquet",
+            "sha256": "ffb0925b6e868eed64ada6a41e752bc48a6ea70f552c1e621c81ceee9957f7d1"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/overall/P3/catboost/waterfall_tp.png",
+        "sha256": "e6418c3fe5319951220291da12b7833ea057c1645986c5fc73616cb5f9000152"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/overall/P3/catboost/waterfall_fn.png",
+        "sha256": "e3fea9df02803b69036fb27fead3c94ecc48b84228e33cb81f094944de49fc5b"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 2,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/overall/P3/catboost/age_gcs.png",
+          "sha256": "3d5da10c3413884f9f767cd29147e6027f83ebf7c3d290ebfd83b3c5ff921b6a"
+        }
+      }
+    },
+    {
+      "key": "overall|S1|xgboost",
+      "group": "overall",
+      "outcome": "S1",
+      "family": "xgboost",
+      "illustration_selection": {
+        "family": "xgboost",
+        "AUPRC": 0.26901311631689595,
+        "N": 24784,
+        "source": {
+          "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A02-R2779b3e6s1/tasks/P1_02-coreopt-S1-xgboost/metrics.parquet",
+          "sha256": "e989b970e3664553c5be4b38e9172c2fb5a7cccfef90675b8f8d7a95d504a169"
+        },
+        "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+      },
+      "ranking_candidates": [
+        {
+          "family": "xgboost",
+          "AUPRC": 0.26901311631689595,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A02-R2779b3e6s1/tasks/P1_02-coreopt-S1-xgboost/metrics.parquet",
+            "sha256": "e989b970e3664553c5be4b38e9172c2fb5a7cccfef90675b8f8d7a95d504a169"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "catboost",
+          "AUPRC": 0.2681930575743367,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A08-R08/tasks/P1_02-coreopt-S1-catboost/metrics.parquet",
+            "sha256": "d14f72ccc8fd38355037f804bee7bdb68bb53735ea54a4e5961905d64752d279"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "lightgbm",
+          "AUPRC": 0.2512443479733867,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A09-R29/tasks/P1_02-coreopt-S1-lightgbm/metrics.parquet",
+            "sha256": "e68c9eb2ee87461f80a4b5535f7671cf48aeb324c135b94d4971793ae43e8de8"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/overall/S1/xgboost/waterfall_tp.png",
+        "sha256": "09783ce75cd9900523e5063f51c569155ae4c7b786b4f9cc854e93e383f7f8fe"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/overall/S1/xgboost/waterfall_fn.png",
+        "sha256": "d2aaa5066e0e6b258e17035f5084f8b2ae9f1c72124a492fa40d43656013e460"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 3,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/overall/S1/xgboost/age_gcs.png",
+          "sha256": "67019e2de032022eb5041e05e6aa335a4230e4426e9936599908e69b4f86677d"
+        }
+      }
+    },
+    {
+      "key": "overall|S2|xgboost",
+      "group": "overall",
+      "outcome": "S2",
+      "family": "xgboost",
+      "illustration_selection": {
+        "family": "xgboost",
+        "AUPRC": 0.30479356819824255,
+        "N": 24784,
+        "source": {
+          "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A06-R20C7/tasks/P1_02-coreopt-S2-xgboost/metrics.parquet",
+          "sha256": "278b1fa30414448a6c31ba9d337be8cc1de784ebcf9a2bde0b43fbdb8f56b730"
+        },
+        "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+      },
+      "ranking_candidates": [
+        {
+          "family": "xgboost",
+          "AUPRC": 0.30479356819824255,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A06-R20C7/tasks/P1_02-coreopt-S2-xgboost/metrics.parquet",
+            "sha256": "278b1fa30414448a6c31ba9d337be8cc1de784ebcf9a2bde0b43fbdb8f56b730"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "catboost",
+          "AUPRC": 0.3022590754052075,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/LOCAL-S2-20260811T031441/tasks/P1_02-coreopt-S2-catboost/metrics.parquet",
+            "sha256": "c782f8831e459a349bf9fe017054561b161d3652287f7e6a1962c4207ee35930"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "lightgbm",
+          "AUPRC": 0.3018127570896419,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A09-R26/tasks/P1_02-coreopt-S2-lightgbm/metrics.parquet",
+            "sha256": "7a65203e7b24710e260fc73bf4663382db09266c7d29924b6ad86c1794ff9a41"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/overall/S2/xgboost/waterfall_tp.png",
+        "sha256": "1f08d41da834101eb7fdb542f5eee4fa728298c80c0cd4e60cfef800fcb64aea"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/overall/S2/xgboost/waterfall_fn.png",
+        "sha256": "d95ed07af1d2210ae2be43b65159fb096cbce3375ea19b18560c22d1c54770cb"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 2,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/overall/S2/xgboost/age_gcs.png",
+          "sha256": "b9d85dde9c9935ebcb572b876d0c3871c924b81687c291b12339183a8ddcceb1"
+        }
+      }
+    },
+    {
+      "key": "overall|S3|xgboost",
+      "group": "overall",
+      "outcome": "S3",
+      "family": "xgboost",
+      "illustration_selection": {
+        "family": "xgboost",
+        "AUPRC": 0.6328938522906757,
+        "N": 24784,
+        "source": {
+          "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A05-R13/tasks/P1_02-coreopt-S3-xgboost/metrics.parquet",
+          "sha256": "f0486fc2200e3581b1e579dd589d3addecc6bf7a6ecae5f6ccc4d2199c7a6bf1"
+        },
+        "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+      },
+      "ranking_candidates": [
+        {
+          "family": "xgboost",
+          "AUPRC": 0.6328938522906757,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A05-R13/tasks/P1_02-coreopt-S3-xgboost/metrics.parquet",
+            "sha256": "f0486fc2200e3581b1e579dd589d3addecc6bf7a6ecae5f6ccc4d2199c7a6bf1"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "catboost",
+          "AUPRC": 0.6323363270444525,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/LOCAL-S3-20260815T151238/tasks/P1_02-coreopt-S3-catboost/metrics.parquet",
+            "sha256": "c864d192408152764d2fed0fb6670fe8feb7d86c73a7fc79a90c2249e3df8604"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "lightgbm",
+          "AUPRC": 0.6300716665276673,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A09-R29/tasks/P1_02-coreopt-S3-lightgbm/metrics.parquet",
+            "sha256": "68dfece327665fe047fba368c9d32ef644bce67845121be05defa785a498c83a"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/overall/S3/xgboost/waterfall_tp.png",
+        "sha256": "8434e0fdf34fc48e3f5925187bddb81ed0642d84e203a43836afa4560c69ace6"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/overall/S3/xgboost/waterfall_fn.png",
+        "sha256": "1f68d636eb5832f90aeb9b2b4acbbb43d8c316dd1dde9eefbcd73fd66f518cd8"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 19,
+        "distinct_color_values": 3,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/overall/S3/xgboost/age_gcs.png",
+          "sha256": "c1fc63ca9a38fcf571af70c6c140463b9291642c69c027808deec6d2a65b2aee"
+        }
+      }
+    },
+    {
+      "key": "overall|S4|xgboost",
+      "group": "overall",
+      "outcome": "S4",
+      "family": "xgboost",
+      "illustration_selection": {
+        "family": "xgboost",
+        "AUPRC": 0.4183015815615112,
+        "N": 24784,
+        "source": {
+          "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A04-R21C7/tasks/P1_02-coreopt-S4-xgboost/metrics.parquet",
+          "sha256": "bd732616251c0d84a3279aab15397bc707588071273f2883989a1597c292068b"
+        },
+        "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+      },
+      "ranking_candidates": [
+        {
+          "family": "xgboost",
+          "AUPRC": 0.4183015815615112,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A04-R21C7/tasks/P1_02-coreopt-S4-xgboost/metrics.parquet",
+            "sha256": "bd732616251c0d84a3279aab15397bc707588071273f2883989a1597c292068b"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "catboost",
+          "AUPRC": 0.41713774934493975,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/LOCAL-S4-20260809T182903/tasks/P1_02-coreopt-S4-catboost/metrics.parquet",
+            "sha256": "cfd865b816039ac7459277e8e1aea71e27380b7d9e167438c1ae7526daf5eac8"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "lightgbm",
+          "AUPRC": 0.41530283269001356,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A09-R14/tasks/P1_02-coreopt-S4-lightgbm/metrics.parquet",
+            "sha256": "9be28482e3afe560b2589bb3171aca62d38f263b9c5b7175d720f34b18cd1454"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/overall/S4/xgboost/waterfall_tp.png",
+        "sha256": "35644cde84fbc060cfb34aeae057e5cd83225e05f38d10b80e0ac9b8843fc86e"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/overall/S4/xgboost/waterfall_fn.png",
+        "sha256": "723effc47845c32f66b395c38cd37da8d03dc169b24c2e6af11fcc6ac43d5115"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 1,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/overall/S4/xgboost/age_gcs.png",
+          "sha256": "38d1ae6486a88a9d89c2707f4ab57889f06e75fec243cad3b52b54568d2aa9d2"
+        }
+      }
+    },
+    {
+      "key": "overall|S5|catboost",
+      "group": "overall",
+      "outcome": "S5",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "AUPRC": 0.10631715620213222,
+        "N": 24784,
+        "source": {
+          "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A04-R16/tasks/P1_02-coreopt-S5-catboost/metrics.parquet",
+          "sha256": "bcb04c22812b8e1494447c2ff7a02164f3a65e49f3bcab3407d5dcf4843af98c"
+        },
+        "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "AUPRC": 0.10631715620213222,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A04-R16/tasks/P1_02-coreopt-S5-catboost/metrics.parquet",
+            "sha256": "bcb04c22812b8e1494447c2ff7a02164f3a65e49f3bcab3407d5dcf4843af98c"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "xgboost",
+          "AUPRC": 0.09693475817593862,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A03-R17/tasks/P1_02-coreopt-S5-xgboost/metrics.parquet",
+            "sha256": "6b7effb588e05ad4fdd212e8e790112271a1f3d8ddb10480b026c1302b9f08a9"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "lightgbm",
+          "AUPRC": 0.08965979433472854,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A09-R13/tasks/P1_02-coreopt-S5-lightgbm/metrics.parquet",
+            "sha256": "a9c24dfd371d1ad0f1c9b5673bae185bbded7d2304047f8da2be868bdbecab9f"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/overall/S5/catboost/waterfall_tp.png",
+        "sha256": "5ef536869445cc535020e6cdaf3f7c0b3fd076a482fa320a4932d7d7da247ccc"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/overall/S5/catboost/waterfall_fn.png",
+        "sha256": "3775aec38d4b4915384353dd8874906fc4f28e5cfe4dc334c8db6da2ff3c462d"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 16,
+        "distinct_color_values": 2,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/overall/S5/catboost/age_gcs.png",
+          "sha256": "5a10f7cdf146e23d3e8b23c894ba24ea2d519295606a2fdaa4107f8a7e0e88fa"
+        }
+      }
+    },
+    {
+      "key": "overall|S6|lightgbm",
+      "group": "overall",
+      "outcome": "S6",
+      "family": "lightgbm",
+      "illustration_selection": {
+        "family": "lightgbm",
+        "AUPRC": 0.20278509624194946,
+        "N": 24784,
+        "source": {
+          "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A06-R07/tasks/P1_02-coreopt-S6-lightgbm/metrics.parquet",
+          "sha256": "d49f9450a0890219ea7dea319092badec73f66cef83d879d8d393f32cd2dd0f0"
+        },
+        "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+      },
+      "ranking_candidates": [
+        {
+          "family": "lightgbm",
+          "AUPRC": 0.20278509624194946,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A06-R07/tasks/P1_02-coreopt-S6-lightgbm/metrics.parquet",
+            "sha256": "d49f9450a0890219ea7dea319092badec73f66cef83d879d8d393f32cd2dd0f0"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "xgboost",
+          "AUPRC": 0.19821133113182793,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/A02-R20C3/tasks/P1_02-coreopt-S6-xgboost/metrics.parquet",
+            "sha256": "8117cbd26ed7550e984a94c69ca1caccd9300ff0c0699ff04a622d6eb476c82a"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        },
+        {
+          "family": "catboost",
+          "AUPRC": 0.19027953930923336,
+          "N": 24784,
+          "source": {
+            "path": "outputs/v2/stage3b_core_model_optimization_v2/accepted/session_imports/LOCAL-S6-20260810T133917/tasks/P1_02-coreopt-S6-catboost/metrics.parquet",
+            "sha256": "e18967bd5c0ec0ea6fabf731fcef82aab0e5f77e49c6754d94868bd4bf372b93"
+          },
+          "ranking_basis": "existing development OOF aggregate AUPRC; illustration selector only"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/overall/S6/lightgbm/waterfall_tp.png",
+        "sha256": "81b1e8dcdf7f89a32bb334574aaf479c111efabeb257aa2bcb81eaa61125c1a0"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/overall/S6/lightgbm/waterfall_fn.png",
+        "sha256": "6e4009eb764609d664f60647d991de041b9d8e190bfae126e64586623fb7084e"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 4,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/overall/S6/lightgbm/age_gcs.png",
+          "sha256": "3ecdf1173d6b60c338f25fa0546cd6d696f3dccf2b400e74012deeb3c00fc554"
+        }
+      }
+    },
+    {
+      "key": "medicine|P1|catboost",
+      "group": "medicine",
+      "outcome": "P1",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "rank": 4,
+        "AUPRC": 0.1812463431112381,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "011cf645db463acac3eeeb708660da4191167c6242fe54d995b1bb73e521a368",
+        "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "rank": 4,
+          "AUPRC": 0.1812463431112381,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "011cf645db463acac3eeeb708660da4191167c6242fe54d995b1bb73e521a368",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 5,
+          "AUPRC": 0.15715395976105406,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "011cf645db463acac3eeeb708660da4191167c6242fe54d995b1bb73e521a368",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        },
+        {
+          "family": "xgboost",
+          "rank": 6,
+          "AUPRC": 0.15342390792860533,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "011cf645db463acac3eeeb708660da4191167c6242fe54d995b1bb73e521a368",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/medicine/P1/catboost/waterfall_tp.png",
+        "sha256": "dbe85aa2889365430541c08b2e3bceb7e3b47ecf4d8907fa38579576b2a24d85"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/medicine/P1/catboost/waterfall_fn.png",
+        "sha256": "057aae2676290bf9bab5941f5a8c8b5ba182adaf21bbc2b72d9605192c8c2c58"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 18,
+        "distinct_color_values": 2,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/medicine/P1/catboost/age_gcs.png",
+          "sha256": "a8d318c897a964f6eb6c2ff84f7460296785d28088f6ec176c28396745eed290"
+        }
+      }
+    },
+    {
+      "key": "medicine|P2|catboost",
+      "group": "medicine",
+      "outcome": "P2",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "rank": 2,
+        "AUPRC": 0.46740855197253245,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "fe08997b2bef664cd8c5e402f5aa69f71b5e9eda8526e472b102369c53ccf16a",
+        "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "rank": 2,
+          "AUPRC": 0.46740855197253245,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "fe08997b2bef664cd8c5e402f5aa69f71b5e9eda8526e472b102369c53ccf16a",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 3,
+          "AUPRC": 0.4651491112957047,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "fe08997b2bef664cd8c5e402f5aa69f71b5e9eda8526e472b102369c53ccf16a",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        },
+        {
+          "family": "xgboost",
+          "rank": 4,
+          "AUPRC": 0.4633048454327702,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "fe08997b2bef664cd8c5e402f5aa69f71b5e9eda8526e472b102369c53ccf16a",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/medicine/P2/catboost/waterfall_tp.png",
+        "sha256": "ad8ef7bb7c3e550978af12ed9a187958b3bbf14c7fd3f23ef5b741b5979f351f"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/medicine/P2/catboost/waterfall_fn.png",
+        "sha256": "698350fd771108615f2cc832525f0f38ab35867bba66f013f78ee8817d79eca9"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 19,
+        "distinct_color_values": 3,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/medicine/P2/catboost/age_gcs.png",
+          "sha256": "7a750308cc41e969d46783335f7ecda3120d7c2bd3e799e90ab6cbd132ba5496"
+        }
+      }
+    },
+    {
+      "key": "medicine|P3|xgboost",
+      "group": "medicine",
+      "outcome": "P3",
+      "family": "xgboost",
+      "illustration_selection": {
+        "family": "xgboost",
+        "rank": 2,
+        "AUPRC": 0.3801711409209263,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "55040df71ed9e34dc1026b25a2d836c9673121a1706612302276f9e7183d92c6",
+        "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+      },
+      "ranking_candidates": [
+        {
+          "family": "xgboost",
+          "rank": 2,
+          "AUPRC": 0.3801711409209263,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "55040df71ed9e34dc1026b25a2d836c9673121a1706612302276f9e7183d92c6",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        },
+        {
+          "family": "catboost",
+          "rank": 4,
+          "AUPRC": 0.3719239114517645,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "55040df71ed9e34dc1026b25a2d836c9673121a1706612302276f9e7183d92c6",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 5,
+          "AUPRC": 0.37109743416800295,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "55040df71ed9e34dc1026b25a2d836c9673121a1706612302276f9e7183d92c6",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/medicine/P3/xgboost/waterfall_tp.png",
+        "sha256": "c6e0ce3f1c8facb6f4eaef9b8ace158289ab9d3f033b597d892e4871da78cb4a"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/medicine/P3/xgboost/waterfall_fn.png",
+        "sha256": "df74a80973c1b902a133b9eba69af141b611c05d6281c4d20ca48a7871e86c25"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 6,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/medicine/P3/xgboost/age_gcs.png",
+          "sha256": "c6ba3ea15ff5d7e7974a3502e4d23e38ed6019b35d8ac81cf11a262d02448cc5"
+        }
+      }
+    },
+    {
+      "key": "medicine|S1|catboost",
+      "group": "medicine",
+      "outcome": "S1",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "rank": 1,
+        "AUPRC": 0.4611947095017396,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "19bb218a91b010a1b01a8878d1af033539b282a48559d83633f9b0bc62ec62c3",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "rank": 1,
+          "AUPRC": 0.4611947095017396,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "19bb218a91b010a1b01a8878d1af033539b282a48559d83633f9b0bc62ec62c3",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 2,
+          "AUPRC": 0.4582272901287989,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "19bb218a91b010a1b01a8878d1af033539b282a48559d83633f9b0bc62ec62c3",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "xgboost",
+          "rank": 3,
+          "AUPRC": 0.45121353829600325,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "19bb218a91b010a1b01a8878d1af033539b282a48559d83633f9b0bc62ec62c3",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/medicine/S1/catboost/waterfall_tp.png",
+        "sha256": "a2b916ae349d8829b68dec78c285bc0a4e96153618afe131d285383709d628e1"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/medicine/S1/catboost/waterfall_fn.png",
+        "sha256": "82c4d4a26481261d67b7d1f331bdfb03ee6a26db6331fece200536cb9568021a"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 18,
+        "distinct_color_values": 2,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/medicine/S1/catboost/age_gcs.png",
+          "sha256": "8eb6bf2729e06459c3a52551136ca2d864591d15b2b5b7129066dee19f902ba3"
+        }
+      }
+    },
+    {
+      "key": "medicine|S2|catboost",
+      "group": "medicine",
+      "outcome": "S2",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "rank": 2,
+        "AUPRC": 0.47987968675110093,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "02e4db576e0ece22e17ee3b4855c5ca7f9c44138d64d9f7244124797aa0008bb",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "rank": 2,
+          "AUPRC": 0.47987968675110093,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "02e4db576e0ece22e17ee3b4855c5ca7f9c44138d64d9f7244124797aa0008bb",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "xgboost",
+          "rank": 3,
+          "AUPRC": 0.47966644955362253,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "02e4db576e0ece22e17ee3b4855c5ca7f9c44138d64d9f7244124797aa0008bb",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 4,
+          "AUPRC": 0.471936537028512,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "02e4db576e0ece22e17ee3b4855c5ca7f9c44138d64d9f7244124797aa0008bb",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/medicine/S2/catboost/waterfall_tp.png",
+        "sha256": "69589a710be77c4224b78a580c1b5ed595d84b40466f52b8a0a90853ff3679e0"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/medicine/S2/catboost/waterfall_fn.png",
+        "sha256": "1db378f326ff99c03c42dd4dd452016be723544e5aec2ac654acb128aa648170"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 19,
+        "distinct_color_values": 5,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/medicine/S2/catboost/age_gcs.png",
+          "sha256": "c3250e1af3136012e5d6160dfe73234204fc9f4ec9e1f792064b1628f89de2e5"
+        }
+      }
+    },
+    {
+      "key": "medicine|S3|lightgbm",
+      "group": "medicine",
+      "outcome": "S3",
+      "family": "lightgbm",
+      "illustration_selection": {
+        "family": "lightgbm",
+        "rank": 2,
+        "AUPRC": 0.6217222089421488,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "b88ace9b5225e2ef4b203d6069179134a2c0b02db253481b2742693f98263dce",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "lightgbm",
+          "rank": 2,
+          "AUPRC": 0.6217222089421488,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "b88ace9b5225e2ef4b203d6069179134a2c0b02db253481b2742693f98263dce",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "catboost",
+          "rank": 3,
+          "AUPRC": 0.6212282800875848,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "b88ace9b5225e2ef4b203d6069179134a2c0b02db253481b2742693f98263dce",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "xgboost",
+          "rank": 4,
+          "AUPRC": 0.6206534917959078,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "b88ace9b5225e2ef4b203d6069179134a2c0b02db253481b2742693f98263dce",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/medicine/S3/lightgbm/waterfall_tp.png",
+        "sha256": "14e4acb4b474aac9c2b03b184f3a443e9d777bfd04e78d45e9562330e36db241"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/medicine/S3/lightgbm/waterfall_fn.png",
+        "sha256": "ef0355834e1b7912a92b2934c7dd2426984beb1dd6621d5f30793b0b483d3657"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 19,
+        "distinct_color_values": 2,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/medicine/S3/lightgbm/age_gcs.png",
+          "sha256": "de358132f7bf7f6c8cc4b4d397c55e55f9ba23daab015dc2a954cc9ba118cc48"
+        }
+      }
+    },
+    {
+      "key": "medicine|S4|lightgbm",
+      "group": "medicine",
+      "outcome": "S4",
+      "family": "lightgbm",
+      "illustration_selection": {
+        "family": "lightgbm",
+        "rank": 2,
+        "AUPRC": 0.43092581167120453,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "6f8fee711bf0defe33fd63a0f29f80a328ee53a1d06e7974baef2490829482a9",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "lightgbm",
+          "rank": 2,
+          "AUPRC": 0.43092581167120453,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "6f8fee711bf0defe33fd63a0f29f80a328ee53a1d06e7974baef2490829482a9",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "catboost",
+          "rank": 3,
+          "AUPRC": 0.4299475676729327,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "6f8fee711bf0defe33fd63a0f29f80a328ee53a1d06e7974baef2490829482a9",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "xgboost",
+          "rank": 4,
+          "AUPRC": 0.42876189225287986,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "6f8fee711bf0defe33fd63a0f29f80a328ee53a1d06e7974baef2490829482a9",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/medicine/S4/lightgbm/waterfall_tp.png",
+        "sha256": "b8f4949acc5cd3d03f21a2f53a798888a169a6283d5391c1c233904bd877174f"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/medicine/S4/lightgbm/waterfall_fn.png",
+        "sha256": "b9494c2a0d0a1f21e5fbc9f7904727a34d1e8313eff4660809d68df4b3434769"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 19,
+        "distinct_color_values": 4,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/medicine/S4/lightgbm/age_gcs.png",
+          "sha256": "2e2c54144ae396132158bd3d809220a7e0416c70e27ba35f4407410a9200ded1"
+        }
+      }
+    },
+    {
+      "key": "medicine|S5|lightgbm",
+      "group": "medicine",
+      "outcome": "S5",
+      "family": "lightgbm",
+      "illustration_selection": {
+        "family": "lightgbm",
+        "rank": 2,
+        "AUPRC": 0.09336188630065984,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "58bb251fe68bc48ebdd8423541e71ed0a897a5ceade8c213498224f75a215fbf",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "lightgbm",
+          "rank": 2,
+          "AUPRC": 0.09336188630065984,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "58bb251fe68bc48ebdd8423541e71ed0a897a5ceade8c213498224f75a215fbf",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "xgboost",
+          "rank": 5,
+          "AUPRC": 0.08986247324974615,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "58bb251fe68bc48ebdd8423541e71ed0a897a5ceade8c213498224f75a215fbf",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "catboost",
+          "rank": 7,
+          "AUPRC": 0.0797858181880815,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "58bb251fe68bc48ebdd8423541e71ed0a897a5ceade8c213498224f75a215fbf",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/medicine/S5/lightgbm/waterfall_tp.png",
+        "sha256": "7ddee6ab678b48cc3cb55a1eacfdaa228f7e3ee362d9544ba6b54bbe29460ec6"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/medicine/S5/lightgbm/waterfall_fn.png",
+        "sha256": "7c0841b1c3eac697df4aa4acbae4a33d3efa09362895af08b7d9d872c35cd243"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 18,
+        "distinct_color_values": 4,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/medicine/S5/lightgbm/age_gcs.png",
+          "sha256": "dddfb140a14a097262a8883bb5489b788dba4b5d06ece010e5bcf6d93ab3014d"
+        }
+      }
+    },
+    {
+      "key": "medicine|S6|catboost",
+      "group": "medicine",
+      "outcome": "S6",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "rank": 1,
+        "AUPRC": 0.16780777413461395,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "862a826b1219001d8abc7f49f549de16cf9a214e002b8701af83d217aaaa2de9",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "rank": 1,
+          "AUPRC": 0.16780777413461395,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "862a826b1219001d8abc7f49f549de16cf9a214e002b8701af83d217aaaa2de9",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "xgboost",
+          "rank": 2,
+          "AUPRC": 0.165036909975993,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "862a826b1219001d8abc7f49f549de16cf9a214e002b8701af83d217aaaa2de9",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 3,
+          "AUPRC": 0.1611241162778298,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "862a826b1219001d8abc7f49f549de16cf9a214e002b8701af83d217aaaa2de9",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/medicine/S6/catboost/waterfall_tp.png",
+        "sha256": "b57c93cb268fda7c4f6048ce7e6281d4da9052900fd807dbd2a146e7feb63d39"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/medicine/S6/catboost/waterfall_fn.png",
+        "sha256": "e8d2b123d5fc7a32e62bcbbafac940303c5a080b5827220d65161a2afafb039f"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 18,
+        "distinct_color_values": 2,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/medicine/S6/catboost/age_gcs.png",
+          "sha256": "ad35567d600648a87cab4ae9074dc6549ac9ad49ab6392cf103ff17c7164aad6"
+        }
+      }
+    },
+    {
+      "key": "surgery|P1|catboost",
+      "group": "surgery",
+      "outcome": "P1",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "rank": 2,
+        "AUPRC": 0.6215383655393654,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "e2ac5e721471819b36c4db29db38b5660df0cec44b554ae416282427adbebff2",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "rank": 2,
+          "AUPRC": 0.6215383655393654,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "e2ac5e721471819b36c4db29db38b5660df0cec44b554ae416282427adbebff2",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 8,
+          "AUPRC": 0.27350714568777806,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "e2ac5e721471819b36c4db29db38b5660df0cec44b554ae416282427adbebff2",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "xgboost",
+          "rank": 9,
+          "AUPRC": 0.2473469162579851,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "e2ac5e721471819b36c4db29db38b5660df0cec44b554ae416282427adbebff2",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/surgery/P1/catboost/waterfall_tp.png",
+        "sha256": "c33ef092d2c856e00c65a7f1eb1b1cd4ed8e067ff59409eb32de20d1c0fc1008"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/surgery/P1/catboost/waterfall_fn.png",
+        "sha256": "0128c6ed11876772918d925e6b828d4c94119ae21342ef358035007233ba6278"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 19,
+        "distinct_color_values": 1,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/surgery/P1/catboost/age_gcs.png",
+          "sha256": "5044d17f0f2190892f1b335bcba756cfadeccf019ed82bbb9692d77d84746578"
+        }
+      }
+    },
+    {
+      "key": "surgery|P2|lightgbm",
+      "group": "surgery",
+      "outcome": "P2",
+      "family": "lightgbm",
+      "illustration_selection": {
+        "family": "lightgbm",
+        "rank": 3,
+        "AUPRC": 0.30343577765084634,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "b76af1acd4095f366a034f7848b9c7f6bea673eaee3e3cfec05b71a7ac046575",
+        "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+      },
+      "ranking_candidates": [
+        {
+          "family": "lightgbm",
+          "rank": 3,
+          "AUPRC": 0.30343577765084634,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "b76af1acd4095f366a034f7848b9c7f6bea673eaee3e3cfec05b71a7ac046575",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        },
+        {
+          "family": "xgboost",
+          "rank": 5,
+          "AUPRC": 0.28671346755871696,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "b76af1acd4095f366a034f7848b9c7f6bea673eaee3e3cfec05b71a7ac046575",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        },
+        {
+          "family": "catboost",
+          "rank": 6,
+          "AUPRC": 0.279326232511445,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "b76af1acd4095f366a034f7848b9c7f6bea673eaee3e3cfec05b71a7ac046575",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/surgery/P2/lightgbm/waterfall_tp.png",
+        "sha256": "251bbc2d5d2ca8510e64bc8303370f5ea58b2d78b94b077cd0b4e7603aa0bb7a"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/surgery/P2/lightgbm/waterfall_fn.png",
+        "sha256": "33f61a5530949ecafc6982781b430b6ed55489e850ece48c71304d62d075c626"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 1,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/surgery/P2/lightgbm/age_gcs.png",
+          "sha256": "63ec9144361db20d8ca70fff50e0776a455aafd1775e3bf8950c73a34f46a6d8"
+        }
+      }
+    },
+    {
+      "key": "surgery|P3|catboost",
+      "group": "surgery",
+      "outcome": "P3",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "rank": 4,
+        "AUPRC": 0.40433411556828464,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "43a8e9e89f4e27e905407615169bea97e149311f70fa5658ee9048bd09a43b9f",
+        "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "rank": 4,
+          "AUPRC": 0.40433411556828464,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "43a8e9e89f4e27e905407615169bea97e149311f70fa5658ee9048bd09a43b9f",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 5,
+          "AUPRC": 0.3881404613453983,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "43a8e9e89f4e27e905407615169bea97e149311f70fa5658ee9048bd09a43b9f",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        },
+        {
+          "family": "xgboost",
+          "rank": 6,
+          "AUPRC": 0.3563454940564705,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "43a8e9e89f4e27e905407615169bea97e149311f70fa5658ee9048bd09a43b9f",
+          "ranking_basis": "DEVELOPMENT_OOF_FAMILY_RANKING"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/surgery/P3/catboost/waterfall_tp.png",
+        "sha256": "7fae3c07eab5da101347d9e206467fa4eaf1d5341c979d6e896f92b03133597c"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/surgery/P3/catboost/waterfall_fn.png",
+        "sha256": "77561f14e63d974a86c1a664a74316a3939496ffcefdb9f53964194decc99467"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 1,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/surgery/P3/catboost/age_gcs.png",
+          "sha256": "7d09bee6243d9a2003592d16fea490d842add3129d93afff72a863bbd33df8dd"
+        }
+      }
+    },
+    {
+      "key": "surgery|S1|xgboost",
+      "group": "surgery",
+      "outcome": "S1",
+      "family": "xgboost",
+      "illustration_selection": {
+        "family": "xgboost",
+        "rank": 3,
+        "AUPRC": 0.47962987439597754,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "4b8dfc73931ff9e90f38fa4268f5f654023f48f1202ae5e3fdfc0a214e981d3c",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "xgboost",
+          "rank": 3,
+          "AUPRC": 0.47962987439597754,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "4b8dfc73931ff9e90f38fa4268f5f654023f48f1202ae5e3fdfc0a214e981d3c",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 4,
+          "AUPRC": 0.4459496330975719,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "4b8dfc73931ff9e90f38fa4268f5f654023f48f1202ae5e3fdfc0a214e981d3c",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "catboost",
+          "rank": 7,
+          "AUPRC": 0.4148676546316449,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "4b8dfc73931ff9e90f38fa4268f5f654023f48f1202ae5e3fdfc0a214e981d3c",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/surgery/S1/xgboost/waterfall_tp.png",
+        "sha256": "959bd50bfea0cc6bd45a5c328c66b495a9c47f747c9cfebc54ef6c9780bda848"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/surgery/S1/xgboost/waterfall_fn.png",
+        "sha256": "bfb848f6fd00374db8711f048b9407b71959f21da8a3bcbb6941b22868639f7c"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 2,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/surgery/S1/xgboost/age_gcs.png",
+          "sha256": "d84571e469631d8c99659293a776a4b53d025f012dc9878f8d1678d4b51e985e"
+        }
+      }
+    },
+    {
+      "key": "surgery|S2|catboost",
+      "group": "surgery",
+      "outcome": "S2",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "rank": 2,
+        "AUPRC": 0.4252054919188533,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "bafe17fb6b1e081151c7232556d7ef975fed6f31b2965325ae7ed1f1456e564a",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "rank": 2,
+          "AUPRC": 0.4252054919188533,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "bafe17fb6b1e081151c7232556d7ef975fed6f31b2965325ae7ed1f1456e564a",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 3,
+          "AUPRC": 0.41473906536125654,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "bafe17fb6b1e081151c7232556d7ef975fed6f31b2965325ae7ed1f1456e564a",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "xgboost",
+          "rank": 5,
+          "AUPRC": 0.38400737779551186,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "bafe17fb6b1e081151c7232556d7ef975fed6f31b2965325ae7ed1f1456e564a",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/surgery/S2/catboost/waterfall_tp.png",
+        "sha256": "1ad04b4cfd0d557fb319982b75817e50489229d74af1bd084c44e1287215498a"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/surgery/S2/catboost/waterfall_fn.png",
+        "sha256": "8556708fd6082acb254a03555030cfb1d53f23dba503e6a3132d188c291c7a83"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 4,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/surgery/S2/catboost/age_gcs.png",
+          "sha256": "5c69d939861e9405c137d9eeced34074368511e503121d8760e33469d5f25073"
+        }
+      }
+    },
+    {
+      "key": "surgery|S3|catboost",
+      "group": "surgery",
+      "outcome": "S3",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "rank": 2,
+        "AUPRC": 0.42994326082517786,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "acab959d47188b49ddc8ea9239a723c606fe2c728290da4d0b44c45ccdd32cca",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "rank": 2,
+          "AUPRC": 0.42994326082517786,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "acab959d47188b49ddc8ea9239a723c606fe2c728290da4d0b44c45ccdd32cca",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 4,
+          "AUPRC": 0.41278454130115205,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "acab959d47188b49ddc8ea9239a723c606fe2c728290da4d0b44c45ccdd32cca",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "xgboost",
+          "rank": 6,
+          "AUPRC": 0.4055342978738968,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "acab959d47188b49ddc8ea9239a723c606fe2c728290da4d0b44c45ccdd32cca",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/surgery/S3/catboost/waterfall_tp.png",
+        "sha256": "07b0578d2dbf77ac6bf022a530715e4a3149a710ec39da4ad8bd961a2e3424c5"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/surgery/S3/catboost/waterfall_fn.png",
+        "sha256": "d4ff321e4c5ad84af3a7da85521bd2594ce6fe12b20f401f945759d52d592620"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 19,
+        "distinct_color_values": 3,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/surgery/S3/catboost/age_gcs.png",
+          "sha256": "0cc056563544e6aacf86c9012b075607b107ccd9980c3cc08ab4349ba5d50339"
+        }
+      }
+    },
+    {
+      "key": "surgery|S4|catboost",
+      "group": "surgery",
+      "outcome": "S4",
+      "family": "catboost",
+      "illustration_selection": {
+        "family": "catboost",
+        "rank": 3,
+        "AUPRC": 0.4025310776697028,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "6c6acb9717534c00980c5453ea4f55fead3b74e25d557eb66659a058b3cb77f8",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "catboost",
+          "rank": 3,
+          "AUPRC": 0.4025310776697028,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "6c6acb9717534c00980c5453ea4f55fead3b74e25d557eb66659a058b3cb77f8",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "xgboost",
+          "rank": 4,
+          "AUPRC": 0.39382515840548316,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "6c6acb9717534c00980c5453ea4f55fead3b74e25d557eb66659a058b3cb77f8",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 5,
+          "AUPRC": 0.38560580921732207,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "6c6acb9717534c00980c5453ea4f55fead3b74e25d557eb66659a058b3cb77f8",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/surgery/S4/catboost/waterfall_tp.png",
+        "sha256": "85b3f691f53e4914aa637e2dd29ca50edfbbf2c00f4e65da74e7b74a849845d7"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/surgery/S4/catboost/waterfall_fn.png",
+        "sha256": "c3916df40dc435f37138b59e6698dc75e45e5760df81e2a81436d6a010298dc2"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 2,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/surgery/S4/catboost/age_gcs.png",
+          "sha256": "e6f8bce264cca6cc02e31461a6170c7fb8de7d6b7f3aac28aa5cf86dadf4215f"
+        }
+      }
+    },
+    {
+      "key": "surgery|S5|xgboost",
+      "group": "surgery",
+      "outcome": "S5",
+      "family": "xgboost",
+      "illustration_selection": {
+        "family": "xgboost",
+        "rank": 2,
+        "AUPRC": 0.05868723881222369,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "1db313f3eacb5fe19b9ba286e5b7b6085685d22267dc611d096db7878969c634",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "xgboost",
+          "rank": 2,
+          "AUPRC": 0.05868723881222369,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "1db313f3eacb5fe19b9ba286e5b7b6085685d22267dc611d096db7878969c634",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 5,
+          "AUPRC": 0.04757459168726714,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "1db313f3eacb5fe19b9ba286e5b7b6085685d22267dc611d096db7878969c634",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "catboost",
+          "rank": 11,
+          "AUPRC": 0.020153104776739397,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "1db313f3eacb5fe19b9ba286e5b7b6085685d22267dc611d096db7878969c634",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/surgery/S5/xgboost/waterfall_tp.png",
+        "sha256": "ba4a9b783d1876c64b13cf1179a178550285b2904d1dbbe0a62920699af06d84"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/surgery/S5/xgboost/waterfall_fn.png",
+        "sha256": "930428aecbfcd7c80ec3642937fa84f95c61f93af999e0677a523261436c6a55"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 2,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/surgery/S5/xgboost/age_gcs.png",
+          "sha256": "878208d78d9e10cd94127409a113410879213da98983978e5bcea9a3dd2ec7a2"
+        }
+      }
+    },
+    {
+      "key": "surgery|S6|xgboost",
+      "group": "surgery",
+      "outcome": "S6",
+      "family": "xgboost",
+      "illustration_selection": {
+        "family": "xgboost",
+        "rank": 3,
+        "AUPRC": 0.132304218342374,
+        "source": {
+          "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+          "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+        },
+        "source_row_set_sha256": "300951220d77ce35b3cbe08d55d74b54de4976fd0880eee2d0241c8495ae00b4",
+        "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+      },
+      "ranking_candidates": [
+        {
+          "family": "xgboost",
+          "rank": 3,
+          "AUPRC": 0.132304218342374,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "300951220d77ce35b3cbe08d55d74b54de4976fd0880eee2d0241c8495ae00b4",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "catboost",
+          "rank": 5,
+          "AUPRC": 0.11108467098054217,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "300951220d77ce35b3cbe08d55d74b54de4976fd0880eee2d0241c8495ae00b4",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        },
+        {
+          "family": "lightgbm",
+          "rank": 6,
+          "AUPRC": 0.10230682217674528,
+          "source": {
+            "path": "outputs/v2/.sp216/c216_034700/research_decisions.json",
+            "sha256": "f1b5968c68aff87522fc6cd3bcc759b6b0ae03a777a9f9a4b3b4e663b9c4a88d"
+          },
+          "source_row_set_sha256": "300951220d77ce35b3cbe08d55d74b54de4976fd0880eee2d0241c8495ae00b4",
+          "ranking_basis": "LOCKED_2024_BASE_VERSUS_CROSSFIT_2024_META"
+        }
+      ],
+      "cached_TP_waterfall": {
+        "path": "assets/best_tree_additive/surgery/S6/xgboost/waterfall_tp.png",
+        "sha256": "b27b741008b2b826b4cf4001557728a73675d9d258c43f97f226992febc79fe4"
+      },
+      "cached_FN_waterfall": {
+        "path": "assets/best_tree_additive/surgery/S6/xgboost/waterfall_fn.png",
+        "sha256": "209434ff40ed67632a8f097983ede2e97cc6b527809accbb5a961aa87c59f552"
+      },
+      "status": "VALIDATED_TP_FN_COMPLETE",
+      "pending_cases": [],
+      "age_gcs_dependence": {
+        "status": "RENDERED_EXISTING_SAMPLE",
+        "age_feature": "EMT_年齡",
+        "color_feature": "EMT_現場_GCS",
+        "sample_count": 20,
+        "distinct_color_values": 2,
+        "is_shap_interaction_value": false,
+        "asset": {
+          "path": "assets/best_tree_interaction/surgery/S6/xgboost/age_gcs.png",
+          "sha256": "7bc9eccb4e20218b80d26ac4a5a782e799e1077cf08ce3ddf42be04677bdb5f8"
+        }
+      }
+    }
+  ]
+}

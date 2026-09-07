@@ -1,0 +1,46 @@
+{
+  "schema": "emt-frozen-overall-calibration-aggregate-search/1",
+  "status": "NO_SOURCE_BOUND_BIN_AGGREGATE_FOUND",
+  "requested_model_count": 108,
+  "source_bindings": {
+    "scripts/run_p1_v2_p1_06_layered_frozen_evaluation_v1.py": "289cd842b770101417598dfda0f331e247906e331bac20b744c5500ba0b46ce2",
+    "scripts/build_emt_p1_v2_layered_final_report_v1.py": "dc7c6c4f571ebf3358aba30d564b26b9f1b9ca614025c7acbc8c69ac29e67c2e",
+    "outputs/v2/accepted/p1_06/final_artifact_manifest.json": "f9040a9261fbc477d5bd6b1f3000e2ad81626a8ee67f086633a2aec8ed9b2459",
+    "unchanged_public_main_bundle_sha256": "335f6c3b2c0f2e7424e62a9787c685709c8f9bb006d4ce843945add6c32341d1"
+  },
+  "reusable_bin_model_count": 0,
+  "is_statistical_not_estimable_claim": false,
+  "searched_scopes": [
+    "outputs/v2/accepted/p1_06/evaluation filenames and final_artifact_manifest.json artifact inventory",
+    "outputs/v2 including hidden paths, calibration/bin/curve filename search restricted to Overall/P1_06/frozen/final-delivery lineages",
+    "tmp_github_pages/v3 embedded accepted Overall curve/curve_numeric_records metadata",
+    "P1_06 layered final report/delivery precomputed calibration image references"
+  ],
+  "evidence": [
+    {
+      "path": "scripts/run_p1_v2_p1_06_layered_frozen_evaluation_v1.py",
+      "location": "frames output mapping near lines 1274-1280",
+      "finding": "Authoritative Overall frozen evaluator emits predictions, metrics, thresholds, extended_metrics and dca, but no calibration-bin/curve table. The corresponding accepted directory has no such aggregate."
+    },
+    {
+      "path": "scripts/build_emt_p1_v2_layered_final_report_v1.py",
+      "location": "stacking_calibration.png construction near lines 407-421",
+      "finding": "Precomputed stacking_calibration.png is a bar chart of calibration intercept and slope for nine stacking outcomes, not a binned reliability curve and not bins for 108 models."
+    },
+    {
+      "path": "tmp_github_pages/v3/index.html",
+      "finding": "Accepted Overall curves contain 216 ROC and 216 PR series only; curve_numeric_records likewise contain ROC/PR only. No calibration bins are embedded."
+    }
+  ],
+  "not_read": [
+    "any 2025 prediction rows",
+    "sealed_cohort.parquet",
+    "raw2025 features or labels"
+  ],
+  "no_new_bins_computed": true,
+  "available_instead": "Existing Overall frozen calibration intercept/slope aggregates remain available and are already in the current-model summary. They cannot identify or reconstruct calibration bins.",
+  "remaining_gap": "108 Overall frozen calibration-bin curves lack a source-bound precomputed aggregate. Keep this explicit; do not fill from 2024, from specialty curves, or by reconstructing bins from summary metrics.",
+  "new_raw_2025_access": 0,
+  "new_model_predict": 0,
+  "new_model_fit": 0
+}

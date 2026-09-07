@@ -1,0 +1,55 @@
+# Historical method and closeout addendum — 5 September 2026
+
+Archive note, 7 September 2026: the quoted 5 September scope below is retained as method history. The specialty P1_04 program is now fully dispositioned at 494/494 and reported in this successor. The latest owner concurrency instruction supersedes the historical global16 text: ten Kaggle accounts with at most two sessions per account, global20. No new computation or launch was performed by this report update. Current reporting/reproduction scope is REQUIREMENTS_CROSSWALK.md; historical pending wording below is not the current completion registry.
+
+Status: effective closeout instruction for the newly authorized work; not a retroactive change to accepted evidence. Preserve all original prompts, accepted artifacts and historical receipts. The owner authorized the recommended closeout and the full specialty P1_04 program on 5 September 2026. This addendum resolves document conflicts prospectively; it does not relabel old computations or grant a new opportunity to select models using 2025.
+
+## Authoritative order and present endpoint
+
+Use the latest explicit owner decision, workspace AGENTS.md, exact accepted contracts/receipts, this scope addendum, and the historical root prompts in that order. Historical headings claiming “highest priority” do not overrule newer decisions. Any scientific change must name its predecessor, exact amended definition and evidence; do not silently reinterpret a completed analysis.
+
+Overall P1_06 is accepted (108 outcome × family tasks; frozen_evaluation_count=1). The specialty development rectangle is accepted at 216/216. Six specialty frozen packets and the specialty additive delivery passed independent validation. The final 1 September integrated site covers overall/medicine/surgery × nine outcomes × twelve families (324 records) with 324 primary direct model SHAP explanations. These are completed sources to reuse, not new training tasks. The current evidence crosswalk and sources.json bind the exact files.
+
+The newly authorized specialty P1_04 program remains a distinct required endpoint. “All 324 models complete” does not mean that every ablation, sensitivity, manuscript appendix or portable research replay is complete. Report each endpoint separately: research acceptance, frozen validation, additive delivery, presentation validation, sensitivity acceptance and full-study reporting coverage. Preserve existing formal_acceptance/scientific_acceptance flags; a local document or successful website build cannot promote scientific evidence.
+
+## Cohorts, outcomes and prediction boundary
+
+Use linked adult EMT encounters (age ≥18) and the current accepted eligibility and patient-group lineage. Missing/invalid age is an eligibility exclusion. Preserve the exact nine outcome definitions in the accepted contracts: P1 emergency-department death/critical discharge; P2 emergency-department or inpatient death/critical discharge; P3 ENDO=Y, missing ENDO→N; S1/S2 P2 within three/seven days; S3 specified ward/admission dispositions; S4 ICU; S5 ICU stay ≥14 days; S6 total stay ≥30 days. Do not infer definitions from broad display labels.
+
+Primary predictors are available before hospital arrival. Positive feature allowlists govern inclusion. Retain authorized prehospital treatments, including airway/oxygen/ETT information for P3. Hospital outcomes, arrival vitals and unapproved post-arrival features cannot become primary predictors. Transport duration and total prehospital duration retain their explicit exceptions. +ED-early and congestion are separately labelled sensitivity/comparator tracks, never additions to the primary predictor matrix.
+
+Specialty router: normalize as specified in the locked OP_NAME contract, then exact 急診內科→medicine and 急診外科→surgery. Other/missing groups stay only in overall. OP_NAME is a cohort router, never a predictor or outcome. Disclose its hospital source/timing and the owner's cohort decision. Specialty models are independently developed; they are not subgroup scores from the overall winner. Specialty was added after overall 2025 exposure and must be described as an additional analysis.
+
+## Temporal, fold, HPO and calibration rules
+
+Development is 2020–2023; patient groups are disjoint across folds and protected temporal partitions. Primary CV is outcome-specific stratified group five-fold CV under the locked seed policy. The older “grouping optional” wording is superseded. A naive row-stratified CV run is a labelled optimism diagnostic, not the primary analysis. Preserve each accepted task's exact fold map rather than inventing one common assignment across outcomes.
+
+Base-model hyperparameters, feature selection, imputation/scaling and calibration choices use development training/OOF data. They do not use 2024 labels for HPO or monitoring. Raw/Platt/isotonic calibration follows the accepted OOF cross-fitting contract. Fit preprocessing only in the training fold; the final preprocessing object fits development only. Missingness indicators distinguish source missing from explicitly absent information.
+
+Some accepted specialty meta-models have an explicitly different validation-only meta contract. Preserve and label those exact contracts rather than calling them development OOF stacking. Surgery/P1 has no valid single cross-family representative under that contract. Never select a winner from its 2025 scores to fill a table cell.
+
+Choose the operating threshold in 2024 using the fixed rule: prefer sensitivity and specificity both ≥0.90; otherwise maximize their minimum, then Youden index, then the higher threshold. Disclose fallback. Threshold-dependent 2024 scores describe the selected operating point and are not independent threshold validation. No 2025 data may change model, calibration, ensemble membership/weights or threshold. “Recommend final model” means explain the pre-2025 locked choice, not choose from holdout performance.
+
+## Model identity and interpretations
+
+Use the per-outcome exact accepted registry rather than a flat model tuple. The final twelve display families are rSI-sMS, logistic regression, CatBoost, XGBoost, LightGBM, BERT/RoBERTa, MLP/PLR, FT-Transformer, CNN, TabPFN, TabICL and stacking. TabPFN standard Cloud v3 covers P1–P3 and fine-tuned v2.5 covers S1–S6 under the accepted overall amendment. Additional accepted specialty variants or thinking members follow their exact contracts. Do not manufacture missing S1–S6 standard-cloud runs. Earlier scores, DT/RF/SVM/KNN and text/no-text comparisons need their own supplemental evidence mapping; they are not automatically mandatory additional final-grid slots.
+
+The newest 324-task primary explanation set is direct model-output SHAP; archived surrogate explanations are secondary audits. Direct explanation of an ensemble's member probabilities is not automatically a patient-feature explanation. Always show the explained output, feature level, algorithm, background/explanation sample and uncertainty/approximation limitation. A beeswarm/bar does not itself satisfy a required dependence plot or TP/FN waterfall; track those separately. Explanations are predictive associations, not treatment effects.
+
+## Full specialty P1_04 — scope now explicit
+
+Apply the accepted overall P1_04 method, with independent medicine and surgery cohorts and locked group-specific base models, to each applicable outcome. The implementation authority/registry must enumerate the actual task grid and bind features, row sets, folds, seed, hyperparameters and comparators before computation. Do not reopen HPO just for a sensitivity analysis.
+
+Required families comprise the twelve original ablations, the current mortality-definition sensitivity, grouped-versus-naive CV, city holdout, adult-age comparison, P3 non-field-airway evaluation, +congestion (P1–P3; development2020–22/validation2023/test2024), three DNR rules and the currently authorized missingness sensitivities. Use formal NOT_ESTIMABLE with its exact cause where a feature/city/event class is unavailable; absence is never a zero effect. Each departure from an original prompt must be dispositioned in the task registry, not silently skipped.
+
+DNR: primary all-comer retains patients; dnr_blind removes direct/proxy DNR predictors; temporally_clean_exclusion excludes only DNR confirmed before index; broad_exclusion is a labelled sensitivity because source timing can be post-index. Missingness variants follow current accepted definitions, preserving fold-local fitting. No subgroup HPO, predictor invention or 2025 access is implied by this authorization.
+
+The current method retains 病危自動出院 as mortality-equivalent and explicitly disallows reclassifying it as survival in a secondary definition (`method_TW.md`, outcome section). The old “exclude critical discharge” prompt/accepted historical task must be labelled as historical rather than silently repeated as the current specialty rule. Full P1_04 authorization does not, by itself, overturn that later outcome definition; its exact disposition belongs in the new scope registry.
+
+P3: preserve the locked main model. The original ETT-only exclusion and later ETT+SGA advanced-airway exclusion are different analyses. The current sidecar explicitly uses ETT+SGA, retaining ordinary oxygen/BVM support. Evaluate the locked P3 predictions on the pre-2025 eligible subset and provide event counts, AUROC/AUPRC uncertainty and calibration. Keep ETT-only a separate named comparison if included in the authorized registry. Optional retraining in original P1_04(c) is not automatically required. The legacy accepted NOT_ESTIMABLE receipt is immutable; a successful successor must have new evidence.
+
+## Execution, checkpointing and final deliverables
+
+Owner cap2, global cap16, no duplicate active task. Positive official GPU quota suffices; add no reserves, runtime floors or subjective safety margins. Fill ready slots with distinct tasks. Do not interrupt or duplicate live work. Capture each usable terminal partial, keep acceptance=false, and resume the latest compatible verified frontier. A fresh session means a new session identity, not discarded checkpoints. Bind checkpoint tree, frontier, study, trial numbering, seed, folds and payload into each successor authority. Use finite transport retries and atomic writes. Never print credentials; authenticated pages use external local Chrome/Edge only.
+
+No full-study completion claim until the crosswalk has a justified disposition for every requirement and incorporates accepted new specialty P1_04 results. Deliver the consolidated manuscript, TRIPOD+AI reporting map, PROBAST+AI appraisal with unresolved judgments explicit, tables/figures, source hashes and limitations. Keep the report/audit ZIP distinct from executable reproduction. The public portable package uses synthetic inputs and excludes credentials/PII/patient rows. Its synthetic smoke does not certify numerical reproduction of the protected multi-model study; record the exact private prerequisites and untested parts.

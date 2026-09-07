@@ -1,0 +1,305 @@
+{
+  "status": "PASS",
+  "checks": 71,
+  "failures": [],
+  "details": [
+    {
+      "name": "historical_sources_unchanged",
+      "passed": true
+    },
+    {
+      "name": "overall_accepted_current_root_hash_unchanged",
+      "passed": true
+    },
+    {
+      "name": "specialty_research_current_root_hash_unchanged",
+      "passed": true
+    },
+    {
+      "name": "## Abstract",
+      "passed": true
+    },
+    {
+      "name": "## Introduction",
+      "passed": true
+    },
+    {
+      "name": "## Methods",
+      "passed": true
+    },
+    {
+      "name": "## Results",
+      "passed": true
+    },
+    {
+      "name": "## Discussion",
+      "passed": true
+    },
+    {
+      "name": "old_specialty_pending_removed",
+      "passed": true
+    },
+    {
+      "name": "primary_effect_sizes",
+      "passed": true
+    },
+    {
+      "name": "not_estimable_reason_retained",
+      "passed": true
+    },
+    {
+      "name": "reproduction_boundary",
+      "passed": true
+    },
+    {
+      "name": "30_requirement_ids",
+      "passed": true
+    },
+    {
+      "name": "R23_current_p104_bound",
+      "passed": true
+    },
+    {
+      "name": "R24_current_p104_bound",
+      "passed": true
+    },
+    {
+      "name": "R25_current_p104_bound",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_1",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_2",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_3",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_4",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_5",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_6",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_7",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_8",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_9",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_10",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_11",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_12",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_13",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_14",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_15",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_16",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_17",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_18",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_19",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_20",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_21",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_22",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_23",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_24",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_25",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_26",
+      "passed": true
+    },
+    {
+      "name": "TRIPOD_item_27",
+      "passed": true
+    },
+    {
+      "name": "computational_probast",
+      "passed": true
+    },
+    {
+      "name": "isolated_real_replay_verified",
+      "passed": true
+    },
+    {
+      "name": "new_raw_2025_zero",
+      "passed": true
+    },
+    {
+      "name": "full_training_not_claimed",
+      "passed": true
+    },
+    {
+      "name": "27_event_dimension_rows",
+      "passed": true
+    },
+    {
+      "name": "current_324_ci_complete",
+      "passed": true
+    },
+    {
+      "name": "current_270_pairs_complete",
+      "passed": true
+    },
+    {
+      "name": "both_specialty_descriptives_complete",
+      "passed": true
+    },
+    {
+      "name": "required_best_tree_case_coverage_complete",
+      "passed": true
+    },
+    {
+      "name": "new_primary_models_not_substituted",
+      "passed": true
+    },
+    {
+      "name": "current_export_58_files_bound",
+      "passed": true
+    },
+    {
+      "name": "native_ci_and_pair_values_exact",
+      "passed": true
+    },
+    {
+      "name": "uncompleted_comparator_not_adopted",
+      "passed": true
+    },
+    {
+      "name": "675_baseline_intervals_complete",
+      "passed": true
+    },
+    {
+      "name": "obsolete_ci_gap_removed",
+      "passed": true
+    },
+    {
+      "name": "accepted_overall_14_tables_550_rows",
+      "passed": true
+    },
+    {
+      "name": "accepted_27_overall_DNR_reused",
+      "passed": true
+    },
+    {
+      "name": "source_bound_flow_included",
+      "passed": true
+    },
+    {
+      "name": "all_324_locked_operating_points",
+      "passed": true
+    },
+    {
+      "name": "source_representative_boundary",
+      "passed": true
+    },
+    {
+      "name": "overall_bootstrap_unit_row_not_group",
+      "passed": true
+    },
+    {
+      "name": "legacy_overlap_text_CI_not_adopted",
+      "passed": true
+    },
+    {
+      "name": "source_recorded_NB36",
+      "passed": true
+    },
+    {
+      "name": "primary_literature_context_included",
+      "passed": true
+    },
+    {
+      "name": "protected_route_and_locks_included",
+      "passed": true
+    },
+    {
+      "name": "no_models_or_parquet",
+      "passed": true
+    },
+    {
+      "name": "no_credential_filenames",
+      "passed": true
+    },
+    {
+      "name": "corrected_text_separate_independent_2579_checks",
+      "passed": true
+    }
+  ],
+  "scientific_acceptance": false,
+  "formal_acceptance": false,
+  "full_training_reproduced": false,
+  "metadata_status_reconciliation": {
+    "status": "PASS",
+    "field": "bootstrap_unit_source_receipt.json:legacy_Stage3a_text_CI",
+    "current_status": "SUPERSEDED_OVERLAPPING_STRATA_AUDIT_ONLY_DISJOINT_CORRECTION_COMPLETE",
+    "adoption_receipt": "corrected_text_report_adoption.json",
+    "adoption_sha256": "56cefd5bd226fbbc3dd49ba0a4fb92e45678da2e398fe173cd2d2c57eaac3d68",
+    "independent_tasks": 54,
+    "paired_split_contrasts": 108,
+    "numerical_outputs_changed": false,
+    "pdf_rerender_required": false
+  }
+}

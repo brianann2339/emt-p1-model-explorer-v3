@@ -1,0 +1,172 @@
+{
+  "status": "REFERENCE_READY",
+  "producer": {
+    "path": "outputs/v2/.p1gap_20260907/no_text_capture/paired_disjoint/correct_paired_ci.py",
+    "sha256": "a672c255d49e8a8d2573b4fe1b57c63cbeda351b38e2cbc25232402a69feecde"
+  },
+  "tasks": [
+    {
+      "task_id": "medicine_P1_mlp_plr_no_text",
+      "scope": "current_opname_specialty",
+      "input": {
+        "path": "outputs/v2/.p1gap_20260907/no_text_capture/paired_disjoint/inputs/medicine_P1_mlp_plr_no_text/paired.parquet",
+        "sha256": "b40abe3f30c0985ef1a119666fd57e7e1aec67f3e2e0ebe12eae33e440c02305"
+      },
+      "reference_samples": {
+        "path": "outputs/v2/.p1gap_20260907/no_text_capture/paired_disjoint/review_direct_samples_medicine_P1_mlp_plr_no_text.npz",
+        "sha256": "a686ccf32050fb5baf6c89d4c2b4498dff6fe3bf6bfb307c42a21223fa1053c6"
+      },
+      "splits": [
+        {
+          "split": "oof_2020_2023",
+          "seed": 1965476556,
+          "replicates": 2000,
+          "mixed_groups": 38,
+          "n": 15995,
+          "direct_sklearn_calls": 4000,
+          "all_producer_weights_equal_independent_weights": true,
+          "paired_shared_weight_sha256": "33e1e436636e3784eb1042730bfb4b81bda2cb96de3b39a5bd5c682d59449592",
+          "with_ci": [
+            0.06359391627784573,
+            0.14556163168462516
+          ],
+          "no_ci": [
+            0.0543920053020124,
+            0.12341524264719982
+          ],
+          "delta_ci": [
+            -0.002702025923565665,
+            0.03881951149940963
+          ]
+        },
+        {
+          "split": "validation_2024",
+          "seed": 588792146,
+          "replicates": 2000,
+          "mixed_groups": 16,
+          "n": 4770,
+          "direct_sklearn_calls": 4000,
+          "all_producer_weights_equal_independent_weights": true,
+          "paired_shared_weight_sha256": "871945b4a72f0b733dabb9d09573e9f88c8903b6defd35270fd37341b7993e9b",
+          "with_ci": [
+            0.3136157862114177,
+            0.504882779034009
+          ],
+          "no_ci": [
+            0.31374328446223254,
+            0.5041403261644745
+          ],
+          "delta_ci": [
+            -0.05972677885345304,
+            0.05352364078697044
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "overall_legacy_P1_mlp_plr_no_text",
+      "scope": "earlier_strict_v2_overall_stage3a",
+      "input": {
+        "path": "outputs/v2/.p1gap_20260907/no_text_capture/paired_disjoint/inputs/overall_legacy_P1_mlp_plr_no_text/paired.parquet",
+        "sha256": "774a24126eb5441e0d229c647956fac5f9b46c410211034766fe72470c5bcdfc"
+      },
+      "reference_samples": {
+        "path": "outputs/v2/.p1gap_20260907/no_text_capture/paired_disjoint/review_direct_samples_overall_legacy_P1_mlp_plr_no_text.npz",
+        "sha256": "0e80651e49ae9222ff1e52ef230aba85e09fcf85d606cd0bdc96d716bfb9c257"
+      },
+      "splits": [
+        {
+          "split": "oof_2020_2023",
+          "seed": 2693252320,
+          "replicates": 2000,
+          "mixed_groups": 43,
+          "n": 24784,
+          "direct_sklearn_calls": 4000,
+          "all_producer_weights_equal_independent_weights": true,
+          "paired_shared_weight_sha256": "ceeb0f2ab5f90f6696efa8a07b0e1a79d9e8f21869ed2582f5d0ec456ece51c5",
+          "with_ci": [
+            0.125954864310968,
+            0.25563670577982517
+          ],
+          "no_ci": [
+            0.11020574049202735,
+            0.2360444780141829
+          ],
+          "delta_ci": [
+            -0.002313692283144124,
+            0.04240000178612824
+          ]
+        },
+        {
+          "split": "validation_2024",
+          "seed": 461655894,
+          "replicates": 2000,
+          "mixed_groups": 17,
+          "n": 7504,
+          "direct_sklearn_calls": 4000,
+          "all_producer_weights_equal_independent_weights": true,
+          "paired_shared_weight_sha256": "4de5297910bc69da8e817da9fd69337143336d562b8e3c406974fedcaa6bad48",
+          "with_ci": [
+            0.3386702316326934,
+            0.5319570177951649
+          ],
+          "no_ci": [
+            0.3092731597270714,
+            0.49826567942092775
+          ],
+          "delta_ci": [
+            0.003737857945567237,
+            0.05799126259103565
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": 10,
+  "failures": 0,
+  "check_rows": [
+    {
+      "check": "medicine_P1_mlp_plr_no_text:oof_2020_2023:groups_partition",
+      "pass": true
+    },
+    {
+      "check": "medicine_P1_mlp_plr_no_text:oof_2020_2023:exact_2000_draws_exhausted",
+      "pass": true
+    },
+    {
+      "check": "medicine_P1_mlp_plr_no_text:validation_2024:groups_partition",
+      "pass": true
+    },
+    {
+      "check": "medicine_P1_mlp_plr_no_text:validation_2024:exact_2000_draws_exhausted",
+      "pass": true
+    },
+    {
+      "check": "medicine_P1_mlp_plr_no_text:real_mixed_patient_task",
+      "pass": true
+    },
+    {
+      "check": "overall_legacy_P1_mlp_plr_no_text:oof_2020_2023:groups_partition",
+      "pass": true
+    },
+    {
+      "check": "overall_legacy_P1_mlp_plr_no_text:oof_2020_2023:exact_2000_draws_exhausted",
+      "pass": true
+    },
+    {
+      "check": "overall_legacy_P1_mlp_plr_no_text:validation_2024:groups_partition",
+      "pass": true
+    },
+    {
+      "check": "overall_legacy_P1_mlp_plr_no_text:validation_2024:exact_2000_draws_exhausted",
+      "pass": true
+    },
+    {
+      "check": "overall_legacy_P1_mlp_plr_no_text:real_mixed_patient_task",
+      "pass": true
+    }
+  ],
+  "model_fit_calls": 0,
+  "model_predict_calls": 0,
+  "new_raw_2025_access": 0
+}

@@ -1,0 +1,154 @@
+{
+  "status": "PASS_RENDER_AND_VISUAL_REVIEW",
+  "pdf_sha256": "b2993539edb5d94d545fc56dfc3fb0eda45a630da51d2fd83226b80ba24c3472",
+  "pages": 17,
+  "font": "Noto Sans TC local static instance at weight 400",
+  "font_source": "C:/Windows/Fonts/NotoSansTC-VF.ttf",
+  "source_markdown_sha256": "aed015dbe280a9c0dad899fe279dc1e71c7baaea02e57f1dbd624628b6e8ce37",
+  "checks": [
+    {
+      "page": 1,
+      "text_characters": 3408,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 2,
+      "text_characters": 3424,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 3,
+      "text_characters": 4053,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 4,
+      "text_characters": 3250,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 5,
+      "text_characters": 4012,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 6,
+      "text_characters": 3998,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 7,
+      "text_characters": 4174,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 8,
+      "text_characters": 3022,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 9,
+      "text_characters": 3400,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 10,
+      "text_characters": 1563,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 11,
+      "text_characters": 1307,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 12,
+      "text_characters": 2910,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 13,
+      "text_characters": 938,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 14,
+      "text_characters": 1764,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 15,
+      "text_characters": 1949,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 16,
+      "text_characters": 1748,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page": 17,
+      "text_characters": 2342,
+      "replacement_glyphs": 0,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    }
+  ],
+  "renderer": "PyMuPDF local page rasterization",
+  "browser_used": false,
+  "all_current_pages_visually_reviewed": true,
+  "reviewed_page_count": 17,
+  "visual_review": "All17 current page renders reviewed as a contact sheet, with source flow, locked representatives, source-method captions and corrected text-gain intervals examined at full page resolution. No clipping, overlap, table overflow or replacement glyphs observed. Local Noto Sans TC; blue headers and readable exact-value tables.",
+  "poppler_pages_rendered": 17,
+  "poppler_page_hashes": {
+    "poppler-01.png": "e801632534895931ba924fa326f185cf572f89bc12217044f5fd5fc3d0407b09",
+    "poppler-02.png": "ec723290d0a50e63cb2c79a4767c90d93b4a92e35e6e04d256117838e02e2982",
+    "poppler-03.png": "53aa40d14ba401bb1527e705aab7136a9457c6fee3651ad609865f2056ea1656",
+    "poppler-04.png": "7bbb100f5bc2ea17c882f00c4c3a7d5712084d3df1b044c7d182ec6628810979",
+    "poppler-05.png": "f4087561a3f4f6097e6bc2d0f2e484b79b54e3836cb33482ac629f6b8646e081",
+    "poppler-06.png": "3ed39a18f30168534746b11b12271edd09b9f2e0a60ed8cc1a5eb339fa9ae621",
+    "poppler-07.png": "9aba55ef2c0aaf680848e7b87c5257bc4fc2213e9ddaa76de3de0514f5a5e5b2",
+    "poppler-08.png": "d8f5ef78b8fceac522b70f4e0e87070919710f084a37e01783551de9ddc32834",
+    "poppler-09.png": "7eb07be67376e6364ec798ab3779fc5a0e12875a8be71fbfb9b7aa4fc8436be9",
+    "poppler-10.png": "65550780f65e12eb20031838c7a979a481bf44faffb6073dc4c83dee0951e30a",
+    "poppler-11.png": "0b28922e81c83447341e8e79d46ed6b29c747fc94a7c3128fb6c16b565253ed2",
+    "poppler-12.png": "582db01827dd89809186d86506a032c2df7924d868b308b327314a6b16d425fd",
+    "poppler-13.png": "27ea55fd7d3b4bbd4e3ab4f5ae64233d95254378cfbf2f90805570d39642c4c6",
+    "poppler-14.png": "83fb6d4c95e8dbe35e4cd0484a23242fd82f4554ad6f64a5e48ac972333ae239",
+    "poppler-15.png": "54b222787a8aaa0a0f06b3e206073c15bea822d39ca6a81e07c3e6da4f62dc67",
+    "poppler-16.png": "72dd8f5f10e4dd1ead2fc460759a96cc511c77c67c4f5641aa52f985383b5245",
+    "poppler-17.png": "4ff6fc1a4dd7052b9d7337dcdd56ce49e49b5f4829f4e4140bb623bac82af215"
+  }
+}

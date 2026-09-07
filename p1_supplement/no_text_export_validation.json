@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "coverage": {
+    "completed_tasks": 54,
+    "total_tasks": 54,
+    "paired_contrasts": 108,
+    "total_paired_contrasts": 108,
+    "specialty_completed": 36,
+    "specialty_required": 36,
+    "overall_legacy_completed": 18,
+    "overall_legacy_required": 18
+  },
+  "supplement": {
+    "path": "outputs/v2/.p1gap_20260907/no_text_capture/paired_disjoint/web_data/supplement.json",
+    "sha256": "add360acb01e4961b2edafe0b7bdccb32ced2fc279015546f87e83df20276b79"
+  },
+  "files": [
+    {
+      "path": "outputs/v2/.p1gap_20260907/no_text_capture/paired_disjoint/web_data/text_gain.json",
+      "sha256": "6d3f065571f40450d92ea2132ce305ba43d7712ed02a152d1b504eeef633c0a8"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/no_text_capture/paired_disjoint/web_data/text_gain.csv",
+      "sha256": "286408a8bedcbc9980f523729bbd56b51a1583f46065c06c6c541f84ffc55855"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/no_text_capture/paired_disjoint/web_data/specialty_text_gain.json",
+      "sha256": "66dd7d4d1ae5b1efdfba319825cad996f2aaea50f5515899cdb369abed9aa25c"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/no_text_capture/paired_disjoint/web_data/specialty_text_gain.csv",
+      "sha256": "aebb5664c0a96ef0e7bafb8d7508710de283d99cee13083e1b0f13bc67354d6d"
+    }
+  ],
+  "all_completed_tasks_independently_validated": true,
+  "model_calls": 0,
+  "new_raw_2025_access_count": 0
+}

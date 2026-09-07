@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": 16256,
+  "failure_count": 0,
+  "failures": [],
+  "record_count": 675,
+  "knn_complete": 27,
+  "index_sha256": "89d801e29419f686bd81f2bd2ccf70650df44c295ec250e1dde018f7f1cbc37c",
+  "method": "original prediction equality, current labels/rows, alternate rank-sum AUROC and tied-threshold AP, direct Brier, exact original fixed folds/seed, curve equality",
+  "new_model_fit": 0,
+  "new_model_predict": 0,
+  "new_2025_access": 0
+}

@@ -1,0 +1,1 @@
+{"status":"PASS","mixed_patient_stratum_memberships":1,"expected_patient_multiplicity":[1,1,1,1],"legacy_mixed_patient_expected_multiplicity":2,"same_vector_paired_delta_all_2000_exactly_zero":true,"two_independent_implementations_max_difference":0.0,"weighted_tie_regression_against_sklearn":"PASS","model_calls":0,"new_raw_2025_access":0}

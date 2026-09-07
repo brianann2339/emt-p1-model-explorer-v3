@@ -1,0 +1,24 @@
+{
+  "schema": "emt-p1-gap-shap-figure-validation/1",
+  "status": "PASS",
+  "checks": 5428,
+  "failure_count": 0,
+  "failures": [],
+  "task_count": 324,
+  "mapped_image_count": 748,
+  "required_best_tree_complete_count": 27,
+  "index": {
+    "path": "outputs/v2/.p1gap_20260907/shap_figures/figure_index.json",
+    "sha256": "534efa16860043f049d589a7210310a68bbf82bed0608d6cfd7eb269ef5cf406"
+  },
+  "builder": {
+    "path": "scripts/build_emt_p1_gap_shap_figures_v1.py",
+    "sha256": "580d97dbd4472187e75a35836bdc8be6d07cfc601f15b3afc72862394af68bc1"
+  },
+  "arithmetic_tolerance_basis": "float64 machine epsilon times summed feature count; verifies rendering arithmetic, does not replace original task additivity policies",
+  "2025_access_count": 0,
+  "new_fit_count": 0,
+  "new_predict_count": 0,
+  "scientific_acceptance": false,
+  "formal_acceptance": false
+}

@@ -1,0 +1,332 @@
+{
+  "status": "PASS",
+  "check_count": 2821,
+  "failure_count": 0,
+  "checks": [
+    {
+      "check": "current_model_summary_json_exact_source_values",
+      "pass": true,
+      "rows": 324
+    },
+    {
+      "check": "current_model_summary_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 9
+    },
+    {
+      "check": "current_dca_json_exact_source_values",
+      "pass": true,
+      "rows": 28188
+    },
+    {
+      "check": "current_dca_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 4
+    },
+    {
+      "check": "current_calibration_json_exact_source_values",
+      "pass": true,
+      "rows": 2160
+    },
+    {
+      "check": "current_calibration_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 6
+    },
+    {
+      "check": "strict_v2_baseline_metrics_json_exact_source_values",
+      "pass": true,
+      "rows": 6984
+    },
+    {
+      "check": "strict_v2_baseline_metrics_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 12
+    },
+    {
+      "check": "strict_v2_calibration_json_exact_source_values",
+      "pass": true,
+      "rows": 22013
+    },
+    {
+      "check": "strict_v2_calibration_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 13
+    },
+    {
+      "check": "strict_v2_dca_json_exact_source_values",
+      "pass": true,
+      "rows": 101268
+    },
+    {
+      "check": "strict_v2_dca_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 7
+    },
+    {
+      "check": "strict_v2_paired_comparisons_json_exact_source_values",
+      "pass": true,
+      "rows": 90
+    },
+    {
+      "check": "strict_v2_paired_comparisons_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 15
+    },
+    {
+      "check": "text_gain_json_exact_source_values",
+      "pass": true,
+      "rows": 108
+    },
+    {
+      "check": "text_gain_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 5
+    },
+    {
+      "check": "current_specialty_ci_json_exact_source_values",
+      "pass": true,
+      "rows": 180
+    },
+    {
+      "check": "current_specialty_ci_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 10
+    },
+    {
+      "check": "specialty_text_gain_json_exact_source_values",
+      "pass": true,
+      "rows": 0
+    },
+    {
+      "check": "current_overall_ci_json_exact_source_values",
+      "pass": true,
+      "rows": 0
+    },
+    {
+      "check": "table1_json_exact_source_values",
+      "pass": true,
+      "rows": 41364
+    },
+    {
+      "check": "table1_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 10
+    },
+    {
+      "check": "correlations_json_exact_source_values",
+      "pass": true,
+      "rows": 2268
+    },
+    {
+      "check": "correlations_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 2
+    },
+    {
+      "check": "complete_case_flow_json_exact_source_values",
+      "pass": true,
+      "rows": 54
+    },
+    {
+      "check": "complete_case_flow_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 3
+    },
+    {
+      "check": "missingness_by_year_json_exact_source_values",
+      "pass": true,
+      "rows": 3830
+    },
+    {
+      "check": "missingness_by_year_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 4
+    },
+    {
+      "check": "missingness_by_city_json_exact_source_values",
+      "pass": true,
+      "rows": 1532
+    },
+    {
+      "check": "missingness_by_city_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 3
+    },
+    {
+      "check": "missingness_by_outcome_json_exact_source_values",
+      "pass": true,
+      "rows": 68940
+    },
+    {
+      "check": "missingness_by_outcome_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 5
+    },
+    {
+      "check": "score_component_coverage_json_exact_source_values",
+      "pass": true,
+      "rows": 25
+    },
+    {
+      "check": "score_component_coverage_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 6
+    },
+    {
+      "check": "specialty_table1_json_exact_source_values",
+      "pass": true,
+      "rows": 82728
+    },
+    {
+      "check": "specialty_table1_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 10
+    },
+    {
+      "check": "specialty_correlations_json_exact_source_values",
+      "pass": true,
+      "rows": 4536
+    },
+    {
+      "check": "specialty_correlations_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 2
+    },
+    {
+      "check": "specialty_missingness_json_exact_source_values",
+      "pass": true,
+      "rows": 4596
+    },
+    {
+      "check": "specialty_missingness_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 3
+    },
+    {
+      "check": "specialty_cohort_summary_json_exact_source_values",
+      "pass": true,
+      "rows": 54
+    },
+    {
+      "check": "specialty_cohort_summary_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 3
+    },
+    {
+      "check": "specialty_missingness_by_year_json_exact_source_values",
+      "pass": true,
+      "rows": 7660
+    },
+    {
+      "check": "specialty_missingness_by_year_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 4
+    },
+    {
+      "check": "specialty_missingness_by_city_json_exact_source_values",
+      "pass": true,
+      "rows": 3064
+    },
+    {
+      "check": "specialty_missingness_by_city_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 3
+    },
+    {
+      "check": "current_validation_ci_json_exact_source_values",
+      "pass": true,
+      "rows": 1944
+    },
+    {
+      "check": "current_validation_ci_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 10
+    },
+    {
+      "check": "current_validation_calibration_json_exact_source_values",
+      "pass": true,
+      "rows": 7749
+    },
+    {
+      "check": "current_validation_calibration_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 11
+    },
+    {
+      "check": "current_paired_comparisons_json_exact_source_values",
+      "pass": true,
+      "rows": 270
+    },
+    {
+      "check": "current_paired_comparisons_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 15
+    },
+    {
+      "check": "current_model_recorded_metadata_json_exact_source_values",
+      "pass": true,
+      "rows": 679
+    },
+    {
+      "check": "current_model_recorded_metadata_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 0
+    },
+    {
+      "check": "current_model_metadata_summary_json_exact_source_values",
+      "pass": true,
+      "rows": 324
+    },
+    {
+      "check": "current_model_metadata_summary_csv_exact_numeric_values",
+      "pass": true,
+      "numeric_columns": 4
+    }
+  ],
+  "all_source_shas_unchanged": true,
+  "supplement_sha256": "73630e4ec6f7ecb3f9c0f28d09e965312df83ecdd5987f67389771b65764e167",
+  "coverage": {
+    "current_model_summary": 324,
+    "current_dca_models": 324,
+    "current_calibration_models": 216,
+    "current_specialty_ci_models": 216,
+    "current_overall_ci_models": 108,
+    "explicit_specialty_text_rows": 0,
+    "overall_text_delta_rows": 36,
+    "strict_v2_baseline_models": 28,
+    "source_file_count": 2765,
+    "new_current_ci_completed_tasks": 294,
+    "current_ci_total_completed_tasks": 324,
+    "current_prespecified_pair_completed_tasks": 270,
+    "specialty_descriptive_groups_completed": 2,
+    "recorded_metadata": {
+      "model_count": 324,
+      "model_sha_bound_documents_checked": 1610,
+      "recorded_field_rows": 679,
+      "models_with_recorded_fields": 147,
+      "newly_recorded_by_field": {
+        "runtime_packages": 78,
+        "seed": 38,
+        "context_row_policy": 36,
+        "stack_member_order": 27
+      },
+      "covered_by_field": {
+        "seed": 56,
+        "final_fit_rows": 27,
+        "context_rows": 0,
+        "context_row_policy": 36,
+        "runtime_packages": 78,
+        "stack_member_order": 27
+      }
+    },
+    "retained_existing_ci_models": 30,
+    "current_statistics_independent_validation": {
+      "status": "PASS",
+      "check_count": 2034,
+      "failure_count": 0,
+      "total_ci_covered": 324,
+      "paired_terminal_tasks": 270
+    }
+  }
+}

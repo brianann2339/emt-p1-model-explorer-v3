@@ -1,0 +1,148 @@
+{
+  "schema": "emt-p1-gap-web-closeout/1",
+  "documents": [
+    {
+      "label": "閱讀完整研究稿（HTML）",
+      "path": "p1_delivery/report.html",
+      "sha256": "a2e1c24c7055880c90e36b51b5cc56b4a6070253c78f9d99a6da670b29cae00e"
+    },
+    {
+      "label": "研究稿 PDF",
+      "path": "p1_delivery/EMT_P1_Manuscript_20260907.pdf",
+      "sha256": "b2993539edb5d94d545fc56dfc3fb0eda45a630da51d2fd83226b80ba24c3472"
+    },
+    {
+      "label": "PDF 渲染與版面驗證",
+      "path": "p1_delivery/pdf_render_receipt.json",
+      "sha256": "e4231ac0c242016ae99951c02a839042dc40d66bc1c6180a725da52548dfa61c"
+    },
+    {
+      "label": "完整研究稿（含分科 P1_04）",
+      "path": "p1_delivery/MANUSCRIPT.md",
+      "sha256": "aed015dbe280a9c0dad899fe279dc1e71c7baaea02e57f1dbd624628b6e8ce37"
+    },
+    {
+      "label": "P1_04 數值結果與解讀",
+      "path": "p1_delivery/P104_QUANTITATIVE_APPENDIX.md",
+      "sha256": "ff437238fc24c56ae7ef45e40ce723ee59b45da0b8ac3d79db739a45741589d4"
+    },
+    {
+      "label": "目前模型 CI 與配對比較",
+      "path": "p1_delivery/CURRENT_STATISTICS_APPENDIX.md",
+      "sha256": "e6d00e627aeedec3693e8a2013c10512dd2d4af82cd4e043d0242b8c3a2f99ab"
+    },
+    {
+      "label": "資料納入與分析母群流程",
+      "path": "p1_delivery/COHORT_FLOW_APPENDIX.md",
+      "sha256": "13c6517c0a1c0a9c5179e14367531471f4cfa7454a0b5497e5a7545b8cde2b19"
+    },
+    {
+      "label": "Overall 已完成的消融與敏感度",
+      "path": "p1_delivery/OVERALL_SENSITIVITY_APPENDIX.md",
+      "sha256": "04ec11b1cd6231fd483d4706a3d67dc04d42729b3b3ca70984b0bd114d37ba4f"
+    },
+    {
+      "label": "已鎖定的模型選擇與門檻",
+      "path": "p1_delivery/LOCKED_RECOMMENDATIONS_AND_OPERATING_POINTS.md",
+      "sha256": "d58c4f3fc80962aa24fe6dd8be2b52305d9389542f9845370ddb7763da295858"
+    },
+    {
+      "label": "既定門檻的 Net benefit",
+      "path": "p1_delivery/RECORDED_THRESHOLD_NET_BENEFIT.md",
+      "sha256": "32f2c3541ce8101d4faf9b69a073bfa87e736ff16d41faffa05a1b97477551ba"
+    },
+    {
+      "label": "文字增益與抽樣修正說明",
+      "path": "p1_delivery/CORRECTED_TEXT_GAIN_APPENDIX.md",
+      "sha256": "7319fa4e076d5ca6bf0a8ac513aa3d4cc5c45f9e9f676fff54464005f30eb357"
+    },
+    {
+      "label": "相關研究與方法文獻",
+      "path": "p1_delivery/LITERATURE_CONTEXT.md",
+      "sha256": "0378f603afa4d59e29f2d290593a01f7542f750ac890f0aa9612ecd5ccc2fa33"
+    },
+    {
+      "label": "報告來源與不確定性說明",
+      "path": "p1_delivery/REPORT_SOURCE_NOTES.md",
+      "sha256": "b40977dbebb4910ef27682f8ddec3bfbf810f7ec8847ea87ce3b21dc643bd5bc"
+    },
+    {
+      "label": "Prompt 01–06 完成對照",
+      "path": "p1_delivery/REQUIREMENTS_CROSSWALK.md",
+      "sha256": "2ad0eaf067028876e2b57d75aab4c0ccdd396af4bafdaaa4a0c8b4fb52a5106e"
+    },
+    {
+      "label": "TRIPOD+AI 報告對照",
+      "path": "p1_delivery/TRIPOD_AI_REPORTING_MAP.md",
+      "sha256": "2d0c4bf2bc60c844422b4d492e84bacc36cd88bf43a47377ada11c13fc196922"
+    },
+    {
+      "label": "PROBAST+AI 方法限制",
+      "path": "p1_delivery/PROBAST_AI_APPRAISAL.md",
+      "sha256": "c5db416b675045c5b39e01a35f6bd400d918a78a781e63030cb00f61b3996aa3"
+    },
+    {
+      "label": "事件數與特徵維度",
+      "path": "p1_delivery/EVENTS_AND_FEATURE_DIMENSIONS.md",
+      "sha256": "0a9dbfe613da4776f719e2b8e86d84327ad8a433de79b651978c83804c10c29f"
+    },
+    {
+      "label": "最新方法與版本說明",
+      "path": "p1_delivery/EFFECTIVE_METHOD_ADDENDUM.md",
+      "sha256": "f1e1aa413a445b2288a7d06defed843b197880e62921933ae88c9fd64a82d27b"
+    },
+    {
+      "label": "v1／v3 差異",
+      "path": "p1_delivery/V1_V3_COMPARISON.md",
+      "sha256": "cfff7ea1f50cf60582e8f1be891c1f80744fe6da364fe191345c3d1052b957c1"
+    },
+    {
+      "label": "待作者填寫的聲明",
+      "path": "p1_delivery/AUTHOR_DECLARATIONS.md",
+      "sha256": "d2931354fe6d3c58eaf3414af9e2531b47ea624e94b28e97c714ac76a6ed4fdf"
+    },
+    {
+      "label": "可攜分析重現包（既有 aggregate 資料）",
+      "path": "p1_delivery/portable_analysis.zip",
+      "sha256": "1075a7d0503451a7a5b04522e1a761d9afa48a35f66950a052e9188d34e15861"
+    },
+    {
+      "label": "報告與來源附錄下載包",
+      "path": "p1_delivery/report_audit_bundle.zip",
+      "sha256": "e0be2e04524e2d8c32fad3b902c3a0e7a1639e32f958143c5ad9a8bfcf78b5f2"
+    },
+    {
+      "label": "補充資料覆蓋與適用範圍",
+      "path": "p1_delivery/AGGREGATE_SUPPLEMENTS.md",
+      "sha256": "ec2fb0ce4ca1f1e24695da7b2de1e9116d3208577c1dcb5e607d98fc3d8f80b6"
+    },
+    {
+      "label": "報告檔案與來源校驗碼",
+      "path": "p1_delivery/delivery_manifest.json",
+      "sha256": "0978addbabd7a9c9cbeb69215a6c3de0956c1871180374bea465f639758f48e0"
+    },
+    {
+      "label": "報告交付驗證",
+      "path": "p1_delivery/validation.json",
+      "sha256": "6080c9393a41069ee535e9a083afe67ebb98e0f003bed8780cd2b94ddfe86162"
+    },
+    {
+      "label": "解壓與獨立環境重現驗證",
+      "path": "p1_delivery/portable_verification_receipt.json",
+      "sha256": "0b9b6e0065f9d447ba75327f297a4fc04b91cfe7fa82ed2d0aaed669b11574bc"
+    }
+  ],
+  "summary": "分科 P1_04 為 494 個已處理結果：473 computed、12 limited、9 not-estimable。原 P1_03 所需的 27 組樹模型 TP/FN 與年齡–GCS 解釋圖已補齊。新增分科描述統計與目前模型 2024 統計逐項驗證後整合；不將資料不可估計解讀成待跑。可攜包重現 aggregate 分析與一致性檢查，不宣稱重新訓練整個研究。",
+  "limitations": [
+    "目前模型、早期 Overall 基準與各分科分析依其來源母群分開；相同 N/events 不等於病人列相同。",
+    "主頁的 2024 家族內排序不是跨家族研究決策；分科代表模型依原記錄採開發 OOF、2024 validation 或 2024 cross-fitting。以鎖定選擇／門檻附表為準。",
+    "Direct SHAP 的樣本有限。Dependence 是現有解釋樣本上的特徵值與 SHAP 關係，不等於精確交互作用或穩定性驗證。",
+    "TP/FN 圖必須同時有來源標籤、相符輸出空間與鎖定門檻；一般示例不冒稱 TP/FN。",
+    "2024 calibration／DCA 已覆蓋 324 模型；2025 calibration-bin 曲線僅找到 216 個分科來源，108 個 Overall 未保存可重用的 bin 彙總。這是來源缺圖，不是統計無法估計；不拿其他年份的曲線代替。",
+    "作者、IRB 文號、資料取得與利益衝突等聲明須由研究作者提供，不能由模型補造。"
+  ],
+  "formal_acceptance": false,
+  "scientific_acceptance": false,
+  "existing_research_acceptance_unchanged": true,
+  "gpu_launches_for_this_web_build": 0
+}

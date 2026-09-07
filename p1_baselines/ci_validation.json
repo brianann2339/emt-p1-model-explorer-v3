@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": 2025,
+  "failure_count": 0,
+  "errors": [],
+  "ci95_records": 675,
+  "required": 675,
+  "index_sha256": "5e6a22fa1b32826d60a5319453a0943ec4c6d486536aacb2c219fb4681ec5218",
+  "new_2025_access": 0,
+  "model_calls": 0
+}

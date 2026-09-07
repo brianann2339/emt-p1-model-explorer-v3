@@ -1,0 +1,11 @@
+p104_tables/**/*.csv text eol=lf
+p104_results.json text eol=lf
+research_supplement.json text eol=lf
+p1_supplement/** -text
+p1_figures/** -text
+p1_delivery/** -text
+p1_baselines/** -text
+research_closeout.json -text
+research_public_manifest.json -text
+research_extensions.js text eol=lf
+research_extensions.css text eol=lf
