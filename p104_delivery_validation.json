@@ -1,0 +1,20 @@
+{
+  "schema": "emt-p104-additive-delivery-validation/1",
+  "delivery_root": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\delivery_20260907T0655Z",
+  "delivery_manifest_sha256": "f8dd70c377c61cead2ff9dfaaa4f5cebe2475f130dea7d7ebc235aa1f5e56ffb",
+  "status": "PASS_P104_AGGREGATE_DELIVERY_VALIDATION",
+  "check_count": 66,
+  "failure_count": 0,
+  "failures": [],
+  "required_task_count": 494,
+  "validated_terminal_tasks": 494,
+  "pending_tasks": 0,
+  "validated_cloud_task_count": 316,
+  "unfinished_candidate_task_count": 0,
+  "scientific_acceptance": false,
+  "formal_acceptance": false,
+  "full_study_complete": false,
+  "patient_level_data_included": false,
+  "model_binaries_included": false,
+  "credentials_included": false
+}

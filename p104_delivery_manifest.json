@@ -1,0 +1,195 @@
+{
+  "schema": "emt-p104-additive-delivery-manifest/1",
+  "built_at_utc": "2026-09-06T21:58:33.266020+00:00",
+  "scope": "Full original P1_04 ablation and sensitivity program for Medicine and Surgery",
+  "patient_level_data_included": false,
+  "model_binaries_included": false,
+  "credentials_included": false,
+  "new_raw_2025_access_count": 0,
+  "model_fit_count": 0,
+  "prediction_call_count": 0,
+  "assignment_count": 316,
+  "validated_cloud_task_count": 316,
+  "unfinished_candidate_task_count": 0,
+  "required_task_count": 494,
+  "validated_terminal_tasks": 494,
+  "pending_tasks": 0,
+  "state_counts": {
+    "VALIDATED_COMPUTED": 473,
+    "VALIDATED_WITH_NOT_ESTIMABLE_COMPONENTS": 12,
+    "VALIDATED_NOT_ESTIMABLE": 9
+  },
+  "table_row_counts": {
+    "medicine/ablation_comparison.csv": 454,
+    "medicine/age_comparison.csv": 36,
+    "medicine/city_comparison.csv": 18,
+    "medicine/congestion_comparison.csv": 12,
+    "medicine/dnr_comparison.csv": 108,
+    "medicine/grouped_cv_comparison.csv": 36,
+    "medicine/missingness_comparison.csv": 156,
+    "medicine/mortality_comparison.csv": 8,
+    "medicine/p3_airway_comparison.csv": 8,
+    "surgery/ablation_comparison.csv": 450,
+    "surgery/age_comparison.csv": 36,
+    "surgery/city_comparison.csv": 18,
+    "surgery/congestion_comparison.csv": 12,
+    "surgery/dnr_comparison.csv": 108,
+    "surgery/grouped_cv_comparison.csv": 36,
+    "surgery/missingness_comparison.csv": 147,
+    "surgery/mortality_comparison.csv": 8,
+    "surgery/p3_airway_comparison.csv": 8
+  },
+  "source_reconciliation": {
+    "path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\fleet_return_reconciliation_20260906T211456Z_v2.json",
+    "sha256": "6ae9f02eae3030b14eed5533bb038b1eb0aba1d2b038ff17ce7f7f5ee017d600"
+  },
+  "independent_packet_validation": {
+    "path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\independent_validation.json",
+    "sha256": "4ddfec6427b85d17af1abef944d830b7313de68b9e03980bab243cefc86d2e26"
+  },
+  "scientific_acceptance": false,
+  "formal_acceptance": false,
+  "full_study_complete": false,
+  "files": {
+    "assembly_receipt.json": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\assembly_receipt.json",
+      "bytes": 6209,
+      "sha256": "98868cfaa68b850f791f8a272280d992d90b7b516af678f87cd0a288f86928c4"
+    },
+    "calibrated_presentation_matrix.json": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\calibrated_presentation_matrix.json",
+      "bytes": 359,
+      "sha256": "083d097fac07aa925c4e2192ea885b0a3fd764dd07123f81e6dece1521d104ce"
+    },
+    "completion_matrix.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\completion_matrix.csv",
+      "bytes": 109805,
+      "sha256": "30e41c3063666357a89c10eebee7baf6cde575b4914ab2a6509a4e74a5c95aa9"
+    },
+    "descriptive_point_comparisons.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\descriptive_point_comparisons.csv",
+      "bytes": 248255,
+      "sha256": "e2243734a4da4cdbd294a6199997fea859d9196ffab719201af69443c4275dfb"
+    },
+    "feature_sets.json": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\feature_sets.json",
+      "bytes": 418348,
+      "sha256": "db30cc2adda55ebc0d359ade9be3d0b16c87da21c7774f244de519ab97e7f1e5"
+    },
+    "medicine/ablation_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\medicine\\ablation_comparison.csv",
+      "bytes": 674711,
+      "sha256": "03032b923e94706faed2edec023e1062589dab4f34100e7248486cbc8bdc5b9c"
+    },
+    "medicine/age_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\medicine\\age_comparison.csv",
+      "bytes": 51322,
+      "sha256": "8713cf987f7b1e7e1e8844425a12e2d1766338f3c9d2de07a16d88e41b79e5c4"
+    },
+    "medicine/city_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\medicine\\city_comparison.csv",
+      "bytes": 24651,
+      "sha256": "d739a5e0b7665d01a41cc871312048abfa21579f846b20082a133db52c245481"
+    },
+    "medicine/congestion_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\medicine\\congestion_comparison.csv",
+      "bytes": 17538,
+      "sha256": "e62b3680128299f54659266f94b61f1dd2760a02116b2594d2ab0455e14bf86e"
+    },
+    "medicine/dnr_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\medicine\\dnr_comparison.csv",
+      "bytes": 153481,
+      "sha256": "85dfe8cb60182edfa411934c20e210edee0a11194d34608560a3ac0d322e6d80"
+    },
+    "medicine/grouped_cv_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\medicine\\grouped_cv_comparison.csv",
+      "bytes": 50292,
+      "sha256": "cdcafbe350d749a63e3dc79b8262f5c870cb06669d5d78b3d800b1e059370ab2"
+    },
+    "medicine/missingness_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\medicine\\missingness_comparison.csv",
+      "bytes": 225027,
+      "sha256": "dc757d182fd42ed33b53577ef4047cffcc6f1ffb2638e1375e07f6f8a3b74f58"
+    },
+    "medicine/mortality_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\medicine\\mortality_comparison.csv",
+      "bytes": 12974,
+      "sha256": "2bb31c40c810653da8c7cd791e8769c142ecdd3f412aeda72e3702d9d59acba0"
+    },
+    "medicine/p3_airway_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\medicine\\p3_airway_comparison.csv",
+      "bytes": 12923,
+      "sha256": "0d5b5e648abd9e82b3a1748d8e40dd5d9728e2c34aa0425cafd6687234cc026f"
+    },
+    "reporting_override_audit.json": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\reporting_override_audit.json",
+      "bytes": 10529,
+      "sha256": "1a5689b4b254e3a2c9c99d23b0d6ceb39ae41d7082ef3b179c616ea7e7e41a1d"
+    },
+    "secondary_time_evidence_matrix.json": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\secondary_time_evidence_matrix.json",
+      "bytes": 6887,
+      "sha256": "d13c75e5f6a093bb338c7d1847515329b73bbce9066fedc2c966d173721634a4"
+    },
+    "secondary_time_old20_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\secondary_time_old20_comparison.csv",
+      "bytes": 19587,
+      "sha256": "cf328ef3d5cc8b178ea065cc873688bf9a432c2d0275a9255130c556e98bbd6f"
+    },
+    "source_cell_provenance.json": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\source_cell_provenance.json",
+      "bytes": 15639819,
+      "sha256": "2d848b24737e31cf0ed192c3a68d0d0ab5a2d3006315a218e642f190ced8dacc"
+    },
+    "source_hashes.json": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\source_hashes.json",
+      "bytes": 858637,
+      "sha256": "72c84adeb1bbcf2717952c80c1ae81b731753d7edc3f380680f891c1ff1840ac"
+    },
+    "surgery/ablation_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\surgery\\ablation_comparison.csv",
+      "bytes": 643738,
+      "sha256": "fa8654c9aab84e49527709e464a7009a243893a7936cad8e525a0e013b9529eb"
+    },
+    "surgery/age_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\surgery\\age_comparison.csv",
+      "bytes": 50246,
+      "sha256": "abb0d52ae586510231effa578b4cd6a0c69a40e2ce2b90c08213deabe1891673"
+    },
+    "surgery/city_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\surgery\\city_comparison.csv",
+      "bytes": 24635,
+      "sha256": "230ce307d32b1d59ff9354037ff343b71229fa1d7df73accef7f1d2a69d38b84"
+    },
+    "surgery/congestion_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\surgery\\congestion_comparison.csv",
+      "bytes": 17304,
+      "sha256": "fcbe79dfa684d10ce0a7b9bda93f814ba9f0e9163484493d79866fba6bd3fbfd"
+    },
+    "surgery/dnr_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\surgery\\dnr_comparison.csv",
+      "bytes": 152472,
+      "sha256": "75c2e7fc0f493bec2eabfcc65f451f477060804a16ccc6ec8cc771c091bf1198"
+    },
+    "surgery/grouped_cv_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\surgery\\grouped_cv_comparison.csv",
+      "bytes": 50011,
+      "sha256": "442d81f947c3e6899a66b762527ded1ef84d9c7cd11807fa3c815e4465695078"
+    },
+    "surgery/missingness_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\surgery\\missingness_comparison.csv",
+      "bytes": 206431,
+      "sha256": "cb5713463923e836c7c933a6e71e24b766bf51aa0957ed4dd428749deac5936e"
+    },
+    "surgery/mortality_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\surgery\\mortality_comparison.csv",
+      "bytes": 12716,
+      "sha256": "77ed4a8a7ef5e4fa86b2a8876149c20870fd55db8175b98496e496288776a3e9"
+    },
+    "surgery/p3_airway_comparison.csv": {
+      "source_path": "D:\\Codex_分拆Prompt嚴格無到院\\outputs\\v2\\.p104k10\\full_assembly_20260906T211456Z_v3\\surgery\\p3_airway_comparison.csv",
+      "bytes": 12779,
+      "sha256": "ad3927e0cfe81b6a43f97f4be850a9626fd95bf3f04a4148f998fcb16405c71f"
+    }
+  }
+}
