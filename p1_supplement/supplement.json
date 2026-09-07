@@ -67,29 +67,36 @@
     },
     {
       "id": "current_calibration",
-      "title": "目前 Medicine／Surgery 216 模型：Calibration curves",
-      "scope": "current_frozen_aggregate",
-      "notes": "Reuses completed frozen aggregate evaluation only. Current display model/component, N/events and AUROC/AUPRC/Brier agree; no new 2025 access or model choice. Matching aggregates do not independently prove patient-row identity. Overall current frozen calibration-bin table was not present in the accepted aggregate directory.",
-      "rows": 2160,
+      "title": "目前 324 模型：2025 Frozen calibration",
+      "scope": "current_frozen_2025_aggregate_and_authorized_stored_predictions",
+      "notes": "2025 frozen reliability 圖共 324 模型：216 個分科沿用既有分箱；108 個 Overall 經 owner 授權，僅從已封存預測彙總。每格 10 個近等人數分箱，依已鎖定預測機率穩定排序；相同機率保留來源列順序，不以標籤決定分箱。點為 bin 內事件數 / 人數，不是重新校準或信賴帶；重複平均機率不合併。不同模型與群組可能有不同有效 N，不共用分母。未重新推論、fit、選模或變更門檻，未讀 raw 2025。",
+      "rows": 3240,
       "columns": [
-        "entity_id",
         "group",
         "outcome",
         "model",
         "model_variant",
         "split",
-        "scope",
-        "n",
-        "events",
         "bin",
         "rows",
+        "events",
         "mean_prediction",
-        "event_rate"
+        "event_rate",
+        "n",
+        "events_total",
+        "prediction_min",
+        "prediction_max",
+        "entity_id",
+        "scope",
+        "source_split",
+        "task_id",
+        "model_sha256",
+        "sealed_spec_sha256"
       ],
       "json": "current_calibration.json",
       "csv": "current_calibration.csv",
-      "json_sha256": "38f059254b3a003944d1871d91c0314361e8ecd9288d54c4d451970318c94f5c",
-      "csv_sha256": "1aa700ae9db452a90ea36378872a719dbcbab20bb872f7fdf14d9536916392b8",
+      "json_sha256": "c2f3690c15e786bbcb38600bbf6b3af25c226ce927ddef09e1ccc680f73724c1",
+      "csv_sha256": "bd1820b405eb7aa88f402221ab3bb36a7a62d4f8f9ee81b4ff7d5ad0c70fe8eb",
       "source_ids": [
         "s0004"
       ]
@@ -20336,5 +20343,24 @@
     "source_catalog_sha256": "add360acb01e4961b2edafe0b7bdccb32ced2fc279015546f87e83df20276b79",
     "provenance": "no_text_source_catalog.json",
     "validation": "no_text_export_validation.json"
+  },
+  "frozen_calibration_completion": {
+    "status": "PASS",
+    "scope": "Aggregate assembly checks; independent frozen-prediction recomputation is bound separately",
+    "models": 324,
+    "bins": 3240,
+    "existing_specialty_models": 216,
+    "authorized_overall_models": 108,
+    "unchanged_specialty_source_sha256": "38f059254b3a003944d1871d91c0314361e8ecd9288d54c4d451970318c94f5c",
+    "independent_overall_validation_sha256": "6010d6849dc7b755a0e5a9eb940afd86607ac5fb16f5752a9f3f2777480742b9",
+    "overall_bins_sha256": "5e50deda77b3fc3b2cf7e7f2e9c7b3fcc348553c5be2c110fc5b00dc04009975",
+    "combined_json_sha256": "c2f3690c15e786bbcb38600bbf6b3af25c226ce927ddef09e1ccc680f73724c1",
+    "combined_csv_sha256": "bd1820b405eb7aa88f402221ab3bb36a7a62d4f8f9ee81b4ff7d5ad0c70fe8eb",
+    "model_summary_sha256": "68c33b5fe34111c4f1325e463a056c1685863ea4c8acd68c24cea5ff781a5b88",
+    "raw_2025_access": 0,
+    "model_calls": 0,
+    "new_calibration_or_selection": 0,
+    "formal_acceptance": false,
+    "scientific_acceptance": false
   }
 }

@@ -20,7 +20,7 @@
     broad_exclusion:'DNR 廣義排除', dnr_blind:'DNR-blind', temporally_clean_exclusion:'DNR 時序乾淨排除',
     full_complete_case:'完整 complete-case', core_vitals_complete_case:'核心生命徵象 complete-case',
     validation_2024:'2024 validation', oof_2020_2023:'2020–2023 OOF', train_2020_2023:'2020–2023 train',
-    frozen_2025:'2025 frozen（既有評估）', raw:'Raw 原始機率',
+    frozen_2025:'2025 frozen（既有評估）', external_2025:'2025 frozen（既有評估）', raw:'Raw 原始機率',
     VALIDATED_COMPUTED:'已計算', VALIDATED_WITH_NOT_ESTIMABLE_COMPONENTS:'已完成，部分無法估計',
     VALIDATED_NOT_ESTIMABLE:'無法估計（非待跑）'
   };
@@ -110,7 +110,7 @@
   }
   let supplements, collection, collectionRows=[], page=0, requestVersion=0;
   const collectionCache=new Map();
-  const idValidation=id=>['specialty_text_gain','text_gain'].includes(id)?'no_text_export_validation.json':id==='current_validation_dca'?'dca_2024/independent_validation.json':id.startsWith('current_validation')||id==='current_paired_comparisons'?'current_statistics_independent_validation.json':'validation.json';
+  const idValidation=id=>id==='current_calibration'?'frozen_calibration_108/combined_validation.json':['specialty_text_gain','text_gain'].includes(id)?'no_text_export_validation.json':id==='current_validation_dca'?'dca_2024/independent_validation.json':id.startsWith('current_validation')||id==='current_paired_comparisons'?'current_statistics_independent_validation.json':'validation.json';
   const splitOf=r=>r.split??r.analysis_split??'';
   const modelOf=r=>r.model??r.reference_model??'';
   function supplementFilter() {return collectionRows.filter(r=>(!val('supplementGroup')||(r.group??'overall')===val('supplementGroup'))&&(!val('supplementOutcome')||(r.outcome??'')===val('supplementOutcome'))&&(!val('supplementSplit')||splitOf(r)===val('supplementSplit'))&&(!val('supplementModel')||modelOf(r)===val('supplementModel'))&&(!val('supplementSearch')||JSON.stringify(r).toLowerCase().includes(val('supplementSearch').toLowerCase())));}
@@ -126,7 +126,7 @@
     page=0; renderSupplement();
   }
   function renderSupplement() {
-    const rows=supplementFilter(), cols=collection.columns.filter(c=>!['source_id','entity_id','scope','task_id'].includes(c));
+    const rows=supplementFilter(), cols=collection.columns.filter(c=>!['source_id','entity_id','scope','task_id'].includes(c)&&!(collection.id==='current_calibration'&&['model_sha256','sealed_spec_sha256'].includes(c)));
     const pageSize=60; page=Math.min(page,Math.max(0,Math.ceil(rows.length/pageSize)-1));
     table('supplementTable',rows.slice(page*pageSize,(page+1)*pageSize),cols);
     byId('supplementCount').textContent=`${rows.length} 列；第 ${rows.length?page+1:0} / ${Math.ceil(rows.length/pageSize)} 頁 · 每頁 ${pageSize} 列。下載檔保留全部 ${collection.rows} 列。`;
@@ -138,12 +138,23 @@
       rows.forEach(r=>{const k=[modelOf(r),r.model_variant,r.curve,r.curve_type,r.calibration,r.calibration_method,splitOf(r),r.outcome].filter(Boolean).join(' / ');if(!groups.has(k))groups.set(k,[]);groups.get(k).push(r);});
       const isDca=id.includes('dca');
       for(const [k,rs] of groups) {
+        if(id==='current_calibration') {
+          const bins=rs.filter(r=>finite(r.mean_prediction)&&finite(r.event_rate)).sort((a,b)=>a.mean_prediction-b.mean_prediction||a.bin-b.bin);
+          if(bins.length)traces.push({type:'scatter',mode:'lines+markers',marker:{size:6},name:`${label(bins[0].group)} / ${bins[0].outcome} / ${bins[0].model_variant} / 2025`,x:bins.map(r=>r.mean_prediction),y:bins.map(r=>r.event_rate),
+            customdata:bins.map(r=>[r.bin,r.rows,r.events,r.n,r.events_total,`${label(r.group)} / ${r.outcome} / ${r.model_variant} / 2025`,finite(r.prediction_min)?`${fmt(r.prediction_min,5)}–${fmt(r.prediction_max,5)}`:'既有彙總未提供']),
+            hovertemplate:'%{customdata[5]}<br>Bin %{customdata[0]}<br>Mean predicted probability: %{x:.5f}<br>Observed event rate: %{y:.5f}<br>Bin events / N: %{customdata[2]} / %{customdata[1]}<br>Task events / N: %{customdata[4]} / %{customdata[3]}<br>Bin probability range: %{customdata[6]}<extra></extra>'});
+          continue;
+        }
         const xy=rs.map(r=>[isDca?r.threshold:r.mean_prediction??r.predicted_mean??r.bin_mean_prediction??r.grid_prediction,isDca?r.net_benefit:r.event_rate??r.observed_rate??r.bin_event_rate??r.observed_probability]).filter(a=>a.every(finite)).sort((a,b)=>a[0]-b[0]);
         if(xy.length) traces.push({type:'scatter',mode:'lines+markers',marker:{size:4},name:k,x:xy.map(a=>a[0]),y:xy.map(a=>a[1])});
       }
       if(!isDca && traces.length) traces.push({type:'scatter',mode:'lines',name:'Perfect calibration',x:[0,1],y:[0,1],line:{dash:'dot',color:'#888'}});
       const thresholds=rows.map(r=>r.threshold).filter(finite);
       layout.xaxis={title:isDca?'Threshold probability':'Mean predicted probability',range:isDca&&thresholds.length?[Math.min(...thresholds),Math.max(...thresholds)]:[0,1],...(isDca?{tickformat:'.0%'}:{})};layout.yaxis={title:isDca?'Net benefit':'Observed event rate',...(isDca?{}:{range:[0,1]})};
+      if(id==='current_calibration'){
+        layout.xaxis.title={text:'平均預測機率',font:{size:12}};layout.yaxis.title={text:'觀察事件率',font:{size:12}};
+        layout.title={text:`${label(val('supplementGroup'))} / ${val('supplementOutcome')||'全部結局'} — 2025 校準圖`,font:{size:13}};
+      }
     } else if(id==='text_gain'||id==='specialty_text_gain') {
       const rs=rows.filter(r=>String(r.metric).includes('Delta_AUPRC_text_minus_no_text')).map(r=>({...r,display:[r.model,r.outcome,splitOf(r)].join(' / ')}));
       if(rs.length) {traces.push(ciTrace(rs,'value','display','lower_ci','upper_ci'));layout.margin.l=260;layout.xaxis={title:'ΔAUPRC：text − no text（paired 95% CI）',zeroline:true};layout.height=Math.max(350,rs.length*35+100);}
@@ -177,6 +188,7 @@
     const scope=collection.scope.includes('current')?'目前模型對應來源':collection.scope.includes('specialty')?'分科研究來源':'早期 Overall 參考來源（非目前分科模型）';
     byId('supplementContext').textContent=`${scope}。${collection.notes}`;
     byId('supplementSources').innerHTML=`<p>Scope: ${esc(collection.scope)}</p><p>${esc(collection.notes)}</p><div class="research-links"><a href="p1_supplement/${esc(collection.csv)}">CSV（全部 ${collection.rows} 列）</a><a href="p1_supplement/${esc(collection.json)}">JSON</a><a href="p1_supplement/supplement.json">來源與校驗碼</a><a href="p1_supplement/${idValidation(collection.id)}">數值驗證</a>${collection.id==='specialty_text_gain'?'<a href="p1_supplement/no_text_source_catalog.json">逐 task 配對來源與驗證</a>':''}</div>`;
+    if(collection.id==='current_calibration')byId('supplementSources').innerHTML+='<div class="research-links"><a href="p1_supplement/frozen_calibration_108/CALIBRATION_2025_ADDENDUM.md">2025 校準附錄與分箱方法</a><a href="p1_supplement/frozen_calibration_108/validation.json">新增 108 格獨立重算驗證</a><a href="p1_supplement/frozen_calibration_108/AUTHORIZATION.md">封存預測讀取授權與範圍</a></div>';
     if(collection.parts){
       options('supplementSplit',collectionRows.map(splitOf),'validation_2024',true);
       options('supplementModel',collectionRows.map(modelOf),'catboost',true);

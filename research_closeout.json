@@ -2,12 +2,17 @@
   "schema": "emt-p1-gap-web-closeout/1",
   "documents": [
     {
-      "label": "閱讀完整研究稿（HTML）",
+      "label": "最新附錄：2025 校準圖補齊 324／324",
+      "path": "p1_supplement/frozen_calibration_108/CALIBRATION_2025_ADDENDUM.md",
+      "sha256": "a5ae3f97c8ff0f3e73d3a3b7a27f61b4de86b71a4409f4c4aa6602860e7f7dee"
+    },
+    {
+      "label": "研究稿 HTML（校準補圖前快照；見最新附錄）",
       "path": "p1_delivery/report.html",
       "sha256": "a2e1c24c7055880c90e36b51b5cc56b4a6070253c78f9d99a6da670b29cae00e"
     },
     {
-      "label": "研究稿 PDF",
+      "label": "研究稿 PDF（校準補圖前快照）",
       "path": "p1_delivery/EMT_P1_Manuscript_20260907.pdf",
       "sha256": "b2993539edb5d94d545fc56dfc3fb0eda45a630da51d2fd83226b80ba24c3472"
     },
@@ -132,13 +137,13 @@
       "sha256": "0b9b6e0065f9d447ba75327f297a4fc04b91cfe7fa82ed2d0aaed669b11574bc"
     }
   ],
-  "summary": "分科 P1_04 為 494 個已處理結果：473 computed、12 limited、9 not-estimable。原 P1_03 所需的 27 組樹模型 TP/FN 與年齡–GCS 解釋圖已補齊。新增分科描述統計與目前模型 2024 統計逐項驗證後整合；不將資料不可估計解讀成待跑。可攜包重現 aggregate 分析與一致性檢查，不宣稱重新訓練整個研究。",
+  "summary": "2025 校準圖已補齊 324／324：新增 108 個 Overall 分箱圖，沿用 216 個分科圖。最新校準附錄取代舊稿中「108 個 Overall 缺圖」的描述；原 17 頁 PDF／HTML 與下載包保留為補圖前快照。分科 P1_04 為 494 個已處理結果：473 computed、12 limited、9 not-estimable。原 P1_03 所需的 27 組樹模型 TP/FN 與年齡–GCS 解釋圖已補齊。可攜包重現 aggregate 分析，不宣稱重新訓練整個研究。",
   "limitations": [
     "目前模型、早期 Overall 基準與各分科分析依其來源母群分開；相同 N/events 不等於病人列相同。",
     "主頁的 2024 家族內排序不是跨家族研究決策；分科代表模型依原記錄採開發 OOF、2024 validation 或 2024 cross-fitting。以鎖定選擇／門檻附表為準。",
     "Direct SHAP 的樣本有限。Dependence 是現有解釋樣本上的特徵值與 SHAP 關係，不等於精確交互作用或穩定性驗證。",
     "TP/FN 圖必須同時有來源標籤、相符輸出空間與鎖定門檻；一般示例不冒稱 TP/FN。",
-    "2024 calibration／DCA 已覆蓋 324 模型；2025 calibration-bin 曲線僅找到 216 個分科來源，108 個 Overall 未保存可重用的 bin 彙總。這是來源缺圖，不是統計無法估計；不拿其他年份的曲線代替。",
+    "2024 calibration／DCA 與 2025 calibration 已各覆蓋 324 模型；2025 新增的是封存預測的描述性分箱，不是重訓、重新校準、選模或變更門檻。分箱曲線不提供信賴帶，不能以曲線外觀取代不確定性評估。",
     "作者、IRB 文號、資料取得與利益衝突等聲明須由研究作者提供，不能由模型補造。"
   ],
   "formal_acceptance": false,

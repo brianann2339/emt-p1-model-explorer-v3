@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "cells": 108,
+  "bins": 1080,
+  "rows_read": 1001592,
+  "source_unchanged": true,
+  "accepted_manifest_unchanged": true,
+  "outputs": [
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/index.json",
+      "sha256": "995eb89dbb3fa2fe5afb3b22bac406b3e75952009dd7cca37c6c132ae1e3192c"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/bins.json",
+      "sha256": "5e50deda77b3fc3b2cf7e7f2e9c7b3fcc348553c5be2c110fc5b00dc04009975"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/bins.csv",
+      "sha256": "697594894708ba95570d28e6c30bd78af4fbd2c6e7a4bb0c0c171295bd83f24c"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/collections/P1.json",
+      "sha256": "768aa887b89f4246307643555d52c7570a242e65ddaab9066a8bd97bcf0bfea7"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/collections/P2.json",
+      "sha256": "ca3671639cac24ae742441a71351ab6ac835fe5213a95a7cc55a675ef0232cae"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/collections/P3.json",
+      "sha256": "7c4597405f78f7dfedcb865fbb905fd13769b3f4b9fcccabea354a156c88aa3d"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/collections/S1.json",
+      "sha256": "6156fc4fcc64c3381294776631ae5691bc9a771fd68cdeb9dd50f80c6949c86d"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/collections/S2.json",
+      "sha256": "848bb1841193fad93581a4d0249258d3c1d12d43085c0d0a522fdb12cbde248a"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/collections/S3.json",
+      "sha256": "945e813cc076893c126de120b3b5258a97fc3ac1c255ace69b5754da56755844"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/collections/S4.json",
+      "sha256": "d9520b5c90c8c4e68203ca7308045af9bd22f2377655bc745a4e037419266c0e"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/collections/S5.json",
+      "sha256": "c6890fee0792afa4d5366232d36916e0c1c0411ef0769dac0d5a00718814409e"
+    },
+    {
+      "path": "outputs/v2/.p1gap_20260907/frozen_calibration_108_20260907/collections/S6.json",
+      "sha256": "1a6bec35001ced7904563928921f6fa64da7a9f3fcf7ecb4fac383ca519d939a"
+    }
+  ],
+  "script": {
+    "path": "scripts/build_emt_p1_frozen_calibration_108_v1.py",
+    "sha256": "312c4244c2b687987a5be862266831b62dc4a5b93ad3546881b77a0cbcd97a63"
+  },
+  "new_raw_2025_access": 0,
+  "new_model_calls": 0
+}
