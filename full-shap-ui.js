@@ -16,7 +16,8 @@
   function description(row) {
     const population = row.reported_comparison_n && row.reported_comparison_n !== row.explained_n
       ? ` SHAP 使用原模型完整可用母群；目前效能比較的 N=${fmtCount(row.reported_comparison_n)}，兩者不同。` : '';
-    return `${row.year} 全部合格解釋樣本：${fmtCount(row.explained_n)} 人次；背景 ${fmtCount(row.background_n)} 筆。輸出：${row.output_space}${row.prediction_variant ? '；'+row.prediction_variant : ''}。方法：${row.method_label}。${population}`;
+    const residual = Number.isFinite(row.maximum_absolute_additivity_residual) ? ` 加總最大殘差：${row.maximum_absolute_additivity_residual.toPrecision(6)}（機率單位，紀錄型檢查；不宣稱精確加總）。` : '';
+    return `${row.year} 全部合格解釋樣本：${fmtCount(row.explained_n)} 人次；背景 ${fmtCount(row.background_n)} 筆。輸出：${row.output_space}${row.prediction_variant ? '；'+row.prediction_variant : ''}。方法：${row.method_label}。${population}${residual}`;
   }
   const unavailable = () => `${year()} 全量 direct SHAP 尚未完成；未以其他年份、模型或舊小樣本圖代替。`;
   selectedFeatureRows = function(limit=20) {
