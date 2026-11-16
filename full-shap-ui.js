@@ -75,3 +75,56 @@
   window.EMTFullShapUI = {selected, count: index.size};
   if (window.EMTCoreUI) EMTCoreUI.showDetail(EMTCoreUI.getState().detail);
 })();
+
+// Public deployment history only. Update shap-release-log.json alongside verified chart releases.
+(() => {
+  'use strict';
+  const workspace = document.getElementById('coreWorkspace');
+  if (!workspace) return;
+  const make = (tag, text) => {
+    const node = document.createElement(tag);
+    if (text) node.textContent = text;
+    return node;
+  };
+  const panel = make('details');
+  panel.id = 'shap-updates';
+  panel.className = 'card';
+  panel.style.padding = '0.8rem 1rem';
+  panel.style.marginBottom = '1rem';
+  const title = make('summary', 'SHAP 更新日誌');
+  title.style.cursor = 'pointer';
+  title.style.fontWeight = '700';
+  panel.append(title);
+  const note = make('p', '日期以台灣時間為準；只記錄這個網站已發布的更新，不計入運算中或待驗收的組別。');
+  note.className = 'core-footnote';
+  panel.append(note);
+  const body = make('div', '載入更新紀錄中…');
+  body.setAttribute('aria-live', 'polite');
+  panel.append(body);
+  workspace.prepend(panel);
+  if (window.location.hash === '#shap-updates') {
+    panel.open = true;
+    requestAnimationFrame(() => panel.scrollIntoView({block: 'start'}));
+  }
+  fetch('shap-release-log.json', {cache: 'no-cache'})
+    .then(response => {
+      if (!response.ok) throw new Error('Release log unavailable');
+      return response.json();
+    })
+    .then(entries => {
+      if (!Array.isArray(entries) || !entries.length) throw new Error('Release log empty');
+      const sections = entries.slice().sort((a, b) => b.date.localeCompare(a.date)).map(entry => {
+        const section = make('section');
+        const heading = make('h3');
+        const date = make('time', entry.date.replaceAll('-', '/'));
+        date.dateTime = entry.date;
+        heading.append(date, document.createTextNode('｜' + entry.title));
+        const changes = make('ul');
+        for (const change of entry.changes) changes.append(make('li', change));
+        section.append(heading, changes);
+        return section;
+      });
+      body.replaceChildren(...sections);
+    })
+    .catch(() => { body.textContent = '目前無法載入更新日誌，請重新整理後再試。'; });
+})();
