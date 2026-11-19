@@ -4788,9 +4788,14 @@
       "sha256": "b75a668269dec6586e98b99220bfb5467204267d91b19a29e51b8dc6a54431d0"
     },
     {
+      "path": "p1_delivery/CURRENT_EVIDENCE_20261119.md",
+      "bytes": 4066,
+      "sha256": "2c1fd96e985cdfa3563696bc9b58f3eb315e89e57afd4950800f3ff9d794a981"
+    },
+    {
       "path": "research_closeout.json",
-      "bytes": 7165,
-      "sha256": "b1b5fefdf6cab47f4f67bae2a2cc0b831063595787b27725e9ba32bc79ae8e3a"
+      "bytes": 7771,
+      "sha256": "01c3a415cd64c8f5a6dec54820c65e91afaed8188b88470b2edb94ed32b54c75"
     },
     {
       "path": "research_extensions.css",

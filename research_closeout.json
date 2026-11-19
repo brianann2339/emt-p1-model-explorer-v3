@@ -2,17 +2,22 @@
   "schema": "emt-p1-gap-web-closeout/1",
   "documents": [
     {
+      "label": "先讀：2026-11-19 研究現況（全量 SHAP、2025 驗證與校準）",
+      "path": "p1_delivery/CURRENT_EVIDENCE_20261119.md",
+      "sha256": "2c1fd96e985cdfa3563696bc9b58f3eb315e89e57afd4950800f3ff9d794a981"
+    },
+    {
       "label": "最新附錄：2025 校準圖補齊 324／324",
       "path": "p1_supplement/frozen_calibration_108/CALIBRATION_2025_ADDENDUM.md",
       "sha256": "a5ae3f97c8ff0f3e73d3a3b7a27f61b4de86b71a4409f4c4aa6602860e7f7dee"
     },
     {
-      "label": "研究稿 HTML（校準補圖前快照；見最新附錄）",
+      "label": "研究稿 HTML（歷史快照；請先讀 2026-11-19 研究現況）",
       "path": "p1_delivery/report.html",
       "sha256": "a2e1c24c7055880c90e36b51b5cc56b4a6070253c78f9d99a6da670b29cae00e"
     },
     {
-      "label": "研究稿 PDF（校準補圖前快照）",
+      "label": "研究稿 PDF（2026-09-07 歷史快照）",
       "path": "p1_delivery/EMT_P1_Manuscript_20260907.pdf",
       "sha256": "b2993539edb5d94d545fc56dfc3fb0eda45a630da51d2fd83226b80ba24c3472"
     },
@@ -22,7 +27,7 @@
       "sha256": "e4231ac0c242016ae99951c02a839042dc40d66bc1c6180a725da52548dfa61c"
     },
     {
-      "label": "完整研究稿（含分科 P1_04）",
+      "label": "研究稿 Markdown（2026-09-07 歷史快照，含分科 P1_04）",
       "path": "p1_delivery/MANUSCRIPT.md",
       "sha256": "aed015dbe280a9c0dad899fe279dc1e71c7baaea02e57f1dbd624628b6e8ce37"
     },
@@ -92,7 +97,7 @@
       "sha256": "0a9dbfe613da4776f719e2b8e86d84327ad8a433de79b651978c83804c10c29f"
     },
     {
-      "label": "最新方法與版本說明",
+      "label": "既有方法與版本沿革（配合 2026-11-19 現況閱讀）",
       "path": "p1_delivery/EFFECTIVE_METHOD_ADDENDUM.md",
       "sha256": "f1e1aa413a445b2288a7d06defed843b197880e62921933ae88c9fd64a82d27b"
     },
@@ -112,7 +117,7 @@
       "sha256": "1075a7d0503451a7a5b04522e1a761d9afa48a35f66950a052e9188d34e15861"
     },
     {
-      "label": "報告與來源附錄下載包",
+      "label": "歷史研究稿與來源附錄下載包",
       "path": "p1_delivery/report_audit_bundle.zip",
       "sha256": "e0be2e04524e2d8c32fad3b902c3a0e7a1639e32f958143c5ad9a8bfcf78b5f2"
     },
@@ -137,11 +142,11 @@
       "sha256": "0b9b6e0065f9d447ba75327f297a4fc04b91cfe7fa82ed2d0aaed669b11574bc"
     }
   ],
-  "summary": "2025 校準圖已補齊 324／324：新增 108 個 Overall 分箱圖，沿用 216 個分科圖。最新校準附錄取代舊稿中「108 個 Overall 缺圖」的描述；原 17 頁 PDF／HTML 與下載包保留為補圖前快照。分科 P1_04 為 494 個已處理結果：473 computed、12 limited、9 not-estimable。原 P1_03 所需的 27 組樹模型 TP/FN 與年齡–GCS 解釋圖已補齊。可攜包重現 aggregate 分析，不宣稱重新訓練整個研究。",
+  "summary": "2026-11-19 現況：2024／2025 全量 SHAP 共 648／648 組，每組有分布圖與重要性圖。2025 年資料未參與模型訓練，只用於同院時間外部驗證，並非跨院驗證。2025 校準圖已補齊 324／324：新增 108 個 Overall 分箱圖，沿用 216 個分科圖。舊研究稿 Markdown、PDF／HTML 與下載包保留為歷史快照；舊稿的抽樣 SHAP 與「108 個 Overall 缺圖」描述不代表現況。分科 P1_04 為 494 個已處理結果：473 computed、12 limited、9 not-estimable。原 P1_03 所需的 27 組樹模型 TP/FN 與年齡–GCS 解釋圖已補齊。可攜包重現 aggregate 分析，不宣稱重新訓練整個研究。",
   "limitations": [
     "目前模型、早期 Overall 基準與各分科分析依其來源母群分開；相同 N/events 不等於病人列相同。",
     "主頁的 2024 家族內排序不是跨家族研究決策；分科代表模型依原記錄採開發 OOF、2024 validation 或 2024 cross-fitting。以鎖定選擇／門檻附表為準。",
-    "Direct SHAP 的樣本有限。Dependence 是現有解釋樣本上的特徵值與 SHAP 關係，不等於精確交互作用或穩定性驗證。",
+    "全量 SHAP 以各模型／年度登錄的合資格母群為準；原先 5／20 筆抽樣及 dependence／waterfall 個案另保留。SHAP 與 dependence 不代表因果、精確交互作用或排名穩定性。",
     "TP/FN 圖必須同時有來源標籤、相符輸出空間與鎖定門檻；一般示例不冒稱 TP/FN。",
     "2024 calibration／DCA 與 2025 calibration 已各覆蓋 324 模型；2025 新增的是封存預測的描述性分箱，不是重訓、重新校準、選模或變更門檻。分箱曲線不提供信賴帶，不能以曲線外觀取代不確定性評估。",
     "作者、IRB 文號、資料取得與利益衝突等聲明須由研究作者提供，不能由模型補造。"
